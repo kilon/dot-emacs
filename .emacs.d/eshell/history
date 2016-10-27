@@ -1,0 +1,26 @@
+pwd
+pwd
+as
+as -h
+as -?
+as -version
+as -help
+as hola.asm -o hola.o
+ld hola.o -e_main -lc -o hola
+ld hola.o -e _main -lc -o hola
+./hola
+cd ~
+make run
+make run
+make run
+make run
+make clean
+clear
+cls
+clear
+make run
+make clean
+make run
+make pharo-stable
+make pharo-alpha
+make run

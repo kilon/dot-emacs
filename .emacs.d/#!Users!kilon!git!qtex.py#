@@ -1,0 +1,31 @@
+'''based on
+http://codeprogress.com/python/libraries/pyqt/showPyQTExample.php?index=403&key=QCompleterQLineEdit'''
+
+from PySide.QtGui import *
+from PySide.QtCore import *
+import sys
+
+def main():
+    app     = QApplication(sys.argv)
+    edit     = QLineEdit()
+    strList     = '''
+Germany;Russia;France;
+french fries;frizzy hair;fennel;fuzzball
+frayed;fickle;Frobozz;fear;framing;frames
+Franco-American;Frames;fancy;fire;frozen yogurt
+football;fnord;foul;fowl;foo;bar;baz;quux
+family;Fozzie Bear;flinch;fizzy;famous;fellow
+friend;fog;foil;far;flower;flour;Florida
+'''.replace('\n',';').split(";")
+    strList.sort(key=lambda s: s.lower())
+    completer     = QCompleter(strList,edit)
+    completer.setCaseSensitivity(Qt.CaseInsensitive)
+
+    edit.setWindowTitle("PySide QLineEdit Auto Complete")
+    edit.setCompleter(completer)
+    edit.show()
+
+    sys.exit(app.exec_())
+
+if __name__ == '__main__':
+    main()

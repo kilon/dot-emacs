@@ -1,0 +1,3 @@
+y#! /bin/bash
+~/git/kilon.gitlab.io/pillar export --to=html --outputDirectory=./book-result --outputFile=temp.pillar temp.pillar
+~/git/kilon.gitlab.io/mustache --data=book-result/temp.html.json --template=support/templates/welcome.html.template > book-result/temp.html

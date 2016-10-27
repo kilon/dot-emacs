@@ -1,0 +1,672 @@
+(name 'CLFramework-nullPointer.285' message 'empty log message' id
+'8e964d24-eca3-4560-b326-4c669f2f1f48' date '26 March 2011' time
+'2:21:10 pm' author 'nullPointer' ancestors ((name
+'CLFramework-nullPointer.284' message 'Final version. Any problem or
+petition to epicfan@gmail.com' id
+'b221d048-07d3-4376-b2e0-8d370c922ddd' date '26 March 2011' time
+'1:54:19 pm' author 'nullPointer' ancestors ((name
+'CLFramework-nullPointer.283' message 'Final version 1.  Any problem
+or petition to epicfan@gmail.com Regards' id
+'ae51cc5a-5179-46e6-93f3-8b70512d1928' date '26 March 2011' time
+'1:53:03 pm' author 'nullPointer' ancestors ((name
+'CLFramework-nullPointer.282' message 'empty log message' id
+'fe0a3ef0-7aba-44c5-9fb9-f86617b7931a' date '19 March 2011' time
+'8:06:40 pm' author 'nullPointer' ancestors ((name
+'CLFramework-nullPointer.281' message 'empty log message' id
+'57433c40-7ff8-48e5-aa44-e8d66bcdc8c5' date '12 March 2011' time
+'12:18:54 am' author 'nullPointer' ancestors ((name
+'CLFramework-nullPointer.280' message 'empty log message' id
+'b922035a-72d0-4a55-9692-153551f443ab' date '11 March 2011' time '9:46
+pm' author 'nullPointer' ancestors ((name
+'CLFramework-nullPointer.279' message 'empty log message' id
+'41cfff7e-f47a-45f5-832b-1cdec1bc0f86' date '11 March 2011' time
+'6:32:04 pm' author 'nullPointer' ancestors ((name
+'CLFramework-nullPointer.278' message '-Added ObservableCollection
+class. For the moment only works with CLListview widget' id
+'0aef76d4-7ad3-4cda-a673-6b4827281038' date '6 March 2011' time
+'2:00:11 am' author 'nullPointer' ancestors ((name
+'CLFramework-nullPointer.277' message 'empty log message' id
+'76987edb-d254-4b5f-99ac-ca9b082eab37' date '6 March 2011' time
+'1:58:26 am' author 'nullPointer' ancestors ((name
+'CLFramework-nullPointer.276' message 'empty log message' id
+'8862d8b5-5834-42d1-a7a4-0ab88d65dbfd' date '5 March 2011' time
+'7:31:54 pm' author 'nullPointer' ancestors ((name
+'CLFramework-nullPointer.275' message 'empty log message' id
+'bdfbe9ef-b849-4f47-9ea9-2a7c599dfd8c' date '5 March 2011' time
+'12:07:22 am' author 'nullPointer' ancestors ((name
+'CLFramework-nullPointer.274' message 'empty log message' id
+'fa08352a-43ce-4542-9f78-7c12138bcab5' date '2 March 2011' time
+'6:26:20 pm' author 'nullPointer' ancestors ((name
+'CLFramework-nullPointer.273' message 'empty log message' id
+'709c9c85-6aea-4605-b113-3bd362862be8' date '27 February 2011' time
+'11:15:23 pm' author 'nullPointer' ancestors ((name
+'CLFramework-nullPointer.272' message 'empty log message' id
+'c5476548-c96b-4631-beb9-5aa4bd4ca176' date '26 February 2011' time
+'12:20:15 am' author 'nullPointer' ancestors ((name
+'CLFramework-nullPointer.271' message 'empty log message' id
+'231bb76f-db8c-42a2-ba51-8223b969eb63' date '24 February 2011' time
+'11:50:41 pm' author 'nullPointer' ancestors ((name
+'CLFramework-nullPointer.270' message 'empty log message' id
+'32cabd0e-6465-48a7-8b2b-0d731e7b41f7' date '22 February 2011' time
+'11:14:14 pm' author 'nullPointer' ancestors ((name
+'CLFramework-nullPointer.269' message 'empty log message' id
+'e107d5db-4c23-b342-b351-3f374a0e7e86' date '22 February 2011' time
+'2:29:38 pm' author 'nullPointer' ancestors ((name
+'CLFramework-nullPointer.268' message 'empty log message' id
+'c3e49f6b-af18-4497-8851-592958a5b8c3' date '21 February 2011' time
+'11:41:44 pm' author 'nullPointer' ancestors ((name
+'CLFramework-nullPointer.267' message 'empty log message' id
+'6a4c8b5b-98a1-4fcd-8542-345cec544c0e' date '21 February 2011' time
+'1:29:17 am' author 'nullPointer' ancestors ((name
+'CLFramework-nullPointer.266' message 'Ready for work in Pharo 1.2' id
+'ff4304c2-d3dd-41bc-95e1-520a3ba8f08a' date '13 February 2011' time
+'10:44:46 am' author 'nullPointer' ancestors ((name
+'CLFramework-nullPointer.265' message 'empty log message' id
+'a6df1b78-7970-47a6-a700-bdbb069a86a6' date '12 February 2011' time
+'10:44:42 pm' author 'nullPointer' ancestors ((name
+'CLFramework-nullPointer.264' message 'empty log message' id
+'d40848a4-1587-4c82-93f0-2829e8c116cf' date '12 February 2011' time
+'10:44:27 pm' author 'nullPointer' ancestors ((name
+'CLFramework-nullPointer.263' message 'empty log message' id
+'68504bc0-67e9-426f-be36-887f45bd045a' date '11 February 2011' time
+'7:41:28 pm' author 'nullPointer' ancestors ((name
+'CLFramework-nullPointer.262' message 'empty log message' id
+'8410870d-35c7-441c-8220-14a6a63bbc8c' date '4 February 2011' time
+'10:27:23 pm' author 'nullPointer' ancestors ((name
+'CLFramework-nullPointer.261' message 'empty log message' id
+'e630e5e2-129b-4f3d-8fa0-8a19565890fa' date '22 January 2011' time
+'11:22:29 pm' author 'nullPointer' ancestors ((name
+'CLFramework-nullPointer.260' message 'empty log message' id
+'e6c66044-ca42-453c-8cfe-0941b42add67' date '12 January 2011' time
+'10:18:54 pm' author 'nullPointer' ancestors ((name
+'CLFramework-nullPointer.259' message 'empty log message' id
+'4f747dcb-7a38-4e07-bbfb-0e724031624a' date '11 January 2011' time
+'9:58:55 pm' author 'nullPointer' ancestors ((name
+'CLFramework-nullPointer.258' message 'empty log message' id
+'f9b1c373-fa2e-4a97-8cb6-3fe896970dc0' date '10 January 2011' time
+'10:38:57 pm' author 'nullPointer' ancestors ((name
+'CLFramework-nullPointer.257' message 'empty log message' id
+'aa311cc3-9ddb-4047-a120-302465ef6042' date '10 January 2011' time
+'12:12:55 am' author 'nullPointer' ancestors ((name
+'CLFramework-nullPointer.256' message 'empty log message' id
+'ad136582-e192-4356-82cf-938229c0abb1' date '9 January 2011' time
+'10:36:26 pm' author 'nullPointer' ancestors ((name
+'CLFramework-nullPointer.255' message 'empty log message' id
+'ce489f3c-4b96-4dd9-a6ac-c365121f9fa8' date '9 January 2011' time
+'1:36:44 am' author 'nullPointer' ancestors ((name
+'CLFramework-nullPointer.254' message 'empty log message' id
+'a562f909-4ed7-499c-9edf-b831a3e083bc' date '8 January 2011' time
+'11:58:46 pm' author 'nullPointer' ancestors ((name
+'CLFramework-nullPointer.253' message 'empty log message' id
+'2693932e-bd16-4d02-8b38-497bc4c805a2' date '8 January 2011' time
+'9:27:34 pm' author 'nullPointer' ancestors ((name
+'CLFramework-nullPointer.252' message 'empty log message' id
+'9902df7b-e2dd-4498-abf7-1bb2b1fd7bcf' date '8 January 2011' time
+'7:47:07 pm' author 'nullPointer' ancestors ((name
+'CLFramework-nullPointer.251' message 'empty log message' id
+'f22f4505-e3fe-4b3b-b847-c1200f16a830' date '5 January 2011' time
+'8:03:13 pm' author 'nullPointer' ancestors ((name
+'CLFramework-nullPointer.250' message 'empty log message' id
+'08a4b89c-05ca-4ff9-beef-59aa849ed558' date '5 January 2011' time
+'7:51:32 pm' author 'nullPointer' ancestors ((name
+'CLFramework-nullPointer.249' message 'empty log message' id
+'5b86413e-ebb8-4115-8fb5-a3fadf4326d3' date '5 January 2011' time
+'2:14:57 am' author 'nullPointer' ancestors ((name
+'CLFramework-nullPointer.248' message 'empty log message' id
+'2c797df7-ac6c-41af-a54c-fc869c0941dd' date '5 January 2011' time
+'1:49:21 am' author 'nullPointer' ancestors ((name
+'CLFramework-nullPointer.247' message 'empty log message' id
+'a74b2dbf-09fe-2341-9a6b-ebda50ad6443' date '28 December 2010' time
+'9:46:36 am' author 'nullPointer' ancestors ((name
+'CLFramework-nullPointer.246' message 'empty log message' id
+'0c85785b-4bdb-40f8-a9ff-77986c5cb41e' date '26 December 2010' time
+'9:50:33 pm' author 'nullPointer' ancestors ((name
+'CLFramework-nullPointer.245' message 'empty log message' id
+'8a57dd88-7821-2f44-8c9b-5da2cfb7dc24' date '24 December 2010' time
+'3:48:42 pm' author 'nullPointer' ancestors ((name
+'CLFramework-nullPointer.244' message 'empty log message' id
+'131f67fd-51b4-e144-ae6a-61c7d1adcc4e' date '24 December 2010' time
+'3:48:20 pm' author 'nullPointer' ancestors ((name
+'CLFramework-nullPointer.243' message 'empty log message' id
+'0c35f81a-35b8-ef4b-84ff-5da8b3f5a795' date '24 December 2010' time
+'3:28:16 pm' author 'nullPointer' ancestors ((name
+'CLFramework-nullPointer.242' message 'empty log message' id
+'a13af37c-03dd-4c5a-aebe-41345a67ff13' date '4 December 2010' time
+'7:17:51 am' author 'nullPointer' ancestors ((name
+'CLFramework-nullPointer.241' message 'empty log message' id
+'6cf99d6d-1265-4fa1-91c9-c066d4a8b595' date '3 December 2010' time
+'10:42:54 pm' author 'nullPointer' ancestors ((name
+'CLFramework-nullPointer.240' message 'empty log message' id
+'7a70d438-5b23-4223-a052-9d255635457b' date '3 December 2010' time
+'10:42:08 pm' author 'nullPointer' ancestors ((name
+'CLFramework-nullPointer.239' message 'empty log message' id
+'58fcaadc-81a8-4b56-b0e0-13b801e22c4a' date '27 November 2010' time
+'11:35:48 pm' author 'nullPointer' ancestors ((name
+'CLFramework-nullPointer.238' message 'empty log message' id
+'03a4e82d-d69a-4c1a-934b-7411d18c3376' date '27 November 2010' time
+'11:32:38 pm' author 'nullPointer' ancestors ((name
+'CLFramework-nullPointer.237' message 'empty log message' id
+'7f70ac68-33af-4a8f-b123-5f72fe608104' date '27 November 2010' time
+'11:32:05 pm' author 'nullPointer' ancestors ((name
+'CLFramework-nullPointer.236' message 'empty log message' id
+'997f5b13-d4b5-6e47-9be7-e79ec90c3e5c' date '24 November 2010' time
+'3:26:14 pm' author 'nullPointer' ancestors ((name
+'CLFramework-nullPointer.235' message 'empty log message' id
+'6cde8db8-5585-3743-b4c0-12d3cfb235f3' date '24 November 2010' time
+'3:15:04 pm' author 'nullPointer' ancestors ((name
+'CLFramework-nullPointer.234' message 'empty log message' id
+'d1ae45d4-155e-4460-a5ed-4ba566c01427' date '21 November 2010' time
+'5:56:08 am' author 'nullPointer' ancestors ((name
+'CLFramework-nullPointer.233' message 'empty log message' id
+'fe13f1be-2a29-420b-baba-cc1b2e8b43ac' date '21 November 2010' time
+'12:29:57 am' author 'nullPointer' ancestors ((name
+'CLFramework-nullPointer.232' message 'empty log message' id
+'3130ca2b-d4b9-7845-b967-616716a140da' date '16 November 2010' time
+'10:27:12 am' author 'nullPointer' ancestors ((name
+'CLFramework-nullPointer.229' message 'empty log message' id
+'8761f05e-3074-45bc-b24a-ddb7420c7ed1' date '11 November 2010' time
+'9:30:37 am' author 'nullPointer' ancestors ((name
+'CLFramework-nullPointer.228' message 'empty log message' id
+'bfbe2397-8e96-124f-8d4a-04886ea11349' date '8 November 2010' time
+'12:56:56 pm' author 'nullPointer' ancestors ((name
+'CLFramework-nullPointer.227' message 'empty log message' id
+'20e76585-9be9-644f-a6eb-cc2a251af3d3' date '8 November 2010' time
+'12:56:38 pm' author 'nullPointer' ancestors ((name
+'CLFramework-nullPointer.226' message 'empty log message' id
+'1538f811-a4c2-8143-9cf3-e13afc68f2a6' date '4 November 2010' time
+'7:21:41 pm' author 'nullPointer' ancestors ((name
+'CLFramework-nullPointer.225' message 'empty log message' id
+'eb9c4784-e98c-3e4d-9c40-1177bab923d6' date '4 November 2010' time
+'7:20:51 pm' author 'nullPointer' ancestors ((name
+'CLFramework-nullPointer.224' message 'empty log message' id
+'f9324344-4559-4b28-acaa-d6a0f123f8d4' date '4 November 2010' time
+'8:41:27 am' author 'nullPointer' ancestors ((name
+'CLFramework-nullPointer.223' message 'empty log message' id
+'71f6faa4-57b7-8f48-a22f-1937e728cad7' date '3 November 2010' time
+'6:41:36 pm' author 'nullPointer' ancestors ((name
+'CLFramework-nullPointer.222' message 'empty log message' id
+'ba67b40d-39ff-c041-a0e5-08833d72298e' date '3 November 2010' time
+'11:50:41 am' author 'nullPointer' ancestors ((name
+'CLFramework-nullPointer.221' message 'empty log message' id
+'f29b7c96-f964-5142-aee2-96082665be4a' date '2 November 2010' time
+'9:42:01 am' author 'nullPointer' ancestors ((name
+'CLFramework-nullPointer.220' message 'empty log message' id
+'646b61ba-6b00-4c40-8bce-c3d4a5c19afa' date '2 November 2010' time
+'9:32:58 am' author 'nullPointer' ancestors ((name
+'CLFramework-nullPointer.219' message 'empty log message' id
+'060f1257-f59d-41d7-8a50-ba02f323a423' date '1 November 2010' time
+'9:16:15 pm' author 'nullPointer' ancestors ((name
+'CLFramework-nullPointer.218' message 'empty log message' id
+'33f67190-3c22-4429-a061-24c09fd8f88d' date '1 November 2010' time
+'8:51:12 pm' author 'nullPointer' ancestors ((name
+'CLFramework-nullPointer.217' message 'empty log message' id
+'d958ad96-c8d6-4f2f-a819-b12ac1f8673f' date '1 November 2010' time
+'1:44:14 pm' author 'nullPointer' ancestors ((name
+'CLFramework-nullPointer.216' message 'empty log message' id
+'718bae90-de73-4162-926f-c1f7760d7ded' date '1 November 2010' time
+'12:10:16 pm' author 'nullPointer' ancestors ((name
+'CLFramework-nullPointer.215' message 'empty log message' id
+'92e48186-214d-42fb-b801-d05cd4afd45d' date '31 October 2010' time
+'10:24:54 pm' author 'nullPointer' ancestors ((name
+'CLFramework-nullPointer.213' message 'empty log message' id
+'f72c4e80-1d54-44b9-bbdd-5ac89f4b43c4' date '31 October 2010' time
+'11:59:54 am' author 'nullPointer' ancestors ((name
+'CLFramework-nullPointer.212' message 'empty log message' id
+'0099b0c4-9422-4f79-a4ed-50e1e1dad423' date '31 October 2010' time
+'11:58:53 am' author 'nullPointer' ancestors ((name
+'CLFramework-nullPointer.211' message 'empty log message' id
+'af4626ad-69f6-4332-ac1d-c8cea85e7a2a' date '31 October 2010' time
+'11:49:30 am' author 'nullPointer' ancestors ((name
+'CLFramework-nullPointer.210' message 'empty log message' id
+'7cb8501d-b714-41e3-a480-38751cbb8d34' date '31 October 2010' time
+'11:42:32 am' author 'nullPointer' ancestors ((name
+'CLFramework-nullPointer.209' message 'empty log message' id
+'77815a91-a56f-4e99-893e-a2d1c1d1176c' date '31 October 2010' time
+'11:02:11 am' author 'nullPointer' ancestors ((name
+'CLFramework-nullPointer.208' message 'empty log message' id
+'9c207a15-695a-457d-b269-bdd76e892d76' date '30 October 2010' time
+'7:51:39 pm' author 'nullPointer' ancestors ((name
+'CLFramework-nullPointer.207' message 'empty log message' id
+'f86b68b8-1e61-493d-8351-729bb318ecee' date '30 October 2010' time
+'9:55 am' author 'nullPointer' ancestors ((name
+'CLFramework-nullPointer.206' message 'empty log message' id
+'fab4d163-53ca-364f-9e73-9b3950295b40' date '28 October 2010' time
+'11:10:03 am' author 'nullPointer' ancestors ((name
+'CLFramework-nullPointer.205' message 'empty log message' id
+'34ba9654-25ba-fb42-bacf-2a4f8325705e' date '27 October 2010' time
+'6:14:40 pm' author 'nullPointer' ancestors ((name
+'CLFramework-nullPointer.204' message 'empty log message' id
+'c2b01ced-abbd-bd42-bb17-628fab6b1df7' date '27 October 2010' time
+'6:14:22 pm' author 'nullPointer' ancestors ((name
+'CLFramework-nullPointer.203' message 'empty log message' id
+'bff584f7-bb8f-d64b-b7e9-899b20663888' date '27 October 2010' time
+'10:08:23 am' author 'nullPointer' ancestors ((name
+'CLFramework-nullPointer.202' message 'empty log message' id
+'950633f1-dddf-1a48-9c6e-9c6a17e7d2ba' date '27 October 2010' time
+'10:07:58 am' author 'nullPointer' ancestors ((name
+'CLFramework-nullPointer.201' message 'empty log message' id
+'3d1eed8e-1271-43b8-a569-6453624937b3' date '25 October 2010' time
+'8:13:32 pm' author 'nullPointer' ancestors ((name
+'CLFramework-nullPointer.200' message 'empty log message' id
+'dd0f5976-4533-a64a-b369-6b60cc87ba0c' date '25 October 2010' time
+'1:14:02 pm' author 'nullPointer' ancestors ((name
+'CLFramework-nullPointer.199' message 'empty log message' id
+'e38d895d-edc7-6f4a-9fc7-9c9321f874f4' date '25 October 2010' time
+'10:27:21 am' author 'nullPointer' ancestors ((name
+'CLFramework-nullPointer.198' message 'empty log message' id
+'0e241a25-3a0a-b34f-b18e-852080394110' date '25 October 2010' time
+'10:15:33 am' author 'nullPointer' ancestors ((name
+'CLFramework-nullPointer.197' message 'empty log message' id
+'2ba0c6a2-1c21-47ff-8e21-8c36984723a7' date '25 October 2010' time
+'8:01:08 am' author 'nullPointer' ancestors ((name
+'CLFramework-nullPointer.196' message 'empty log message' id
+'fa3b0681-b908-42e5-9ddd-93a5265a5a12' date '23 October 2010' time
+'8:58:52 pm' author 'nullPointer' ancestors ((name
+'CLFramework-nullPointer.195' message 'empty log message' id
+'bbf7cc54-b646-4204-a01f-282f3216ef67' date '23 October 2010' time
+'7:16:14 pm' author 'nullPointer' ancestors ((name
+'CLFramework-nullPointer.194' message 'empty log message' id
+'a83c2a2e-2a3c-4648-90b5-f46ddb9fbf99' date '23 October 2010' time
+'1:05:23 am' author 'nullPointer' ancestors ((name
+'CLFramework-nullPointer.193' message 'empty log message' id
+'6fd5d23f-f72e-5e41-b5f3-5336e8291e77' date '22 October 2010' time
+'5:35:34 pm' author 'nullPointer' ancestors ((name
+'CLFramework-nullPointer.192' message 'empty log message' id
+'bb4795b1-7020-b441-bd5e-74d10cf0518f' date '22 October 2010' time
+'5:35:12 pm' author 'nullPointer' ancestors ((name
+'CLFramework-nullPointer.191' message 'empty log message' id
+'f717b939-c046-df42-b9e6-d2f8009e17a1' date '22 October 2010' time
+'2:09:36 pm' author 'nullPointer' ancestors ((name
+'CLFramework-nullPointer.190' message 'empty log message' id
+'4152afb2-1752-ff4d-aa07-4b0902a8bfc2' date '21 October 2010' time
+'9:24:49 am' author 'nullPointer' ancestors ((name
+'CLFramework-nullPointer.189' message 'empty log message' id
+'45113164-37f0-48bb-be03-8814d69e01f0' date '20 October 2010' time
+'8:14:24 pm' author 'nullPointer' ancestors ((name
+'CLFramework-nullPointer.188' message 'empty log message' id
+'574de423-fa9f-6b4b-9c09-beb1d87f1335' date '20 October 2010' time
+'9:02:35 am' author 'nullPointer' ancestors ((name
+'CLFramework-nullPointer.187' message 'empty log message' id
+'68514353-70ad-aa4c-91dc-ac561d6646e2' date '19 October 2010' time
+'4:50:28 pm' author 'nullPointer' ancestors ((name
+'CLFramework-nullPointer.186' message 'empty log message' id
+'158f731c-58bf-b34e-945a-f9ba088fb32e' date '19 October 2010' time
+'12:53:21 pm' author 'nullPointer' ancestors ((name
+'CLFramework-nullPointer.185' message 'empty log message' id
+'a4659605-d86b-42b2-bbfe-54feb980ddb4' date '19 October 2010' time
+'10:56:49 am' author 'nullPointer' ancestors ((name
+'CLFramework-nullPointer.184' message 'empty log message' id
+'e64e605e-e23f-4ab0-97c8-0f74c3d91e78' date '19 October 2010' time
+'10:53:01 am' author 'nullPointer' ancestors ((name
+'CLFramework-nullPointer.183' message 'empty log message' id
+'45b27757-db9b-43ed-b354-49261333219a' date '19 October 2010' time
+'10:50:41 am' author 'nullPointer' ancestors ((name
+'CLFramework-nullPointer.182' message 'empty log message' id
+'6674a75f-ec09-4c20-98ac-5f650822e6d5' date '19 October 2010' time
+'2:28:44 am' author 'nullPointer' ancestors ((name
+'CLFramework-nullPointer.181' message 'empty log message' id
+'eccbc1a6-f037-1241-b328-479b75080ef7' date '18 October 2010' time
+'6:38:41 pm' author 'nullPointer' ancestors ((name
+'CLFramework-nullPointer.180' message 'empty log message' id
+'637fbe10-800a-7f46-9645-add85fcabdd3' date '18 October 2010' time
+'5:18:50 pm' author 'nullPointer' ancestors ((name
+'CLFramework-nullPointer.179' message 'empty log message' id
+'42518b0e-666a-4c40-9254-68fe59bea7ba' date '18 October 2010' time
+'9:49:07 am' author 'nullPointer' ancestors ((name
+'CLFramework-nullPointer.178' message 'empty log message' id
+'75ec921f-caeb-4647-90ea-6e28afede307' date '18 October 2010' time
+'9:48:28 am' author 'nullPointer' ancestors ((name
+'CLFramework-nullPointer.177' message 'empty log message' id
+'51829353-4d67-4ee1-8607-9e1c48e46df8' date '17 October 2010' time
+'7:04:19 pm' author 'nullPointer' ancestors ((name
+'CLFramework-nullPointer.176' message 'empty log message' id
+'5c97b368-48c2-594b-8f46-501899402647' date '16 October 2010' time
+'2:17:31 pm' author 'nullPointer' ancestors ((name
+'CLFramework-nullPointer.175' message 'empty log message' id
+'60085960-4beb-496d-9ccd-627b8a793473' date '15 October 2010' time
+'12:29:39 am' author 'nullPointer' ancestors ((name
+'CLFramework-nullPointer.174' message 'empty log message' id
+'9a6e22d0-3ee9-42ef-ac5d-e3c62738d126' date '12 October 2010' time
+'11:20:09 pm' author 'nullPointer' ancestors ((name
+'CLFramework-nullPointer.173' message 'empty log message' id
+'6432eb09-9c55-4c82-8c76-2b0633c5ebef' date '12 October 2010' time
+'11:19:25 pm' author 'nullPointer' ancestors ((name
+'CLFramework-nullPointer.172' message 'empty log message' id
+'bd7c4252-7867-4d4d-b023-83412d235053' date '12 October 2010' time
+'1:14:13 pm' author 'nullPointer' ancestors ((name
+'CLFramework-nullPointer.171' message 'empty log message' id
+'4e5fca5b-3527-4ad6-85f3-ca7730e12ad4' date '11 October 2010' time
+'9:31:34 pm' author 'nullPointer' ancestors ((name
+'CLFramework-nullPointer.170' message 'empty log message' id
+'6d91c90a-de4e-4ef3-91a4-38d0555e9796' date '11 October 2010' time
+'8:58:40 am' author 'nullPointer' ancestors ((name
+'CLFramework-nullPointer.169' message 'empty log message' id
+'9418fc1d-ac0b-44a0-9d4e-275880751eee' date '10 October 2010' time
+'10:00:09 pm' author 'nullPointer' ancestors ((name
+'CLFramework-nullPointer.168' message 'empty log message' id
+'13cfa09b-3be3-43dd-8e8d-f9df965ba8b4' date '10 October 2010' time
+'4:47:34 pm' author 'nullPointer' ancestors ((name
+'CLFramework-nullPointer.167' message 'empty log message' id
+'beca1599-465c-41c9-bd30-18b618c7a3a5' date '10 October 2010' time
+'3:57:42 pm' author 'nullPointer' ancestors ((name
+'CLFramework-nullPointer.166' message 'empty log message' id
+'99308aae-8e52-452b-a999-e2f01a604176' date '9 October 2010' time
+'11:37:04 pm' author 'nullPointer' ancestors ((name
+'CLFramework-nullPointer.165' message 'empty log message' id
+'a0c4094a-3f53-4ecf-8fbe-cc8aa7f1ccbd' date '9 October 2010' time
+'11:34:27 pm' author 'nullPointer' ancestors ((name
+'CLFramework-nullPointer.164' message 'empty log message' id
+'8b83df6f-edbd-4f36-94c7-494d0d736312' date '9 October 2010' time
+'8:44:46 pm' author 'nullPointer' ancestors ((name
+'CLFramework-nullPointer.163' message 'empty log message' id
+'3435e519-57ad-4f78-b996-fcfcc0d8b675' date '9 October 2010' time
+'9:37:46 am' author 'nullPointer' ancestors ((name
+'CLFramework-nullPointer.162' message 'empty log message' id
+'d2a60f35-81a5-440f-9505-b835ff59a332' date '9 October 2010' time
+'4:22:54 am' author 'nullPointer' ancestors ((name
+'CLFramework-nullPointer.161' message 'empty log message' id
+'827e5315-3406-2040-8182-4ec5d9858b8d' date '8 October 2010' time
+'2:45:43 pm' author 'nullPointer' ancestors ((name
+'CLFramework-nullPointer.160' message 'empty log message' id
+'1c1bed13-0faf-42b1-ab1e-cfa6c316eb20' date '7 October 2010' time
+'11:37:44 pm' author 'nullPointer' ancestors ((name
+'CLFramework-nullPointer.159' message 'empty log message' id
+'87763865-266b-471e-94c2-4476f0651d5a' date '7 October 2010' time
+'10:40:29 pm' author 'nullPointer' ancestors ((name
+'CLFramework-nullPointer.158' message 'empty log message' id
+'6d8b2e0c-17a8-4576-b7d2-6e84dff0ef9b' date '6 October 2010' time
+'9:12:43 pm' author 'nullPointer' ancestors ((name
+'CLFramework-nullPointer.157' message 'empty log message' id
+'0acb1782-4e57-438f-a374-c024f4eede7b' date '4 October 2010' time
+'10:00:45 pm' author 'nullPointer' ancestors ((name
+'CLFramework-nullPointer.155' message 'empty log message' id
+'7a8398e8-b296-4834-91af-f586ae30a416' date '3 October 2010' time
+'12:42:43 pm' author 'nullPointer' ancestors ((name
+'CLFramework-nullPointer.154' message 'empty log message' id
+'fdc1a6e9-7b45-47a9-bfea-fb4ca557416b' date '3 October 2010' time
+'3:15:29 am' author 'nullPointer' ancestors ((name
+'CLFramework-nullPointer.153' message 'empty log message' id
+'5e6ff28e-5b94-4282-b225-c3be0078bc40' date '2 October 2010' time
+'10:09:24 pm' author 'nullPointer' ancestors ((name
+'CLFramework-nullPointer.152' message 'empty log message' id
+'4e6e8957-9ea5-4da0-8c5c-95cac61461c5' date '2 October 2010' time
+'8:37:19 pm' author 'nullPointer' ancestors ((name
+'CLFramework-nullPointer.151' message 'empty log message' id
+'67d15f5b-193c-4199-831a-91a20d1061fb' date '2 October 2010' time
+'1:22 pm' author 'nullPointer' ancestors ((name
+'CLFramework-nullPointer.150' message 'empty log message' id
+'2e61a474-0468-434d-8bf1-c84a26439232' date '2 October 2010' time
+'1:18:22 pm' author 'nullPointer' ancestors ((name
+'CLFramework-nullPointer.149' message 'empty log message' id
+'2dda0130-7a93-4d0e-a42b-6f4f5065d0d7' date '2 October 2010' time
+'1:17:26 pm' author 'nullPointer' ancestors ((name
+'CLFramework-nullPointer.148' message 'empty log message' id
+'52a1b0f5-01f7-be44-930c-92f804f150e0' date '1 October 2010' time
+'2:15:17 pm' author 'nullPointer' ancestors ((name
+'CLFramework-nullPointer.147' message 'empty log message' id
+'df9efa8b-d343-7b44-948b-862ae4b011fc' date '1 October 2010' time
+'1:13:13 pm' author 'nullPointer' ancestors ((name
+'CLFramework-nullPointer.146' message 'empty log message' id
+'ad6e441f-c68b-4054-8909-34fc2c00b15b' date '29 September 2010' time
+'10:35:37 pm' author 'nullPointer' ancestors ((name
+'CLFramework-nullPointer.145' message 'empty log message' id
+'bbf5e491-061e-4be0-b7d5-f4913e37df80' date '28 September 2010' time
+'11:04:26 pm' author 'nullPointer' ancestors ((name
+'CLFramework-nullPointer.144' message 'empty log message' id
+'04369284-4d24-4ba2-8e75-b8151e75a988' date '27 September 2010' time
+'9:07:37 pm' author 'nullPointer' ancestors ((name
+'CLFramework-nullPointer.143' message 'empty log message' id
+'b453ae9f-e5f8-4905-a58b-890fdd2ff4d7' date '26 September 2010' time
+'11:28:51 am' author 'nullPointer' ancestors ((name
+'CLFramework-nullPointer.141' message 'empty log message' id
+'0f742f87-1432-460c-b265-4cec11d7ea4e' date '25 September 2010' time
+'1:50:48 pm' author 'nullPointer' ancestors ((name
+'CLFramework-nullPointer.140' message 'empty log message' id
+'9b48a2c2-11cb-40bc-a928-b53b1b4f36d0' date '25 September 2010' time
+'12:52:22 am' author 'nullPointer' ancestors ((name
+'CLFramework-nullPointer.139' message 'empty log message' id
+'6d6d1817-f149-ee49-8f40-0a0d208f8961' date '21 September 2010' time
+'4:09:18 pm' author 'nullPointer' ancestors ((name
+'CLFramework-nullPointer.138' message 'empty log message' id
+'e902c2d9-c6b2-49dc-9aad-1ad017b36167' date '18 September 2010' time
+'10:49:01 pm' author 'nullPointer' ancestors ((name
+'CLFramework-nullPointer.135' message 'empty log message' id
+'d528f4be-2ef4-43fa-9f4d-4c624e9286f9' date '2 September 2010' time
+'9:43:46 pm' author 'nullPointer' ancestors ((name
+'CLFramework-nullPointer.134' message 'empty log message' id
+'bc61eba3-91ef-4fee-9710-fa3e205951b6' date '2 September 2010' time
+'9:42:46 pm' author 'nullPointer' ancestors ((name
+'CLFramework-nullPointer.133' message 'empty log message' id
+'7b44e77e-150b-4a19-9ef7-c6f678781bfa' date '23 August 2010' time
+'11:47:01 pm' author 'nullPointer' ancestors ((name
+'CLFramework-nullPointer.132' message 'empty log message' id
+'5ca64283-d0f5-ff49-bfa3-96baabc3a7d0' date '19 August 2010' time
+'2:16:59 pm' author 'nullPointer' ancestors ((name
+'CLFramework-nullPointer.130' message 'empty log message' id
+'9253e207-5664-4867-b71c-cea1587dda2e' date '16 August 2010' time
+'8:33:49 pm' author 'nullPointer' ancestors ((name
+'CLFramework-nullPointer.129' message 'empty log message' id
+'fb53065d-195c-4d63-80c3-3fa7538ccbd4' date '15 August 2010' time
+'11:10:12 pm' author 'nullPointer' ancestors ((name
+'CLFramework-nullPointer.128' message 'empty log message' id
+'18b45432-97e9-439b-9b01-f752a73d4547' date '11 August 2010' time
+'11:26:33 pm' author 'nullPointer' ancestors ((name
+'CLFramework-nullPointer.127' message 'empty log message' id
+'501f6104-9f19-4699-aec0-bb13afd9af39' date '11 August 2010' time
+'11:19:32 pm' author 'nullPointer' ancestors ((name
+'CLFramework-nullPointer.126' message 'empty log message' id
+'5f7ddae7-7f2b-4077-a789-04280298c23d' date '11 August 2010' time
+'12:02:19 am' author 'nullPointer' ancestors ((name
+'CLFramework-nullPointer.125' message 'empty log message' id
+'6e7c5d39-8701-2544-af96-c4db14f8ed37' date '9 August 2010' time
+'2:11:07 pm' author 'nullPointer' ancestors ((name
+'CLFramework-nullPointer.124' message 'empty log message' id
+'4dae73c8-a68a-ec47-9333-95d98750a56e' date '4 August 2010' time
+'5:57:35 pm' author 'nullPointer' ancestors ((name
+'CLFramework-nullPointer.122' message 'empty log message' id
+'c80d2bfc-1e7d-6148-9ae5-d09dd61fc52a' date '4 August 2010' time
+'4:02:02 pm' author 'nullPointer' ancestors ((name
+'CLFramework-nullPointer.121' message 'empty log message' id
+'e8cb1c13-2dc7-8843-9f8e-ec3eeddccd81' date '4 August 2010' time
+'9:26:45 am' author 'nullPointer' ancestors ((name
+'CLFramework-nullPointer.120' message 'empty log message' id
+'123505eb-df20-1a41-bd6c-68c28f629a32' date '3 August 2010' time
+'2:05:12 pm' author 'nullPointer' ancestors ((name
+'CLFramework-nullPointer.119' message 'empty log message' id
+'d1ee4906-03db-4e80-ae6e-29fd570e1925' date '3 August 2010' time
+'12:10:10 am' author 'nullPointer' ancestors ((name
+'CLFramework-nullPointer.118' message 'Fix for bug:
+http://forum.world.st/Limitation-of-number-os-literals-in-a-method-td2308740.html#a2310239'
+id '8e4e3e7a-93ed-6340-9db8-4cbf12bf985e' date '2 August 2010' time
+'2:55:17 pm' author 'nullPointer' ancestors ((name
+'CLFramework-nullPointer.117' message 'Fix for
+http://forum.world.st/Limitation-of-number-os-literals-in-a-method-td2308740.html#a2310239'
+id '1ecd0a21-41e9-434f-8343-8cbefc1a2dd2' date '2 August 2010' time
+'2:54:30 pm' author 'nullPointer' ancestors ((name
+'CLFramework-nullPointer.116' message 'empty log message' id
+'892f264c-697c-5747-8ad0-3d7e850be7bf' date '2 August 2010' time
+'2:17:16 pm' author 'nullPointer' ancestors ((name
+'CLFramework-nullPointer.115' message 'empty log message' id
+'01c8464e-ce43-4c67-996b-465388876cbf' date '1 August 2010' time
+'1:58:58 pm' author 'nullPointer' ancestors ((name
+'CLFramework-nullPointer.114' message 'empty log message' id
+'e0e48f3c-7bd1-46e6-b430-3a39bbd7dac8' date '1 August 2010' time
+'1:58:08 pm' author 'nullPointer' ancestors ((name
+'CLFramework-nullPointer.113' message 'empty log message' id
+'e9af1820-2f6d-c64e-a7de-95d42ec841f2' date '30 July 2010' time
+'3:14:24 pm' author 'nullPointer' ancestors ((name
+'CLFramework-nullPointer.112' message 'empty log message' id
+'3d76a28c-8b95-7747-950c-8fed2b410d62' date '30 July 2010' time
+'10:25:16 am' author 'nullPointer' ancestors ((name
+'CLFramework-nullPointer.111' message 'empty log message' id
+'228278f8-0469-4ca5-b88f-f69cf2f6be6d' date '29 July 2010' time
+'12:16:19 am' author 'nullPointer' ancestors ((name
+'CLFramework-nullPointer.110' message 'empty log message' id
+'db829489-4125-478f-95c2-302bb4221fb0' date '28 July 2010' time
+'10:27:26 pm' author 'nullPointer' ancestors ((name
+'CLFramework-nullPointer.109' message 'empty log message' id
+'18ecd45c-9bd6-7b43-8bdf-8a68cc677c12' date '28 July 2010' time
+'6:37:37 pm' author 'nullPointer' ancestors ((name
+'CLFramework-nullPointer.108' message 'empty log message' id
+'5985c39c-50aa-9d40-87b9-9631754aded2' date '28 July 2010' time
+'1:21:09 pm' author 'nullPointer' ancestors ((name
+'CLFramework-nullPointer.107' message 'empty log message' id
+'04f339b8-67e0-aa41-b287-1a7d0c8b0b66' date '28 July 2010' time
+'9:59:36 am' author 'nullPointer' ancestors ((name
+'CLFramework-nullPointer.106' message 'empty log message' id
+'f3bb56ea-4584-4130-9fc7-ec14a4ca65fa' date '28 July 2010' time
+'1:12:51 am' author 'nullPointer' ancestors ((name
+'CLFramework-nullPointer.105' message 'empty log message' id
+'5b999074-9180-4040-a170-1668b762543a' date '27 July 2010' time
+'12:50:21 am' author 'nullPointer' ancestors ((name
+'CLFramework-nullPointer.104' message 'empty log message' id
+'5f7f28bf-6453-4ea4-be6f-0dd52f5b73bc' date '26 July 2010' time
+'11:03:07 pm' author 'nullPointer' ancestors ((name
+'CLFramework-nullPointer.103' message 'Added a new CLControlTab
+widget; now works on designer.' id
+'9da09210-e1a3-4879-b5de-ee21820faf35' date '26 July 2010' time
+'11:02:47 pm' author 'nullPointer' ancestors ((name
+'CLFramework-nullPointer.102' message 'empty log message' id
+'83e84383-b733-41ea-9839-17af33dd8f2e' date '26 July 2010' time
+'11:00:43 pm' author 'nullPointer' ancestors ((name
+'CLFramework-nullPointer.100' message 'empty log message' id
+'19f81613-30d5-1c4c-8333-c85add0b403b' date '26 July 2010' time
+'5:21:09 pm' author 'nullPointer' ancestors ((name
+'CLFramework-nullPointer.99' message 'empty log message' id
+'4f22f6b0-ff94-e645-a0bb-c93180e5f53f' date '26 July 2010' time
+'12:46:34 pm' author 'nullPointer' ancestors ((name
+'CLFramework-nullPointer.98' message 'empty log message' id
+'0137de7a-8114-4ba6-8a6a-885d3b2ea1b3' date '25 July 2010' time
+'10:43:57 pm' author 'nullPointer' ancestors ((name
+'CLFramework-nullPointer.97' message 'empty log message' id
+'d3910f5b-7011-48f5-b574-6e24a20be864' date '24 July 2010' time
+'10:15:02 pm' author 'nullPointer' ancestors ((name
+'CLFramework-nullPointer.96' message 'empty log message' id
+'b980d5a6-c550-44a1-b4a9-1987579454fc' date '22 July 2010' time
+'11:42:10 pm' author 'nullPointer' ancestors ((name
+'CLFramework-nullPointer.95' message 'empty log message' id
+'73d7e121-758a-dd48-bbee-d8358fb00df5' date '22 July 2010' time
+'1:34:23 pm' author 'nullPointer' ancestors ((name
+'CLFramework-nullPointer.94' message 'empty log message' id
+'e1b069bb-84e0-bc49-aeda-0d03fc5b5718' date '21 July 2010' time
+'6:21:50 pm' author 'nullPointer' ancestors ((name
+'CLFramework-nullPointer.93' message 'empty log message' id
+'e28a29fe-a8de-4cd0-9a4e-6266be1ad025' date '20 July 2010' time '11:43
+pm' author 'nullPointer' ancestors ((name 'CLFramework-nullPointer.92'
+message 'empty log message' id '94cc6b31-3813-3847-a549-6fed9aeb4188'
+date '20 July 2010' time '6:37:51 pm' author 'nullPointer' ancestors
+((name 'CLFramework-nullPointer.91' message 'empty log message' id
+'1f19835f-f15d-4438-808b-91bdf52567c4' date '20 July 2010' time
+'12:57:39 am' author 'nullPointer' ancestors ((name
+'CLFramework-nullPointer.90' message 'Testimonial version.' id
+'863dced2-7a02-4b0f-a8f1-a0811474e6a8' date '30 June 2010' time
+'6:19:01 am' author 'nullPointer' ancestors ((name
+'CLFramework-nullPointer.89' message 'Versio per a 1.1' id
+'1c266f74-e52d-4941-a07d-7ff844f94331' date '25 May 2010' time
+'11:41:26 pm' author 'nullPointer' ancestors ((name
+'CLFramework-nullPointer.88' message 'empty log message' id
+'a0f5d9af-d8b4-4174-8073-4c86175e65a7' date '24 April 2010' time
+'10:58:27 am' author 'nullPointer' ancestors ((name
+'CLFramework-nullPointer.87' message 'empty log message' id
+'6c634565-dca3-4439-a3e5-c9106f849cb9' date '24 April 2010' time
+'9:35:41 am' author 'nullPointer' ancestors ((name
+'CLFramework-nullPointer.86' message 'empty log message' id
+'94488ed7-d14a-42bc-88a1-285901fbdd26' date '22 April 2010' time
+'11:41:58 pm' author 'nullPointer' ancestors ((name
+'CLFramework-nullPointer.85' message 'empty log message' id
+'7d7b2672-4dca-4685-a949-197f1b952dbe' date '19 April 2010' time
+'11:19:53 pm' author 'nullPointer' ancestors ((name
+'CLFramework-nullPointer.84' message 'empty log message' id
+'82e565a2-5b7a-4eaf-b1e8-8d528f2c442d' date '17 April 2010' time
+'10:16:37 am' author 'nullPointer' ancestors ((name
+'CLFramework-nullPointer.83' message 'empty log message' id
+'2a7cd1cc-d7fa-4709-856f-860ab35f8c6f' date '11 April 2010' time
+'10:24:21 pm' author 'nullPointer' ancestors ((name
+'CLFramework-nullPointer.82' message '-Fixed little bug very important
+in CLPropertyGrid' id '51da3376-01ae-4ebf-94c2-b977d4cb68f2' date '28
+March 2010' time '10:27:13 pm' author 'nullPointer' ancestors ((name
+'CLFramework-nullPointer.81' message '-Changed the grid events of
+CLUIBuilderMainForm to a new CLPropertyGrid widget.
+
+-Added a new behavior for CLGridCell, symbol behavior.' id 'b4d84a9f-43e2-48e0-b321-b7487776d36a' date '28 March 2010' time '10:18:32 pm' author 'nullPointer' ancestors ((name 'CLFramework-nullPointer.80' message '-Fixed behavior of columns with data source.' id 'd832f27c-4c4e-4029-b7cb-b94587f3c480' date '27 March 2010' time '9:43:52 pm' author 'nullPointer' ancestors ((name 'CLFramework-nullPointer.79' message '-Fix some bugs of CLGrid widget when #showHeaderRow: change value
+-Start development of CLPropertyGrid' id 'ba3deea5-6ab6-4056-9d7c-331fd943bc02' date '25 March 2010' time '10:59:24 pm' author 'nullPointer' ancestors ((name 'CLFramework-nullPointer.78' message '-Now is possible set a datasource to column or a cell of CLGrid widget. Unstable in tab mechanism.' id '51be8bdb-1790-4ea0-8ef2-aad33bf44cf2' date '22 March 2010' time '11:57:06 pm' author 'nullPointer' ancestors ((name 'CLFramework-nullPointer.77' message '-New implementation of CLGrid widget' id '410a318f-c550-4945-b0a7-c37115a53701' date '21 March 2010' time '11:05:31 pm' author 'nullPointer' ancestors ((name 'CLFramework-nullPointer.76' message 'empty log message' id 'a0d59bdc-f6b6-4d51-b61d-c703d2c32230' date '12 March 2010' time '9:38:47 am' author 'nullPointer' ancestors ((name 'CLFramework-nullPointer.75' message 'empty log message' id 'fab68d11-2a03-4780-a10f-4d3a76ecdf5b' date '12 March 2010' time '12:29:34 am' author 'nullPointer' ancestors ((name 'CLFramework-nullPointer.74' message 'empty log message' id 'f0ec7f9f-9631-4eab-a01f-f305319ca2ea' date '9 March 2010' time '10:02:51 pm' author 'nullPointer' ancestors ((name 'CLFramework-nullPointer.73' message 'empty log message' id '55e7f1f5-e255-41b9-a9a0-cc9be197ca0b' date '7 March 2010' time '11:52:30 am' author 'nullPointer' ancestors ((name 'CLFramework-nullPointer.72' message '-Version only for backup purpose.
+-CLGrid widget will be changed radically.' id 'bb3de7ad-11fc-4100-a339-d83a34bf1e84' date '22 February 2010' time '9:41:37 pm' author 'nullPointer' ancestors ((name 'CLFramework-nullPointer.71' message '-Fix much bugs related with behavior of some widgets in design mode state' id '530c505b-e77f-4f5c-9060-091bffcf9dc3' date '9 February 2010' time '11:08:54 pm' author 'nullPointer' ancestors ((name 'CLFramework-nullPointer.70' message '-Fixed bugs in sort mechanism of CLGrid widget' id '17c7fa47-95da-4c43-99e2-7c68302af18c' date '6 February 2010' time '11:23:46 am' author 'nullPointer' ancestors ((name 'CLFramework-nullPointer.69' message '-Fixed bugs in grid columns editor view of UIBuilder.
+' id '88d0d321-f6c4-4327-af27-70d6e9c3c793' date '5 February 2010' time '10:30:36 pm' author 'nullPointer' ancestors ((name 'CLFramework-nullPointer.68' message '-Now is possible add columns of boolean type in CLGrid widget.' id '64710621-2ec3-4717-bdb6-531cc0f5c9ef' date '31 January 2010' time '12:22:55 pm' author 'nullPointer' ancestors ((name 'CLFramework-nullPointer.67' message '-Now the CLGrid widget allow sort the columns.
+-Fixed bugs of CLGrid widget.
+-More code source order in some classes.' id 'dda9e982-d261-4200-85c8-22ae9a316ba8' date '30 January 2010' time '8:39:35 pm' author 'nullPointer' ancestors ((name 'CLFramework-nullPointer.66' message '-Now is possible edit the columns of CLGrid widget in the UIBuilder tool designer.' id 'b9f4242d-5cee-48a3-a5b1-c6041c4caa02' date '28 January 2010' time '12:30:37 am' author 'nullPointer' ancestors ((name 'CLFramework-nullPointer.65' message '-Added new widget, CLNumericEdit, for input ineteger data in a textbox.
+-Now is possible set the state of a CLGridColumn to readOnly.' id '5fe310ac-05c9-4ffc-a1d6-485f2be3e501' date '27 January 2010' time '12:08:09 am' author 'nullPointer' ancestors ((name 'CLFramework-nullPointer.64' message '' id '0b12999a-64e8-4003-8e19-8b6b9e073fdf' date '23 January 2010' time '10:27:06 pm' author 'nullPointer' ancestors ((name 'CLFramework-nullPointer.63' message '' id '0da0a39d-43e9-4a13-9d03-da8ea7323c15' date '23 January 2010' time '10:25:37 pm' author 'nullPointer' ancestors ((name 'CLFramework-nullPointer.62' message '-Developing the CLGrid columns editor view. Not is ended.' id '5c5e100b-efc4-4e7c-9338-07f7be6b2909' date '23 January 2010' time '10:24:03 pm' author 'nullPointer' ancestors ((name 'CLFramework-nullPointer.61' message '-Best integration of CLGrid widget in UIBuilder, but not complete.' id '9ff16dce-2a0d-4c9c-b741-73a26c94e038' date '18 January 2010' time '11:18:07 pm' author 'nullPointer' ancestors ((name 'CLFramework-nullPointer.60' message '-Fixes in CLWrapperMorph class ( #dockToFill mechanism )
+-Fixes in ClassesBrowser example' id '2e179555-7582-46c3-82db-11d62511b6ea' date '16 January 2010' time '11:55:53 pm' author 'nullPointer' ancestors ((name 'CLFramework-nullPointer.59' message '-Basic style for CLGrid widget ended.
+-Fix bugs of CLGrid widget ' id 'f240b260-f8de-4b72-8eb2-11b5d1ec2cb9' date '15 January 2010' time '11:22:33 pm' author 'nullPointer' ancestors ((name 'CLFramework-nullPointer.58' message 'Created CLGridStyle class.
+
+Now is possible apply complex style in CLGrid class.' id '9ba1adeb-b4eb-414a-b14e-8e1b4472393b' date '13 January 2010' time '12:32:08 am' author 'nullPointer' ancestors ((name 'CLFramework-nullPointer.57' message '- CLGrid - Now, a cell value changed update the value property of binded object.' id '3274e6ea-2f7e-41e8-9f42-e46cc4f465b0' date '11 January 2010' time '8:17:51 pm' author 'nullPointer' ancestors ((name 'CLFramework-nullPointer.56' message '-Now the grid can show through the #datasource: method a collection of objects. See the #buildPersonExample of CLGrid class.' id '34bb29fa-9993-453e-b36d-ac9596463a3c' date '9 January 2010' time '10:16:55 pm' author 'nullPointer' ancestors ((name 'CLFramework-nullPointer.55' message '-Fixed a minimal but important error :)' id '478e3a5f-4b40-4b2b-9980-56327beac27f' date '9 January 2010' time '8:07:45 pm' author 'nullPointer' ancestors ((name 'CLFramework-nullPointer.54' message '-Changes in columns and grid cells mechanism of CLGrid widget.' id 'a0486354-0d77-4063-b267-7464a94df4c6' date '9 January 2010' time '7:57:18 pm' author 'nullPointer' ancestors ((name 'CLFramework-nullPointer.53' message '-Working in the selection of cells in CLGrid ( Alpha state )' id 'a2f88e08-f77f-4ad7-b3fb-61a5dc40c3f3' date '5 January 2010' time '9:29 pm' author 'nullPointer' ancestors ((name 'CLFramework-nullPointer.52' message '-Tests in experimental grid widget.' id '18b5dea6-0cca-4ab6-b595-6a09bbd2bf3e' date '5 January 2010' time '1:16:51 pm' author 'nullPointer' ancestors ((name 'CLFramework-nullPointer.51' message '-Fixed bug of repeat var name in generation code mechanism.' id '49a587ef-3568-4d57-ac73-88c5354b3574' date '5 January 2010' time '2:03:02 am' author 'nullPointer' ancestors ((name 'CLFramework-nullPointer.50' message '-Fixed error of CLTextBoxEditor widget ( miss #onStartedit and #onEndEdit events )' id 'dc7c87e6-b475-4821-afe8-748488f6e25b' date '4 January 2010' time '10:32:16 pm' author 'nullPointer' ancestors ((name 'CLFramework-nullPointer.49' message 'Fixed bug when a new Resources subclass was created, in the Resources management form.' id 'ec092150-3521-4c34-a68f-8da8af72682c' date '3 December 2009' time '9:47:11 pm' author 'nullPointer' ancestors ((name 'CLFramework-nullPointer.48' message 'Fixed bug of #font serialization property.' id '4dae9166-6eb2-4fbd-aae4-648b253b0e4e' date '2 December 2009' time '10:12:07 pm' author 'nullPointer' ancestors ((name 'CLFramework-nullPointer.47' message 'empty log message' id 'c477a485-f743-498b-86a1-5fe8317b90e8' date '26 November 2009' time '10:43:15 pm' author 'nullPointer' ancestors ((name 'CLFramework-nullPointer.46' message '-Migrated all CLView subclasses ( UIBuilder editor and view examples ) to new #specMorph method based in plain code source.
+
+-More bugs fixeds.' id 'eb656dc8-0d64-4e66-87b3-c0495039161a' date '10 November 2009' time '10:46:48 pm' author 'nullPointer' ancestors ((name 'CLFramework-nullPointer.45' message '-Fix a great number of bugs in the serialization designed morphs mechanism, when the serialization mode in plain code source.
+
+-Added  the serialization mechanism for CLScrollpanel and CLSplitterPanel widgets.
+
+The next step is migrate the views of examples and UIBuilder to new system. Anyway the old mechanism remains for somebody wants use.But is slowly and ugly :)
+
+Regards' id '4e7f7279-2a8e-4c66-8241-38bb79165735' date '9 November 2009' time '11:54:56 pm' author 'nullPointer' ancestors ((name 'CLFramework-nullPointer.44' message '-Enhanced the mechanism for serialize the designed morph in plain code source text. Remains in alpha state but will works better. ' id '15ff23cb-73f4-4eb1-a6e0-6315afcca954' date '8 November 2009' time '11:24:18 am' author 'nullPointer' ancestors ((name 'CLFramework-nullPointer.43' message '- First try of alternative way of serialize the designed morph in the UIBuilder tool.See the #specMorph of TestView for a example of result. That mechanism not is ended. The serialization works by default in ByteArry mode, but if you can prove you could change parameters in Settings option of UIBuilder.
+-Added a new option in menu of UIBuilder, for configurate preferences. For the moment only exists one option :)) 
+-Added methods in class side of widgets for indicate the methods for serialize.' id 'ee2977fa-27e5-4c24-ad77-12d069b76d97' date '24 October 2009' time '11:38:27 pm' author 'nullPointer' ancestors ((name 'CLFramework-nullPointer.42' message 'empty log message' id '9087efe2-a917-4a74-9b72-4d4e0ef8e345' date '23 October 2009' time '11:08:26 pm' author 'nullPointer' ancestors ((name 'CLFramework-nullPointer.41' message '- Implemented method #accessibleInDesigner in TCLControl.
+- Fixed bugs in the subcontrols lists
+- Start the work for a new serialization of designed morphs in specMorph methods.' id '1e491909-963b-4d40-a042-39582b886096' date '18 October 2009' time '11:45:42 am' author 'nullPointer' ancestors ((name 'CLFramework-nullPointer.40' message 'empty log message' id '765b611c-b2a6-48cb-8dd6-56e33e3e5561' date '17 October 2009' time '11:52:54 am' author 'nullPointer' ancestors ((name 'CLFramework-nullPointer.39' message '- Little changes for enhance the Polymorph integration
+
+- BAsic documentation ended.' id 'fd70f67d-cc5e-4c90-9916-19206e3945c3' date '15 October 2009' time '10:31:20 pm' author 'nullPointer' ancestors ((name 'CLFramework-nullPointer.38' message '-Fixed bugs on CLDirectory and CLFile classes, when running on Windows
+
+-Return to #adoptPaneColor: Polymorph mechanism.
+
+-Polished stetic on menu options of CLUIBuilderMainForm.
+
+-Now the color set property don´t works,and set of styles too.I need know if exists a mechanism on Polymorph for custom behavior of #adoptPaneColor:' id '646f1642-71c9-47a6-a3dc-624ce1e26049' date '14 October 2009' time '12:18:23 am' author 'nullPointer' ancestors ((name 'CLFramework-nullPointer.37' message '- Added CLPath class, very partial port of .NET Framework System.IO.Path class. 
+
+- Now CLFolderIterator class uses internally CLDirectory and CLPath classes.' id 'f1840d6f-7143-4e93-b371-fea206fa7b33' date '12 October 2009' time '8:38:46 pm' author 'nullPointer' ancestors ((name 'CLFramework-nullPointer.36' message '	-Added CLFile class, partial port of .NET Framework System.IO.File class. Only works with absolute paths.
+	-Fixed bugs on error handling of CLDirectory class.' id '7c134813-df81-4b4a-8ec0-0f33ee25d69c' date '12 October 2009' time '7:38:15 pm' author 'nullPointer' ancestors ((name 'CLFramework-nullPointer.35' message '-Added CLDirectory class, partial port of .NET Framework System.IO.Directory class. Only works with absolute paths.' id '86feb5a9-5f4b-4a90-b450-2a13a244b394' date '11 October 2009' time '9:54:52 pm' author 'nullPointer' ancestors ((name 'CLFramework-nullPointer.34' message '-Added CLStringBuilder class, port of .NET Framework System.Text.StringBuilder class' id '276bb460-6e96-4d08-ad7e-0ad1a5ab2898' date '11 October 2009' time '2:00:10 pm' author 'nullPointer' ancestors ((name 'CLFramework-nullPointer.33' message '- Fix bugs of subwidgets list when deleted, added, or move subwidgets between different containers.' id '425491a8-4855-48c4-90c1-d064a5d03821' date '11 October 2009' time '11:41:21 am' author 'nullPointer' ancestors ((name 'CLFramework-nullPointer.32' message '- Added a subcontrol in Toolbox, where is possible a list of subcontrols addeds in the Canvas of UIBuilder' id 'dccae0f7-428d-441b-8572-41efbec84bd2' date '11 October 2009' time '2:51:14 am' author 'nullPointer' ancestors ((name 'CLFramework-nullPointer.31' message '- Changed name of older class CLCompiler to CLSystem
+- Changed name of older class CLDecorMorph to CLWrapperMorph
+- Added more comments in classes.' id '66091ffb-aa21-4417-b65c-295a32a5453a' date '8 October 2009' time '11:51:26 pm' author 'nullPointer' ancestors ((name 'CLFramework-nullPointer.30' message '- Changed name of older class CLCompiler to CLSystem
+- Changed name of older class CLDecorMorph to CLWrapperMorph
+- Added more comments in classes.' id 'c4a45e85-4a3a-4766-b3e7-a0a75a6b09c7' date '8 October 2009' time '11:50:33 pm' author 'nullPointer' ancestors ((name 'CLFramework-nullPointer.29' message '- Fixed bugs in CLListbox instances serializeds' id 'de7352fc-accd-41e4-88cd-1efc9855758b' date '5 October 2009' time '10:02:10 pm' author 'nullPointer' ancestors ((name 'CLFramework-nullPointer.28' message '-Added splitter resizer in UIBuilder mainform
+-Fixed bugs in TCLControl when execute #flash method.' id '4c351262-30c5-4fb6-943b-1bdd343393cc' date '4 October 2009' time '12:02:16 am' author 'nullPointer' ancestors ((name 'CLFramework-nullPointer.27' message '- Toolbox appearance polished.
+- CLListbox now inherits from PluggableIconListMorph' id '73d812c1-8a0e-4085-a2c9-182c40191cde' date '3 October 2009' time '10:26:54 am' author 'nullPointer' ancestors ((name 'CLFramework-nullPointer.26' message '-Fixes on #onKeyStroke event of CLTextbox and CLTextboxEditor
+-Begun the work of documentation' id 'bcde4fd5-df1b-43d2-bab5-e168c199bf24' date '2 October 2009' time '10:41:11 pm' author 'nullPointer' ancestors ((name 'CLFramework-nullPointer.25' message '- Added CLTextboxEditor to Toolbox
+- More bugs fixeds :))  I´m cleaning.' id 'eca8279c-0345-4b19-a22f-803097cea8a7' date '26 September 2009' time '9:12:14 pm' author 'nullPointer' ancestors ((name 'CLFramework-nullPointer.24' message '-Added functionality in CLRadioButtons class for uncheck another radiobuttons when one is checked.
+
+-Fixed maaaany bugs of CLRadiobutton class ;)' id '43c62433-28dc-4e2f-9bde-28f7c9f590ba' date '26 September 2009' time '1:16:56 pm' author 'nullPointer' ancestors ((name 'CLFramework-nullPointer.23' message 'Fix behavior on CLToggableControls when #value: property was setted.' id '6ed9e92c-0ae0-4024-bc49-a559e72c3ce4' date '26 September 2009' time '10:57:52 am' author 'nullPointer' ancestors ((name 'CLFramework-nullPointer.22' message '-Fix of little bugs.
+-Added provisional message #convertToCurrentVersion:refStream: in TCLControl' id 'ad1dda11-8c42-4a2e-a041-73eb2d06bf23' date '25 September 2009' time '12:42:12 pm' author 'nullPointer' ancestors ((name 'CLFramework-nullPointer.21' message '-A very little but important bug of last version :))
+
+Regards' id '08842a58-0f46-4f0f-884a-91a83d7c3ddd' date '25 September 2009' time '1:29:44 am' author 'nullPointer' ancestors ((name 'CLFramework-nullPointer.20' message '- Added CLSplitterPanel widget' id '8c5103d1-5627-4549-9888-c50b1b8429a1' date '25 September 2009' time '1:22:26 am' author 'nullPointer' ancestors ((name 'CLFramework-nullPointer.19' message '-Added #tabIndex property in TCLControl.No that property is visible in designer properties.
+-Fix little bugs and bad behaviors. ' id '569ef768-1ce0-4e29-9f04-f7a5c7cd4afc' date '20 September 2009' time '9:26:35 pm' author 'nullPointer' ancestors ((name 'CLFramework-nullPointer.18' message '-Now a control edited in designer can modify his #extent: and #position: properties without remove anchors.
+-Changes in CLDecorMorph class.' id '4dc45ded-b240-4a1f-8344-1a7bd74d6bbd' date '20 September 2009' time '1:14:33 am' author 'nullPointer' ancestors ((name 'CLFramework-nullPointer.17' message '-Little enhancements in UI
+	-#adoptPaneColor: behavior in CLPanel class is deleted.
+	-Change UI styles of UIBuilder views, only stetical' id 'e3508c02-82ea-45d4-b0c9-fc86347b520c' date '15 September 2009' time '2:00:44 am' author 'nullPointer' ancestors ((name 'CLFramework-nullPointer.16' message '' id '53148230-5d7f-4ea1-967f-b069f2f4c9e6' date '15 September 2009' time '1:58:10 am' author 'nullPointer' ancestors ((name 'CLFramework-nullPointer.15' message '-Now the options selected in a ToolBarDocking menu is captured with event #onSelectedMenu, in the CLView' id '356ba4c1-fc6c-48ca-a984-80375a0d23b4' date '13 September 2009' time '7:00:37 pm' author 'nullPointer' ancestors ((name 'CLFramework-nullPointer.14' message '-Added option in toolbar for add docking bar menus in containers controls.' id '7fa351c6-3826-4ab7-bd18-34ed9f275503' date '13 September 2009' time '2:03:42 pm' author 'nullPointer' ancestors ((name 'CLFramework-nullPointer.13' message '-Little bugs fixeds.
+-Enhanced behavior.' id '6ceaa996-f7ac-44f5-aae2-fe1b7662e222' date '13 September 2009' time '2:01:32 pm' author 'nullPointer' ancestors ((name 'CLFramework-nullPointer.11' message '-MenuEditor:
+     -Delete menu option implemented
+	-Little enhancements in modals views, for update,delete and open context menus.
+	
+-"Bring to front" and "Send to back" mechanism added in toolbar of UIBuilder.
+
+-Added CLProgressBar widget. ' id '37e47c5b-93c7-4385-8877-549f71365261' date '11 September 2009' time '1:44:22 pm' author 'nullPointer' ancestors ((name 'CLFramework-nullPointer.10' message '' id 'c9bf8096-62d3-48a5-b273-06d91c02da36' date '10 September 2009' time '1:49:20 am' author 'nullPointer' ancestors ((name 'CLFramework-nullPointer.9' message '' id 'd2789727-389b-4626-b3cf-51c182952c05' date '10 September 2009' time '1:48:46 am' author 'nullPointer' ancestors ((name 'CLFramework-nullPointer.7' message '-Now to set #enabled: property of a CLContainer affect too a submorphs (Only TCLControls).
+-Drop the control in CLToolbox cancel the drag.' id '8b680a00-0706-4e94-a903-88fcd7866b84' date '10 September 2009' time '12:05:12 am' author 'nullPointer' ancestors ((name 'CLFramework-nullPointer.6' message '
+-Fixed bug when a new CLView is created and the name not is capitalized.
+-Now almost all controls on canvas designer can be dragged only with mouse, use the halo not is needed.' id 'a98f1307-5e61-4fd8-82a0-b73ac3ea84c8' date '8 September 2009' time '11:35:53 pm' author 'nullPointer' ancestors ((name 'CLFramework-nullPointer.5' message 'fixed little error in menu editor' id '29e8a682-0b48-404f-80e5-fd91d53b832c' date '7 September 2009' time '11:33:53 pm' author 'nullPointer' ancestors ((name 'CLFramework-nullPointer.3' message 'Fixed little error in Menu editor' id 'ff914c11-13ab-4bbc-a03b-527b2fc056e0' date '7 September 2009' time '11:33:08 pm' author 'nullPointer' ancestors ((name 'CLFramework-nullPointer.1' message 'A set of classes and tools for build UIs from a visual designer.
+
+-Not is ended; is totally alpha sofware.Only for test and curiosity purposes, for the moment.
+-Set of widgets is limited,and dont work with the MorphicModel mechanism.
+-I believe than in the future the best option is implement my own set of widgets and not depend of Polymorph.
+-Bad persistency of morph generated through the GUI Builder.
+-Allow build views (forms), integrate external icons/images, and build too context menus.
+
+epicfan@gmail.com
+
+Regards
+
+
+' id 'b36c7616-f4ca-4fab-9fc5-de773876a0c1' date '6 September 2009' time '9:40:50 pm' author 'nullPointer' ancestors ((name 'CLFramework-nullPointer.4' message 'A set of classes and tools for build sample views. 
+
+-Totally in Alpha state.
+-Not is ended.
+-Not works for serious apps, for the moment.
+-Set of widgets limited.
+
+The app can be viewed in example Youtube videos  searching "Pharo Smalltalk UIBuilder"
+' id '8441339e-2ef2-4975-8ba2-84d064015e54' date '6 September 2009' time '9:09:17 pm' author 'nullPointer' ancestors ((name 'CLFramework-GerardAlis.3' message 'empty log message' id '3b38490b-2f0a-4e3e-9e8c-0c0d72212f8b' date '5 September 2009' time '11:15:03 am' author 'GerardAlis' ancestors ((name 'CLFramework-GerardAlis.2' message 'empty log message' id 'b86bcdac-f491-4f46-b81e-11a66b0c225b' date '5 September 2009' time '11:13:41 am' author 'GerardAlis' ancestors ((name 'CLFramework-GerardAlis.1' message 'empty log message' id '647b8f45-0f8c-43a2-811a-ec159b327fc3' date '5 September 2009' time '11:12:29 am' author 'GerardAlis' ancestors () stepChildren ())) stepChildren ())) stepChildren ())) stepChildren ())) stepChildren ())) stepChildren ())) stepChildren ())) stepChildren ())) stepChildren ())) stepChildren ())) stepChildren ())) stepChildren ())) stepChildren ())) stepChildren ())) stepChildren ())) stepChildren ())) stepChildren ())) stepChildren ())) stepChildren ())) stepChildren ())) stepChildren ())) stepChildren ())) stepChildren ())) stepChildren ())) stepChildren ())) stepChildren ())) stepChildren ())) stepChildren ())) stepChildren ())) stepChildren ())) stepChildren ())) stepChildren ())) stepChildren ())) stepChildren ())) stepChildren ())) stepChildren ())) stepChildren ())) stepChildren ())) stepChildren ())) stepChildren ())) stepChildren ())) stepChildren ())) stepChildren ())) stepChildren ())) stepChildren ())) stepChildren ())) stepChildren ())) stepChildren ())) stepChildren ())) stepChildren ())) stepChildren ())) stepChildren ())) stepChildren ())) stepChildren ())) stepChildren ())) stepChildren ())) stepChildren ())) stepChildren ())) stepChildren ())) stepChildren ())) stepChildren ())) stepChildren ())) stepChildren ())) stepChildren ())) stepChildren ())) stepChildren ())) stepChildren ())) stepChildren ())) stepChildren ())) stepChildren ())) stepChildren ())) stepChildren ())) stepChildren ())) stepChildren ())) stepChildren ())) stepChildren ())) stepChildren ())) stepChildren ())) stepChildren ())) stepChildren ())) stepChildren ())) stepChildren ())) stepChildren ())) stepChildren ())) stepChildren ())) stepChildren ())) stepChildren ())) stepChildren ())) stepChildren ())) stepChildren ())) stepChildren ())) stepChildren ())) stepChildren ())) stepChildren ())) stepChildren ())) stepChildren ())) stepChildren ())) stepChildren ())) stepChildren ())) stepChildren ())) stepChildren ())) stepChildren ())) stepChildren ())) stepChildren ())) stepChildren ())) stepChildren ())) stepChildren ())) stepChildren ())) stepChildren ())) stepChildren ())) stepChildren ())) stepChildren ())) stepChildren ())) stepChildren ())) stepChildren ())) stepChildren ())) stepChildren ())) stepChildren ())) stepChildren ())) stepChildren ())) stepChildren ())) stepChildren ())) stepChildren ())) stepChildren ())) stepChildren ())) stepChildren ())) stepChildren ())) stepChildren ())) stepChildren ())) stepChildren ())) stepChildren ())) stepChildren ())) stepChildren ())) stepChildren ())) stepChildren ())) stepChildren ())) stepChildren ())) stepChildren ())) stepChildren ())) stepChildren ())) stepChildren ())) stepChildren ())) stepChildren ())) stepChildren ())) stepChildren ())) stepChildren ())) stepChildren ())) stepChildren ())) stepChildren ())) stepChildren ())) stepChildren ())) stepChildren ())) stepChildren ())) stepChildren ())) stepChildren ())) stepChildren ())) stepChildren ())) stepChildren ())) stepChildren ())) stepChildren ())) stepChildren ())) stepChildren ())) stepChildren ())) stepChildren ())) stepChildren ())) stepChildren ())) stepChildren ())) stepChildren ())) stepChildren ())) stepChildren ())) stepChildren ())) stepChildren ())) stepChildren ())) stepChildren ())) stepChildren ())) stepChildren ())) stepChildren ())) stepChildren ())) stepChildren ())) stepChildren ())) stepChildren ())) stepChildren ())) stepChildren ())) stepChildren ())) stepChildren ())) stepChildren ())) stepChildren ())) stepChildren ())) stepChildren ())) stepChildren ())) stepChildren ())) stepChildren ())) stepChildren ())) stepChildren ())) stepChildren ())) stepChildren ())) stepChildren ())) stepChildren ())) stepChildren ())) stepChildren ())) stepChildren ())) stepChildren ())) stepChildren ())) stepChildren ())) stepChildren ())) stepChildren ())) stepChildren ())) stepChildren ())) stepChildren ())) stepChildren ())) stepChildren ())) stepChildren ())) stepChildren ())) stepChildren ())) stepChildren ())) stepChildren ())) stepChildren ())) stepChildren ())) stepChildren ())) stepChildren ())) stepChildren ())) stepChildren ())) stepChildren ())) stepChildren ())) stepChildren ())) stepChildren ())) stepChildren ())) stepChildren ())) stepChildren ())) stepChildren ())) stepChildren ())) stepChildren ())) stepChildren ())) stepChildren ())) stepChildren ())) stepChildren ())) stepChildren ())) stepChildren ())) stepChildren ())) stepChildren ())) stepChildren ())) stepChildren ())) stepChildren ())) stepChildren ())) stepChildren ())) stepChildren ())) stepChildren ())) stepChildren ())) stepChildren ())) stepChildren ())) stepChildren ())) stepChildren ())) stepChildren ())) stepChildren ())) stepChildren ())) stepChildren ())) stepChildren ())) stepChildren ())) stepChildren ())) stepChildren ())) stepChildren ())) stepChildren ())) stepChildren ())) stepChildren ())) stepChildren ())) stepChildren ())) stepChildren ())) stepChildren ())) stepChildren ())) stepChildren ())) stepChildren ())) stepChildren ())) stepChildren ())) stepChildren ())) stepChildren ())

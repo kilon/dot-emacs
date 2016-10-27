@@ -1,0 +1,1755 @@
+
+
+m*********************** 
+| Blender Updater 1.0 |
+***********************
+
+
+Hi, kilon! 
+
+
+Updating Blender source.... please wait :)
+------------------------------------------
+
+Current branch master is up to date.
+Entering 'release/datafiles/locale'
+Current branch master is up to date.
+Entering 'release/scripts/addons'
+Current branch master is up to date.
+Entering 'release/scripts/addons_contrib'
+Current branch master is up to date.
+Entering 'scons'
+Current branch master is up to date.
+
+
+Updating Blender dependencies ... please wait :)
+------------------------------------------------
+
+Updating '.':
+
+Fetching external item into 'release/site-packages':
+External at revision 61434.
+
+At revision 61434.
+
+
+Building Blender ... please wait :)
+-----------------------------------
+
+
+Configuring Blender ...
+# if test ! -f /Users/kilon/blender-build/build_darwin/CMakeCache.txt ; then \
+	# 	cmake  -H"/Users/kilon/blender-build/blender" -B"/Users/kilon/blender-build/build_darwin" -DCMAKE_BUILD_TYPE:STRING=Release; \
+	# fi
+# do this always incase of failed initial build, could be smarter here...
+cmake  -H"/Users/kilon/blender-build/blender" -B"/Users/kilon/blender-build/build_darwin" -DCMAKE_BUILD_TYPE:STRING=Release
+-- The C compiler identification is AppleClang 6.0.0.6000054
+-- The CXX compiler identification is AppleClang 6.0.0.6000054
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detected system-version: 10.10
+-- Xcode-bundle : /Applications/Xcode.app
+-- Detected Xcode-version: 6.1
+-- OSX_SYSROOT_PREFIX: /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform
+-- Performing Test SUPPORT_SSE_BUILD
+-- Performing Test SUPPORT_SSE_BUILD - Success
+-- SSE Support: detected.
+-- Performing Test SUPPORT_SSE2_BUILD
+-- Performing Test SUPPORT_SSE2_BUILD - Success
+-- SSE2 Support: detected.
+-- Performing Test HAVE_STDBOOL_H
+-- Performing Test HAVE_STDBOOL_H - Success
+-- Found OpenAL: /System/Library/Frameworks/OpenAL.framework  
+-- Found OpenGL: /System/Library/Frameworks/OpenGL.framework  
+-- Performing Test C_WARN_ALL
+-- Performing Test C_WARN_ALL - Success
+-- Performing Test C_WARN_ERROR_DECLARATION_AFTER_STATEMENT
+-- Performing Test C_WARN_ERROR_DECLARATION_AFTER_STATEMENT - Success
+-- Performing Test C_WARN_ERROR_IMPLICIT_FUNCTION_DECLARATION
+-- Performing Test C_WARN_ERROR_IMPLICIT_FUNCTION_DECLARATION - Success
+-- Performing Test C_WARN_ERROR_RETURN_TYPE
+-- Performing Test C_WARN_ERROR_RETURN_TYPE - Success
+-- Performing Test C_WARN_NO_AUTOLOGICAL_COMPARE
+-- Performing Test C_WARN_NO_AUTOLOGICAL_COMPARE - Success
+-- Performing Test C_WARN_NO_UNKNOWN_PRAGMAS
+-- Performing Test C_WARN_NO_UNKNOWN_PRAGMAS - Success
+-- Performing Test C_WARN_NO_CHAR_SUBSCRIPTS
+-- Performing Test C_WARN_NO_CHAR_SUBSCRIPTS - Success
+-- Performing Test C_WARN_STRICT_PROTOTYPES
+-- Performing Test C_WARN_STRICT_PROTOTYPES - Success
+-- Performing Test C_WARN_MISSING_PROTOTYPES
+-- Performing Test C_WARN_MISSING_PROTOTYPES - Success
+-- Performing Test C_WARN_UNUSED_PARAMETER
+-- Performing Test C_WARN_UNUSED_PARAMETER - Success
+-- Performing Test CXX_WARN_ALL
+-- Performing Test CXX_WARN_ALL - Success
+-- Performing Test CXX_WARN_NO_AUTOLOGICAL_COMPARE
+-- Performing Test CXX_WARN_NO_AUTOLOGICAL_COMPARE - Success
+-- Performing Test CXX_WARN_NO_UNKNOWN_PRAGMAS
+-- Performing Test CXX_WARN_NO_UNKNOWN_PRAGMAS - Success
+-- Performing Test CXX_WARN_NO_CHAR_SUBSCRIPTS
+-- Performing Test CXX_WARN_NO_CHAR_SUBSCRIPTS - Success
+-- Performing Test CXX_WARN_NO_OVERLOADED_VIRTUAL
+-- Performing Test CXX_WARN_NO_OVERLOADED_VIRTUAL - Success
+-- Performing Test CXX_WARN_NO_SIGN_COMPARE
+-- Performing Test CXX_WARN_NO_SIGN_COMPARE - Success
+-- Performing Test CXX_WARN_NO_INVALID_OFFSETOF
+-- Performing Test CXX_WARN_NO_INVALID_OFFSETOF - Success
+-- Performing Test C_WARN_NO_UNUSED_PARAMETER
+-- Performing Test C_WARN_NO_UNUSED_PARAMETER - Success
+-- Performing Test C_WARN_NO_UNUSED_MACROS
+-- Performing Test C_WARN_NO_UNUSED_MACROS - Success
+-- Performing Test C_WARN_NO_MISSING_VARIABLE_DECLARATIONS
+-- Performing Test C_WARN_NO_MISSING_VARIABLE_DECLARATIONS - Success
+-- Performing Test C_WARN_NO_INCOMPAT_PTR_DISCARD_QUAL
+-- Performing Test C_WARN_NO_INCOMPAT_PTR_DISCARD_QUAL - Success
+-- Performing Test C_WARN_NO_UNUSED_FUNCTION
+-- Performing Test C_WARN_NO_UNUSED_FUNCTION - Success
+-- Performing Test C_WARN_NO_INT_TO_VOID_POINTER_CAST
+-- Performing Test C_WARN_NO_INT_TO_VOID_POINTER_CAST - Success
+-- Performing Test C_WARN_NO_MISSING_PROTOTYPES
+-- Performing Test C_WARN_NO_MISSING_PROTOTYPES - Success
+-- Performing Test C_WARN_NO_DUPLICATE_ENUM
+-- Performing Test C_WARN_NO_DUPLICATE_ENUM - Success
+-- Performing Test C_WARN_NO_UNDEF
+-- Performing Test C_WARN_NO_UNDEF - Success
+-- Performing Test C_WARN_NO_MISSING_NORETURN
+-- Performing Test C_WARN_NO_MISSING_NORETURN - Success
+-- Performing Test CXX_WARN_NO_UNUSED_PRIVATE_FIELD
+-- Performing Test CXX_WARN_NO_UNUSED_PRIVATE_FIELD - Success
+-- Performing Test CXX_WARN_NO_CXX11_NARROWING
+-- Performing Test CXX_WARN_NO_CXX11_NARROWING - Success
+-- Performing Test CXX_WARN_NO_NON_VIRTUAL_DTOR
+-- Performing Test CXX_WARN_NO_NON_VIRTUAL_DTOR - Success
+-- Performing Test CXX_WARN_NO_UNUSED_MACROS
+-- Performing Test CXX_WARN_NO_UNUSED_MACROS - Success
+-- Performing Test CXX_WARN_NO_REORDER
+-- Performing Test CXX_WARN_NO_REORDER - Success
+-- Performing Test CXX_HAS_SSE
+-- Performing Test CXX_HAS_SSE - Success
+-- Looking for C++ include memory
+-- Looking for C++ include memory - found
+-- Performing Test HAVE_SHARED_PTR_IN_STD_NAMESPACE
+-- Performing Test HAVE_SHARED_PTR_IN_STD_NAMESPACE - Failed
+-- Performing Test HAVE_SHARED_PTR_IN_TR1_NAMESPACE
+-- Performing Test HAVE_SHARED_PTR_IN_TR1_NAMESPACE - Failed
+-- Looking for C++ include tr1/memory
+-- Looking for C++ include tr1/memory - found
+-- Performing Test HAVE_SHARED_PTR_IN_TR1_NAMESPACE_FROM_TR1_MEMORY_HEADER
+-- Performing Test HAVE_SHARED_PTR_IN_TR1_NAMESPACE_FROM_TR1_MEMORY_HEADER - Success
+-- Looking for C++ include unordered_map
+-- Looking for C++ include unordered_map - not found
+-- Looking for C++ include tr1/unordered_map
+-- Looking for C++ include tr1/unordered_map - found
+-- Found unordered_map/set in std::tr1 namespace.
+-- Blender Skipping: (bf_intern_ctr;bf_intern_opencl;bf_intern_utfconv;extern_redcode)
+-- Found Git: /usr/bin/git (found version "1.9.3 (Apple Git-50)") 
+-- -- Found Git: /usr/bin/git
+-- C Compiler:   "Clang"
+-- C++ Compiler: "Clang"
+-- HAVE_STDBOOL_H = 1
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /Users/kilon/blender-build/build_darwin
+
+Building Blender ...
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -C "/Users/kilon/blender-build/build_darwin" -s -j  install
+Scanning dependencies of target bf_intern_string
+[  0%] Scanning dependencies of target datatoc
+Building CXX object intern/string/CMakeFiles/bf_intern_string.dir/intern/STR_String.cpp.o
+[  0%] Building C object source/blender/datatoc/CMakeFiles/datatoc.dir/datatoc.c.o
+Scanning dependencies of target bf_intern_glew_mx
+Scanning dependencies of target bf_intern_raskter
+Linking C executable ../../../bin/datatoc
+[  0%] Building C object intern/glew-mx/CMakeFiles/bf_intern_glew_mx.dir/intern/glew-mx.c.o
+[  0%] Building C object intern/raskter/CMakeFiles/bf_intern_raskter.dir/raskter.c.o
+[  0%] Built target datatoc
+[  0%] Generating operations/COM_OpenCLKernels.cl.h
+Linking C static library ../../lib/libbf_intern_raskter.a
+Linking C static library ../../lib/libbf_intern_glew_mx.a
+Scanning dependencies of target msgfmt
+Scanning dependencies of target extractpyzip
+[  0%] Generating python
+Scanning dependencies of target extern_rangetree
+[  0%] Building CXX object intern/locale/CMakeFiles/msgfmt.dir/msgfmt.cc.o
+Linking CXX static library ../../lib/libbf_intern_string.a
+Scanning dependencies of target buildinfo
+Scanning dependencies of target extern_wcwidth
+[  0%] Generating /Users/kilon/blender-build/blender/source/creator/buildinfo.h
+[  0%] Building CXX object extern/rangetree/CMakeFiles/extern_rangetree.dir/range_tree_c_api.cc.o
+[  0%] Building C object extern/wcwidth/CMakeFiles/extern_wcwidth.dir/wcwidth.c.o
+Linking CXX static library ../../lib/libextern_rangetree.a
+Linking C static library ../../lib/libextern_wcwidth.a
+Linking CXX executable ../../bin/msgfmt
+Scanning dependencies of target extern_clew
+Scanning dependencies of target extern_cuew
+Scanning dependencies of target bf_intern_mikktspace
+Scanning dependencies of target ge_logic_loopbacknetwork
+[  0%] [  0%] Built target msgfmt
+Building C object extern/clew/CMakeFiles/extern_clew.dir/src/clew.c.o
+[  0%] [  0%] Scanning dependencies of target bf_intern_memutil
+[  0%] [  0%] Generating gpu_shader_display_transform.glsl.c
+Generating shaders/gpu_shader_vsm_store_vert.glsl.c
+Generating shaders/gpu_shader_material.glsl.c
+Generating shaders/gpu_shader_sep_gaussian_blur_frag.glsl.c
+[  1%] Generating shaders/gpu_shader_simple_frag.glsl.c
+[  1%] [  1%] [  1%] -- Found Git: /usr/bin/git (found version "1.9.3 (Apple Git-50)") 
+-- -- Found Git: /usr/bin/git
+Generating shaders/gpu_shader_simple_vert.glsl.c
+Building C object intern/mikktspace/CMakeFiles/bf_intern_mikktspace.dir/mikktspace.c.o
+Building C object extern/cuew/CMakeFiles/extern_cuew.dir/src/cuew.c.o
+[  1%] [  1%] Generating shaders/gpu_shader_vertex.glsl.c
+Generating shaders/gpu_shader_vsm_store_frag.glsl.c
+[  1%] Building CXX object source/gameengine/Network/LoopBackNetwork/CMakeFiles/ge_logic_loopbacknetwork.dir/NG_LoopBackNetworkDeviceInterface.cpp.o
+[  1%] Generating shaders/gpu_shader_sep_gaussian_blur_vert.glsl.c
+[  1%] Building CXX object intern/memutil/CMakeFiles/bf_intern_memutil.dir/intern/MEM_CacheLimiterC-Api.cpp.o
+Scanning dependencies of target locales
+Linking C static library ../../lib/libextern_clew.a
+Linking C static library ../../lib/libextern_cuew.a
+[  2%] [  2%] [  2%] Generating ar.mo
+Generating ar_raw.mo
+Generating ca.mo
+[  2%] Generating cs.mo
+[  2%] Generating de.mo
+[  2%] [  2%] Generating eo.mo
+[  2%] [  2%] Generating es.mo
+[  2%] Generating es_ES.mo
+Generating fa.mo
+[  2%] Scanning dependencies of target ge_phys_dummy
+Generating fa_raw.mo
+Generating fr.mo
+[  2%] Generating he.mo
+[  2%] [  2%] [  2%] Generating he_raw.mo
+Generating hi.mo
+Generating hr.mo
+[  2%] [  2%] Generating hu.mo
+[  2%] Generating id.mo
+Generating it.mo
+[  2%] Generating ja.mo
+[  2%] Generating ko.mo
+[  3%] [  3%] [  3%] [  3%] Generating nl.mo
+Generating pt_BR.mo
+[  3%] Generating pt.mo
+Generating ru.mo
+Generating sr.mo
+[  3%] [  3%] Generating sr@latin.mo
+[  3%] Generating sv.mo
+Generating tr.mo
+[  3%] Generating uk.mo
+[  3%] [  3%] Generating zh_CN.mo
+Generating zh_TW.mo
+[  3%] Building CXX object intern/memutil/CMakeFiles/bf_intern_memutil.dir/intern/MEM_RefCountedC-Api.cpp.o
+[  3%] Building CXX object source/gameengine/Physics/Dummy/CMakeFiles/ge_phys_dummy.dir/DummyPhysicsEnvironment.cpp.o
+[  3%] Built target bf_intern_raskter
+[  3%] Generating ky.mo
+[  3%] Built target bf_intern_glew_mx
+Scanning dependencies of target ge_logic_ngnetwork
+Linking CXX static library ../../lib/libbf_intern_memutil.a
+Scanning dependencies of target bf_dna_blenlib
+[  3%] [  3%] Linking C static library ../../lib/libbf_intern_mikktspace.a
+[  3%] Building CXX object source/gameengine/Network/CMakeFiles/ge_logic_ngnetwork.dir/NG_NetworkMessage.cpp.o
+Building CXX object source/gameengine/Network/CMakeFiles/ge_logic_ngnetwork.dir/NG_NetworkObject.cpp.o
+Building CXX object source/gameengine/Network/CMakeFiles/ge_logic_ngnetwork.dir/NG_NetworkScene.cpp.o
+Linking CXX static library ../../../../lib/libge_logic_loopbacknetwork.a
+[  3%] [  3%] Building C object source/blender/makesdna/intern/CMakeFiles/bf_dna_blenlib.dir/__/__/blenlib/intern/BLI_mempool.c.o
+[  3%] Linking CXX static library ../../../../lib/libge_phys_dummy.a
+Building C object source/blender/makesdna/intern/CMakeFiles/bf_dna_blenlib.dir/__/__/blenlib/intern/listbase.c.o
+Building C object source/blender/makesdna/intern/CMakeFiles/bf_dna_blenlib.dir/__/__/blenlib/intern/BLI_ghash.c.o
+[  3%] Built target extern_rangetree
+Linking C static library ../../../../lib/libbf_dna_blenlib.a
+Linking CXX static library ../../../lib/libge_logic_ngnetwork.a
+[  3%] Built target buildinfo
+Scanning dependencies of target extern_minilzo
+Scanning dependencies of target datatoc_icon
+Scanning dependencies of target bf_intern_guardedalloc
+Scanning dependencies of target bf_imbuf_openimageio
+[  3%] [  3%] Built target extern_clew
+Built target extern_wcwidth
+[  3%] [  3%] Built target bf_intern_string
+[  3%] Building CXX object source/blender/imbuf/intern/oiio/CMakeFiles/bf_imbuf_openimageio.dir/openimageio_api.cpp.o
+[  3%] [  3%] Building C object intern/guardedalloc/CMakeFiles/bf_intern_guardedalloc.dir/intern/mallocn.c.o
+Building C object intern/guardedalloc/CMakeFiles/bf_intern_guardedalloc.dir/intern/mallocn_guarded_impl.c.o
+Building C object intern/guardedalloc/CMakeFiles/bf_intern_guardedalloc.dir/intern/mallocn_lockfree_impl.c.o
+[  3%] [  3%] Building C object extern/lzo/CMakeFiles/extern_minilzo.dir/minilzo/minilzo.c.o
+Building C object source/blender/datatoc/CMakeFiles/datatoc_icon.dir/datatoc_icon.c.o
+Scanning dependencies of target extern_glew
+Scanning dependencies of target extern_colamd
+Scanning dependencies of target bf_editor_space_script
+[  3%] [  3%] [  3%] Linking C executable ../../../bin/datatoc_icon
+Building C object extern/glew/CMakeFiles/extern_glew.dir/src/glew.c.o
+Building C object extern/colamd/CMakeFiles/extern_colamd.dir/Source/colamd.c.o
+Building C object extern/colamd/CMakeFiles/extern_colamd.dir/Source/colamd_global.c.o
+Scanning dependencies of target bf_editor_space_userpref
+Scanning dependencies of target buildinfoobj
+[  3%] [  3%] [  3%] Scanning dependencies of target ge_scenegraph
+[  3%] [  3%] Building C object source/creator/CMakeFiles/buildinfoobj.dir/buildinfo.c.o
+[  3%] Building C object source/blender/editors/space_userpref/CMakeFiles/bf_editor_space_userpref.dir/space_userpref.c.o
+Building C object source/blender/editors/space_script/CMakeFiles/bf_editor_space_script.dir/script_ops.c.o
+Building C object source/blender/editors/space_userpref/CMakeFiles/bf_editor_space_userpref.dir/userpref_ops.c.o
+Building C object source/blender/editors/space_script/CMakeFiles/bf_editor_space_script.dir/script_edit.c.o
+Building C object source/blender/editors/space_script/CMakeFiles/bf_editor_space_script.dir/space_script.c.o
+Linking C static library ../../lib/libextern_minilzo.a
+[  3%] [  3%] [  3%] [  3%] Building CXX object source/gameengine/SceneGraph/CMakeFiles/ge_scenegraph.dir/SG_BBox.cpp.o
+[  3%] Building CXX object source/gameengine/SceneGraph/CMakeFiles/ge_scenegraph.dir/SG_Controller.cpp.o
+Building CXX object source/gameengine/SceneGraph/CMakeFiles/ge_scenegraph.dir/SG_IObject.cpp.o
+Building CXX object source/gameengine/SceneGraph/CMakeFiles/ge_scenegraph.dir/SG_Node.cpp.o
+[  3%] Building CXX object source/gameengine/SceneGraph/CMakeFiles/ge_scenegraph.dir/SG_Spatial.cpp.o
+Building CXX object source/gameengine/SceneGraph/CMakeFiles/ge_scenegraph.dir/SG_Tree.cpp.o
+[  3%] Built target buildinfoobj
+Linking C static library ../../../../lib/libbf_editor_space_userpref.a
+[  3%] Built target ge_logic_loopbacknetwork
+Linking C static library ../../lib/libbf_intern_guardedalloc.a
+Scanning dependencies of target bf_quicktime
+Linking C static library ../../../../lib/libbf_editor_space_script.a
+Scanning dependencies of target ge_logic_network
+[  3%] Built target ge_phys_dummy
+[  3%] [  3%] Building C object source/blender/quicktime/CMakeFiles/bf_quicktime.dir/apple/qtkit_import.m.o
+Building C object source/blender/quicktime/CMakeFiles/bf_quicktime.dir/apple/qtkit_export.m.o
+Linking C static library ../../lib/libextern_colamd.a
+[  3%] [  3%] [  3%] [  3%] [  3%] Building CXX object source/gameengine/Ketsji/KXNetwork/CMakeFiles/ge_logic_network.dir/KX_NetworkMessageActuator.cpp.o
+Building CXX object source/gameengine/Ketsji/KXNetwork/CMakeFiles/ge_logic_network.dir/KX_NetworkEventManager.cpp.o
+Building CXX object source/gameengine/Ketsji/KXNetwork/CMakeFiles/ge_logic_network.dir/KX_NetworkMessageSensor.cpp.o
+Building CXX object source/gameengine/Ketsji/KXNetwork/CMakeFiles/ge_logic_network.dir/KX_NetworkObjectSensor.cpp.o
+Building CXX object source/gameengine/Ketsji/KXNetwork/CMakeFiles/ge_logic_network.dir/KX_NetworkObjectActuator.cpp.o
+Scanning dependencies of target bf_editor_io
+Linking CXX static library ../../../../../lib/libbf_imbuf_openimageio.a
+Linking CXX static library ../../../lib/libge_scenegraph.a
+Scanning dependencies of target bf_editor_metaball
+[  3%] Built target bf_intern_memutil
+[  3%] [  3%] Building C object source/blender/editors/io/CMakeFiles/bf_editor_io.dir/io_collada.c.o
+Building C object source/blender/editors/io/CMakeFiles/bf_editor_io.dir/io_ops.c.o
+[  3%] Built target extern_cuew
+Scanning dependencies of target bf_editor_sound
+[  3%] [  3%] Building C object source/blender/editors/metaball/CMakeFiles/bf_editor_metaball.dir/mball_edit.c.o
+Building C object source/blender/editors/metaball/CMakeFiles/bf_editor_metaball.dir/mball_ops.c.o
+Linking CXX static library ../../../../lib/libge_logic_network.a
+[  3%] Building C object source/blender/editors/sound/CMakeFiles/bf_editor_sound.dir/sound_ops.c.o
+[  3%] Built target locales
+Linking C static library ../../../../lib/libbf_editor_io.a
+Linking C static library ../../../../lib/libbf_editor_metaball.a
+Linking C static library ../../../../lib/libbf_editor_sound.a
+Scanning dependencies of target bf_editor_space_api
+[  3%] Built target datatoc_icon
+[  3%] [  3%] [  3%] Generating ../../../../release/datafiles/bfont.pfb.c
+Generating ../../../../release/datafiles/startup.blend.c
+Generating ../../../../release/datafiles/bfont.ttf.c
+[  3%] Generating ../../../../release/datafiles/bmonofont.ttf.c
+[  3%] [  3%] Generating ../../../../release/datafiles/preview.blend.c
+Generating ../../../../release/datafiles/preview_cycles.blend.c
+[  3%] Generating ../../../../release/datafiles/splash.png.c
+[  3%] Generating ../../../../release/datafiles/splash_2x.png.c
+[  3%] Generating ../../../../release/datafiles/blender_icons16.png, ../../../../release/datafiles/blender_icons16.png.c
+[  3%] [  3%] Generating ../../../../release/datafiles/blender_icons32.png, ../../../../release/datafiles/blender_icons32.png.c
+[  3%] [  3%] Generating ../../../../release/datafiles/brushicons/add.png.c
+Generating ../../../../release/datafiles/brushicons/blob.png.c
+[  3%] Generating ../../../../release/datafiles/prvicons.png.c
+Generating ../../../../release/datafiles/brushicons/blur.png.c
+[  3%] [  3%] Generating ../../../../release/datafiles/brushicons/clay.png.c
+Generating ../../../../release/datafiles/brushicons/claystrips.png.c
+[  4%] [  4%] Building C object source/blender/editors/space_api/CMakeFiles/bf_editor_space_api.dir/spacetypes.c.o
+[  4%] Generating ../../../../release/datafiles/brushicons/crease.png.c
+[  4%] Generating ../../../../release/datafiles/brushicons/darken.png.c
+Generating ../../../../release/datafiles/brushicons/draw.png.c
+[  4%] Generating ../../../../release/datafiles/brushicons/fill.png.c
+[  4%] Generating ../../../../release/datafiles/brushicons/flatten.png.c
+[  4%] [  4%] [  4%] Generating ../../../../release/datafiles/brushicons/grab.png.c
+Generating ../../../../release/datafiles/brushicons/inflate.png.c
+Generating ../../../../release/datafiles/brushicons/layer.png.c
+[  4%] [  4%] Generating ../../../../release/datafiles/brushicons/lighten.png.c
+Generating ../../../../release/datafiles/brushicons/mask.png.c
+[  4%] [  4%] Generating ../../../../release/datafiles/brushicons/mix.png.c
+Generating ../../../../release/datafiles/brushicons/multiply.png.c
+[  4%] Generating ../../../../release/datafiles/brushicons/nudge.png.c
+[  4%] Generating ../../../../release/datafiles/brushicons/pinch.png.c
+[  4%] [  4%] Generating ../../../../release/datafiles/brushicons/scrape.png.c
+[  4%] Generating ../../../../release/datafiles/brushicons/smear.png.c
+[  4%] Generating ../../../../release/datafiles/brushicons/smooth.png.c
+Generating ../../../../release/datafiles/brushicons/snake_hook.png.c
+[  4%] [  4%] Generating ../../../../release/datafiles/brushicons/soften.png.c
+[  4%] Generating ../../../../release/datafiles/brushicons/subtract.png.c
+[  4%] Generating ../../../../release/datafiles/brushicons/texdraw.png.c
+Generating ../../../../release/datafiles/brushicons/texfill.png.c
+[  4%] [  4%] Generating ../../../../release/datafiles/brushicons/texmask.png.c
+Generating ../../../../release/datafiles/brushicons/thumb.png.c
+[  4%] [  4%] [  4%] Generating ../../../../release/datafiles/brushicons/vertexdraw.png.c
+Generating ../../../../release/datafiles/brushicons/twist.png.c
+Generating ../../../../release/datafiles/brushicons/clone.png.c
+[  5%] Scanning dependencies of target makesdna
+Scanning dependencies of target bf_editor_space_time
+Generating ../../../../release/datafiles/matcaps/mc01.jpg.c
+[  5%] Linking C static library ../../../../lib/libbf_editor_space_api.a
+Built target bf_dna_blenlib
+[  5%] [  5%] Built target ge_logic_ngnetwork
+[  5%] [  5%] Built target bf_intern_mikktspace
+Generating ../../../../release/datafiles/matcaps/mc02.jpg.c
+[  5%] [  5%] Generating ../../../../release/datafiles/matcaps/mc03.jpg.c
+Generating ../../../../release/datafiles/matcaps/mc04.jpg.c
+Generating ../../../../release/datafiles/matcaps/mc05.jpg.c
+[  5%] Generating ../../../../release/datafiles/matcaps/mc06.jpg.c
+[  5%] [  5%] Generating ../../../../release/datafiles/matcaps/mc07.jpg.c
+[  5%] [  5%] Generating ../../../../release/datafiles/matcaps/mc09.jpg.c
+Generating ../../../../release/datafiles/matcaps/mc08.jpg.c
+Generating ../../../../release/datafiles/matcaps/mc10.jpg.c
+[  5%] [  5%] Generating ../../../../release/datafiles/matcaps/mc11.jpg.c
+[  5%] [  5%] [  5%] Generating ../../../../release/datafiles/matcaps/mc12.jpg.c
+Generating ../../../../release/datafiles/matcaps/mc13.jpg.c
+Building C object source/blender/editors/space_time/CMakeFiles/bf_editor_space_time.dir/space_time.c.o
+Building C object source/blender/editors/space_time/CMakeFiles/bf_editor_space_time.dir/time_ops.c.o
+[  5%] Generating ../../../../release/datafiles/matcaps/mc14.jpg.c
+[  5%] Generating ../../../../release/datafiles/matcaps/mc15.jpg.c
+[  5%] [  5%] Generating ../../../../release/datafiles/matcaps/mc16.jpg.c
+Generating ../../../../release/datafiles/matcaps/mc17.jpg.c
+[  5%] Generating ../../../../release/datafiles/matcaps/mc18.jpg.c
+[  5%] [  5%] Generating ../../../../release/datafiles/matcaps/mc20.jpg.c
+[  5%] Generating ../../../../release/datafiles/matcaps/mc19.jpg.c
+Generating ../../../../release/datafiles/matcaps/mc21.jpg.c
+[  5%] [  5%] Generating ../../../../release/datafiles/matcaps/mc22.jpg.c
+Generating ../../../../release/datafiles/matcaps/mc23.jpg.c
+[  5%] Generating ../../../../release/datafiles/matcaps/mc24.jpg.c
+[  5%] [  5%] [  5%] [  5%] Building C object source/blender/makesdna/intern/CMakeFiles/makesdna.dir/makesdna.c.o
+Building C object source/blender/makesdna/intern/CMakeFiles/makesdna.dir/__/__/__/__/intern/guardedalloc/intern/mallocn.c.o
+Building C object source/blender/makesdna/intern/CMakeFiles/makesdna.dir/__/__/__/__/intern/guardedalloc/intern/mallocn_guarded_impl.c.o
+Building C object source/blender/makesdna/intern/CMakeFiles/makesdna.dir/__/__/__/__/intern/guardedalloc/intern/mallocn_lockfree_impl.c.o
+Linking C static library ../../../../lib/libbf_editor_space_time.a
+Linking C executable ../../../../bin/makesdna
+Scanning dependencies of target bf_intern_moto
+Scanning dependencies of target bf_imbuf_cineon
+[  5%] [  5%] [  5%] Built target makesdna
+[  5%] Building CXX object intern/moto/CMakeFiles/bf_intern_moto.dir/intern/MT_Assert.cpp.o
+Building CXX object intern/moto/CMakeFiles/bf_intern_moto.dir/intern/MT_CmMatrix4x4.cpp.o
+[  5%] [  5%] Building CXX object intern/moto/CMakeFiles/bf_intern_moto.dir/intern/MT_Matrix3x3.cpp.o
+[  5%] Building CXX object intern/moto/CMakeFiles/bf_intern_moto.dir/intern/MT_Matrix4x4.cpp.o
+Generating dna.c
+Building CXX object intern/moto/CMakeFiles/bf_intern_moto.dir/intern/MT_Plane3.cpp.o
+[  5%] Building CXX object intern/moto/CMakeFiles/bf_intern_moto.dir/intern/MT_Point3.cpp.o
+[  5%] [  5%] Building CXX object intern/moto/CMakeFiles/bf_intern_moto.dir/intern/MT_Quaternion.cpp.o
+[  5%] Building CXX object intern/moto/CMakeFiles/bf_intern_moto.dir/intern/MT_Transform.cpp.o
+Built target bf_editor_space_userpref
+[  5%] Building CXX object intern/moto/CMakeFiles/bf_intern_moto.dir/intern/MT_Vector2.cpp.o
+[  5%] Building CXX object intern/moto/CMakeFiles/bf_intern_moto.dir/intern/MT_Vector3.cpp.o
+[  5%] [  5%] Building CXX object intern/moto/CMakeFiles/bf_intern_moto.dir/intern/MT_Vector4.cpp.o
+Building CXX object intern/moto/CMakeFiles/bf_intern_moto.dir/intern/MT_random.cpp.o
+[  5%] [  6%] [  6%] Building C object source/blender/imbuf/intern/cineon/CMakeFiles/bf_imbuf_cineon.dir/cineon_dpx.c.o
+[  6%] Building C object source/blender/imbuf/intern/cineon/CMakeFiles/bf_imbuf_cineon.dir/dpxlib.c.o
+Building C object source/blender/imbuf/intern/cineon/CMakeFiles/bf_imbuf_cineon.dir/logImageCore.c.o
+Building C object source/blender/imbuf/intern/cineon/CMakeFiles/bf_imbuf_cineon.dir/logmemfile.c.o
+[  6%] Built target extern_colamd
+Scanning dependencies of target bf_editor_space_console
+[  6%] Building C object source/blender/imbuf/intern/cineon/CMakeFiles/bf_imbuf_cineon.dir/cineonlib.c.o
+[  6%] Built target extern_minilzo
+[  6%] Built target bf_intern_guardedalloc
+[  6%] [  6%] [  6%] Building C object source/blender/editors/space_console/CMakeFiles/bf_editor_space_console.dir/console_draw.c.o
+Building C object source/blender/editors/space_console/CMakeFiles/bf_editor_space_console.dir/console_ops.c.o
+Building C object source/blender/editors/space_console/CMakeFiles/bf_editor_space_console.dir/space_console.c.o
+[  6%] Built target bf_editor_space_script
+Scanning dependencies of target bf_editor_space_buttons
+[  6%] [  6%] Built target bf_editor_metaball
+Linking C static library ../../../../../lib/libbf_imbuf_cineon.a
+Built target bf_editor_io
+Linking C static library ../../../../lib/libbf_editor_space_console.a
+[  6%] [  6%] [  6%] [  6%] Building C object source/blender/editors/space_buttons/CMakeFiles/bf_editor_space_buttons.dir/buttons_ops.c.o
+Building C object source/blender/editors/space_buttons/CMakeFiles/bf_editor_space_buttons.dir/buttons_texture.c.o
+Building C object source/blender/editors/space_buttons/CMakeFiles/bf_editor_space_buttons.dir/space_buttons.c.o
+Building C object source/blender/editors/space_buttons/CMakeFiles/bf_editor_space_buttons.dir/buttons_context.c.o
+Linking CXX static library ../../lib/libbf_intern_moto.a
+Linking C static library ../../../../lib/libbf_editor_space_buttons.a
+Scanning dependencies of target extern_lzma
+[  6%] Built target bf_imbuf_openimageio
+[  6%] [  6%] [  6%] Building C object extern/lzma/CMakeFiles/extern_lzma.dir/LzFind.c.o
+[  6%] Building C object extern/lzma/CMakeFiles/extern_lzma.dir/Alloc.c.o
+[  6%] Built target bf_editor_sound
+[  6%] Building C object extern/lzma/CMakeFiles/extern_lzma.dir/LzmaEnc.c.o
+Building C object extern/lzma/CMakeFiles/extern_lzma.dir/LzmaDec.c.o
+Building C object extern/lzma/CMakeFiles/extern_lzma.dir/LzmaLib.c.o
+Scanning dependencies of target bf_intern_iksolver
+[  6%] Built target bf_editor_space_api
+Running makesdna at debug level 0
+Writing file ... done.
+[  6%] [  6%] [  6%] [  6%] [  6%] Building CXX object intern/iksolver/CMakeFiles/bf_intern_iksolver.dir/intern/IK_QJacobian.cpp.o
+Building CXX object intern/iksolver/CMakeFiles/bf_intern_iksolver.dir/intern/IK_QJacobianSolver.cpp.o
+Building CXX object intern/iksolver/CMakeFiles/bf_intern_iksolver.dir/intern/IK_QSegment.cpp.o
+Building CXX object intern/iksolver/CMakeFiles/bf_intern_iksolver.dir/intern/IK_QTask.cpp.o
+Building CXX object intern/iksolver/CMakeFiles/bf_intern_iksolver.dir/intern/IK_Solver.cpp.o
+[  6%] Building CXX object intern/iksolver/CMakeFiles/bf_intern_iksolver.dir/intern/MT_ExpMap.cpp.o
+Scanning dependencies of target bf_imbuf_dds
+Linking C static library ../../lib/libextern_lzma.a
+[  6%] [  6%] [  6%] [  6%] Building CXX object source/blender/imbuf/intern/dds/CMakeFiles/bf_imbuf_dds.dir/BlockDXT.cpp.o
+Building CXX object source/blender/imbuf/intern/dds/CMakeFiles/bf_imbuf_dds.dir/ColorBlock.cpp.o
+Building CXX object source/blender/imbuf/intern/dds/CMakeFiles/bf_imbuf_dds.dir/DirectDrawSurface.cpp.o
+[  6%] Building CXX object source/blender/imbuf/intern/dds/CMakeFiles/bf_imbuf_dds.dir/FlipDXT.cpp.o
+Building CXX object source/blender/imbuf/intern/dds/CMakeFiles/bf_imbuf_dds.dir/Image.cpp.o
+[  6%] [  6%] [  6%] Building CXX object source/blender/imbuf/intern/dds/CMakeFiles/bf_imbuf_dds.dir/Stream.cpp.o
+Built target ge_scenegraph
+Building CXX object source/blender/imbuf/intern/dds/CMakeFiles/bf_imbuf_dds.dir/dds_api.cpp.o
+Scanning dependencies of target bf_blenfont
+[  6%] [  6%] [  6%] [  6%] Building C object source/blender/blenfont/CMakeFiles/bf_blenfont.dir/intern/blf_dir.c.o
+Building C object source/blender/blenfont/CMakeFiles/bf_blenfont.dir/intern/blf_font.c.o
+Building C object source/blender/blenfont/CMakeFiles/bf_blenfont.dir/intern/blf.c.o
+Building C object source/blender/blenfont/CMakeFiles/bf_blenfont.dir/intern/blf_glyph.c.o
+[  6%] Building C object source/blender/blenfont/CMakeFiles/bf_blenfont.dir/intern/blf_lang.c.o
+[  6%] [  6%] Building C object source/blender/blenfont/CMakeFiles/bf_blenfont.dir/intern/blf_translation.c.o
+Building C object source/blender/blenfont/CMakeFiles/bf_blenfont.dir/intern/blf_util.c.o
+[  6%] Built target bf_editor_space_time
+Scanning dependencies of target bf_editor_gpencil
+Scanning dependencies of target bf_editor_curve
+Scanning dependencies of target bf_editor_screen
+Scanning dependencies of target bf_editor_space_action
+Scanning dependencies of target bf_editor_space_info
+Linking CXX static library ../../lib/libbf_intern_iksolver.a
+Linking CXX static library ../../../../../lib/libbf_imbuf_dds.a
+[  6%] Built target ge_logic_network
+[  6%] [  6%] [  6%] [  6%] [  6%] Building C object source/blender/editors/gpencil/CMakeFiles/bf_editor_gpencil.dir/drawgpencil.c.o
+Building C object source/blender/editors/curve/CMakeFiles/bf_editor_curve.dir/curve_ops.c.o
+[  6%] [  6%] Building C object source/blender/editors/curve/CMakeFiles/bf_editor_curve.dir/editcurve.c.o
+Building C object source/blender/editors/gpencil/CMakeFiles/bf_editor_gpencil.dir/editaction_gpencil.c.o
+Building C object source/blender/editors/curve/CMakeFiles/bf_editor_curve.dir/editcurve_add.c.o
+Building C object source/blender/editors/curve/CMakeFiles/bf_editor_curve.dir/editfont.c.o
+[  6%] Building C object source/blender/editors/gpencil/CMakeFiles/bf_editor_gpencil.dir/gpencil_buttons.c.o
+[  6%] Building C object source/blender/editors/gpencil/CMakeFiles/bf_editor_gpencil.dir/gpencil_edit.c.o
+[  6%] Building C object source/blender/editors/curve/CMakeFiles/bf_editor_curve.dir/lorem.c.o
+Building C object source/blender/editors/gpencil/CMakeFiles/bf_editor_gpencil.dir/gpencil_ops.c.o
+[  6%] [  6%] Building C object source/blender/editors/gpencil/CMakeFiles/bf_editor_gpencil.dir/gpencil_paint.c.o
+Building C object source/blender/editors/gpencil/CMakeFiles/bf_editor_gpencil.dir/gpencil_undo.c.o
+Scanning dependencies of target bf_editor_space_logic
+[  6%] [  6%] Building C object source/blender/editors/screen/CMakeFiles/bf_editor_screen.dir/area.c.o
+[  6%] [  6%] Building C object source/blender/editors/screen/CMakeFiles/bf_editor_screen.dir/glutil.c.o
+Building C object source/blender/editors/screen/CMakeFiles/bf_editor_screen.dir/screen_context.c.o
+Building C object source/blender/editors/screen/CMakeFiles/bf_editor_screen.dir/screen_edit.c.o
+[  6%] Building C object source/blender/editors/screen/CMakeFiles/bf_editor_screen.dir/screen_ops.c.o
+[  6%] Building C object source/blender/editors/screen/CMakeFiles/bf_editor_screen.dir/screendump.c.o
+[  6%] [  6%] [  6%] [  6%] [  6%] [  6%] Building C object source/blender/editors/space_action/CMakeFiles/bf_editor_space_action.dir/action_draw.c.o
+Building C object source/blender/editors/space_info/CMakeFiles/bf_editor_space_info.dir/info_ops.c.o
+Building C object source/blender/editors/space_action/CMakeFiles/bf_editor_space_action.dir/action_edit.c.o
+[  6%] Building C object source/blender/editors/space_info/CMakeFiles/bf_editor_space_info.dir/info_stats.c.o
+[  6%] Building C object source/blender/editors/space_action/CMakeFiles/bf_editor_space_action.dir/action_ops.c.o
+Building C object source/blender/editors/space_info/CMakeFiles/bf_editor_space_info.dir/info_draw.c.o
+Building C object source/blender/editors/space_action/CMakeFiles/bf_editor_space_action.dir/action_select.c.o
+Building C object source/blender/editors/space_info/CMakeFiles/bf_editor_space_info.dir/info_report.c.o
+[  6%] [  6%] [  6%] Building C object source/blender/editors/space_info/CMakeFiles/bf_editor_space_info.dir/textview.c.o
+Building C object source/blender/editors/space_action/CMakeFiles/bf_editor_space_action.dir/space_action.c.o
+Building C object source/blender/editors/space_info/CMakeFiles/bf_editor_space_info.dir/space_info.c.o
+[  6%] [  6%] [  6%] [  6%] Building C object source/blender/editors/space_logic/CMakeFiles/bf_editor_space_logic.dir/logic_buttons.c.o
+Building C object source/blender/editors/space_logic/CMakeFiles/bf_editor_space_logic.dir/logic_ops.c.o
+Building C object source/blender/editors/space_logic/CMakeFiles/bf_editor_space_logic.dir/logic_window.c.o
+Building C object source/blender/editors/space_logic/CMakeFiles/bf_editor_space_logic.dir/space_logic.c.o
+Scanning dependencies of target bf_dna
+Scanning dependencies of target bf_python_ext
+[  6%] [  6%] Building C object source/blender/makesdna/intern/CMakeFiles/bf_dna.dir/dna_genfile.c.o
+Building C object source/blender/makesdna/intern/CMakeFiles/bf_dna.dir/dna.c.o
+Linking C static library ../../../../lib/libbf_editor_space_info.a
+[  6%] Built target bf_intern_moto
+[  6%] Built target bf_editor_space_buttons
+[  6%] [  6%] [  6%] [  6%] Building C object source/blender/python/generic/CMakeFiles/bf_python_ext.dir/bgl.c.o
+[  6%] Building C object source/blender/python/generic/CMakeFiles/bf_python_ext.dir/blf_py_api.c.o
+Building C object source/blender/python/generic/CMakeFiles/bf_python_ext.dir/bpy_threads.c.o
+[  6%] Building C object source/blender/python/generic/CMakeFiles/bf_python_ext.dir/bpy_internal_import.c.o
+Building C object source/blender/python/generic/CMakeFiles/bf_python_ext.dir/py_capi_utils.c.o
+Linking C static library ../../../../lib/libbf_editor_space_action.a
+Building C object source/blender/python/generic/CMakeFiles/bf_python_ext.dir/idprop_py_api.c.o
+Scanning dependencies of target bf_avi
+[  6%] Built target bf_imbuf_cineon
+Scanning dependencies of target bf_editor_space_nla
+Linking C static library ../../../../lib/libbf_dna.a
+[  6%] Linking C static library ../../../../lib/libbf_editor_space_logic.a
+[  6%] [  6%] Building C object source/blender/avi/CMakeFiles/bf_avi.dir/intern/avi_rgb.c.o
+[  6%] Linking C static library ../../../../lib/libbf_editor_gpencil.a
+Building C object source/blender/avi/CMakeFiles/bf_avi.dir/intern/avi.c.o
+[  6%] Building C object source/blender/avi/CMakeFiles/bf_avi.dir/intern/avi_codecs.c.o
+Building C object source/blender/avi/CMakeFiles/bf_avi.dir/intern/avi_endian.c.o
+[  6%] Building C object source/blender/avi/CMakeFiles/bf_avi.dir/intern/avi_mjpeg.c.o
+Building C object source/blender/avi/CMakeFiles/bf_avi.dir/intern/avi_options.c.o
+[  6%] Building C object source/blender/avi/CMakeFiles/bf_avi.dir/intern/avi_rgb32.c.o
+[  6%] Built target bf_editor_space_console
+Linking C static library ../../../../lib/libbf_editor_screen.a
+[  6%] [  6%] [  6%] [  6%] Building C object source/blender/editors/space_nla/CMakeFiles/bf_editor_space_nla.dir/nla_buttons.c.o
+Building C object source/blender/editors/space_nla/CMakeFiles/bf_editor_space_nla.dir/nla_channels.c.o
+Building C object source/blender/editors/space_nla/CMakeFiles/bf_editor_space_nla.dir/nla_draw.c.o
+[  6%] Building C object source/blender/editors/space_nla/CMakeFiles/bf_editor_space_nla.dir/nla_edit.c.o
+Building C object source/blender/editors/space_nla/CMakeFiles/bf_editor_space_nla.dir/nla_ops.c.o
+[  6%] [  6%] Building C object source/blender/editors/space_nla/CMakeFiles/bf_editor_space_nla.dir/nla_select.c.o
+Building C object source/blender/editors/space_nla/CMakeFiles/bf_editor_space_nla.dir/space_nla.c.o
+Linking C static library ../../../lib/libbf_avi.a
+Scanning dependencies of target ge_oglrasterizer
+Scanning dependencies of target bf_editor_space_image
+Linking C static library ../../../../lib/libbf_editor_curve.a
+Linking C static library ../../../../lib/libbf_python_ext.a
+[  6%] [  6%] [  6%] Building CXX object source/gameengine/Rasterizer/RAS_OpenGLRasterizer/CMakeFiles/ge_oglrasterizer.dir/RAS_ListRasterizer.cpp.o
+[  6%] Building CXX object source/gameengine/Rasterizer/RAS_OpenGLRasterizer/CMakeFiles/ge_oglrasterizer.dir/RAS_GLExtensionManager.cpp.o
+[  6%] Building CXX object source/gameengine/Rasterizer/RAS_OpenGLRasterizer/CMakeFiles/ge_oglrasterizer.dir/RAS_OpenGLLight.cpp.o
+Building CXX object source/gameengine/Rasterizer/RAS_OpenGLRasterizer/CMakeFiles/ge_oglrasterizer.dir/RAS_OpenGLRasterizer.cpp.o
+Building CXX object source/gameengine/Rasterizer/RAS_OpenGLRasterizer/CMakeFiles/ge_oglrasterizer.dir/RAS_StorageIM.cpp.o
+[  6%] [  6%] Building CXX object source/gameengine/Rasterizer/RAS_OpenGLRasterizer/CMakeFiles/ge_oglrasterizer.dir/RAS_StorageVA.cpp.o
+Building CXX object source/gameengine/Rasterizer/RAS_OpenGLRasterizer/CMakeFiles/ge_oglrasterizer.dir/RAS_StorageVBO.cpp.o
+[  6%] Building C object source/blender/editors/space_image/CMakeFiles/bf_editor_space_image.dir/image_buttons.c.o
+[  7%] [  7%] [  7%] Building C object source/blender/editors/space_image/CMakeFiles/bf_editor_space_image.dir/image_edit.c.o
+Building C object source/blender/editors/space_image/CMakeFiles/bf_editor_space_image.dir/image_ops.c.o
+Building C object source/blender/editors/space_image/CMakeFiles/bf_editor_space_image.dir/space_image.c.o
+Scanning dependencies of target bf_editor_render
+Scanning dependencies of target ge_rasterizer
+Scanning dependencies of target bf_editor_space_graph
+Linking C static library ../../../../lib/libbf_editor_space_nla.a
+[  7%] Building C object source/blender/editors/space_image/CMakeFiles/bf_editor_space_image.dir/image_draw.c.o
+[  7%] [  7%] [  7%] [  7%] Building C object source/blender/editors/render/CMakeFiles/bf_editor_render.dir/render_internal.c.o
+[  7%] Building C object source/blender/editors/render/CMakeFiles/bf_editor_render.dir/render_opengl.c.o
+Building C object source/blender/editors/render/CMakeFiles/bf_editor_render.dir/render_ops.c.o
+[  7%] Building C object source/blender/editors/render/CMakeFiles/bf_editor_render.dir/render_preview.c.o
+Building C object source/blender/editors/render/CMakeFiles/bf_editor_render.dir/render_shading.c.o
+Building C object source/blender/editors/render/CMakeFiles/bf_editor_render.dir/render_update.c.o
+[  7%] Building C object source/blender/editors/render/CMakeFiles/bf_editor_render.dir/render_view.c.o
+[  7%] [  7%] [  7%] [  7%] Building CXX object source/gameengine/Rasterizer/CMakeFiles/ge_rasterizer.dir/RAS_2DFilterManager.cpp.o
+Building CXX object source/gameengine/Rasterizer/CMakeFiles/ge_rasterizer.dir/RAS_BucketManager.cpp.o
+[  7%] Building CXX object source/gameengine/Rasterizer/CMakeFiles/ge_rasterizer.dir/RAS_FramingManager.cpp.o
+Building CXX object source/gameengine/Rasterizer/CMakeFiles/ge_rasterizer.dir/RAS_IPolygonMaterial.cpp.o
+Building CXX object source/gameengine/Rasterizer/CMakeFiles/ge_rasterizer.dir/RAS_MaterialBucket.cpp.o
+[  7%] Building CXX object source/gameengine/Rasterizer/CMakeFiles/ge_rasterizer.dir/RAS_MeshObject.cpp.o
+[  7%] [  7%] [  7%] Building C object source/blender/editors/space_graph/CMakeFiles/bf_editor_space_graph.dir/graph_buttons.c.o
+Building CXX object source/gameengine/Rasterizer/CMakeFiles/ge_rasterizer.dir/RAS_Polygon.cpp.o
+[  7%] [  7%] [  7%] Building C object source/blender/editors/space_graph/CMakeFiles/bf_editor_space_graph.dir/graph_draw.c.o
+Building CXX object source/gameengine/Rasterizer/CMakeFiles/ge_rasterizer.dir/RAS_TexVert.cpp.o
+[  7%] Building CXX object source/gameengine/Rasterizer/CMakeFiles/ge_rasterizer.dir/RAS_texmatrix.cpp.o
+Building C object source/blender/editors/space_graph/CMakeFiles/bf_editor_space_graph.dir/graph_edit.c.o
+[  7%] Building C object source/blender/editors/space_graph/CMakeFiles/bf_editor_space_graph.dir/graph_ops.c.o
+Building C object source/blender/editors/space_graph/CMakeFiles/bf_editor_space_graph.dir/graph_select.c.o
+[  7%] Building C object source/blender/editors/space_graph/CMakeFiles/bf_editor_space_graph.dir/graph_utils.c.o
+[  7%] Building C object source/blender/editors/space_graph/CMakeFiles/bf_editor_space_graph.dir/space_graph.c.o
+Scanning dependencies of target bf_editor_space_outliner
+[  7%] [  7%] [  7%] [  7%] [  7%] Building C object source/blender/editors/space_outliner/CMakeFiles/bf_editor_space_outliner.dir/outliner_draw.c.o
+Building C object source/blender/editors/space_outliner/CMakeFiles/bf_editor_space_outliner.dir/outliner_edit.c.o
+[  7%] Building C object source/blender/editors/space_outliner/CMakeFiles/bf_editor_space_outliner.dir/outliner_ops.c.o
+Building C object source/blender/editors/space_outliner/CMakeFiles/bf_editor_space_outliner.dir/outliner_select.c.o
+Building C object source/blender/editors/space_outliner/CMakeFiles/bf_editor_space_outliner.dir/outliner_tools.c.o
+Building C object source/blender/editors/space_outliner/CMakeFiles/bf_editor_space_outliner.dir/outliner_tree.c.o
+[  7%] Building C object source/blender/editors/space_outliner/CMakeFiles/bf_editor_space_outliner.dir/space_outliner.c.o
+Scanning dependencies of target bf_editor_space_text
+Scanning dependencies of target bf_editor_util
+Scanning dependencies of target bf_editor_space_file
+[  8%] [  8%] [  8%] [  8%] [  8%] [  8%] [  8%] [  8%] [  8%] [  8%] [  8%] [  8%] [  8%] [  8%] [  8%] [  8%] [  8%] Scanning dependencies of target bf_intern_opencolorio
+[  8%] [  8%] [  8%] Building C object source/blender/editors/space_text/CMakeFiles/bf_editor_space_text.dir/text_ops.c.o
+Building C object source/blender/editors/space_file/CMakeFiles/bf_editor_space_file.dir/fsmenu.c.o
+Building C object source/blender/editors/util/CMakeFiles/bf_editor_util.dir/undo.c.o
+Building C object source/blender/editors/util/CMakeFiles/bf_editor_util.dir/numinput.c.o
+Building C object source/blender/editors/space_text/CMakeFiles/bf_editor_space_text.dir/text_header.c.o
+Building C object source/blender/editors/space_file/CMakeFiles/bf_editor_space_file.dir/space_file.c.o
+Linking C static library ../../../lib/libbf_quicktime.a
+Building C object source/blender/editors/util/CMakeFiles/bf_editor_util.dir/editmode_undo.c.o
+Building C object source/blender/editors/space_text/CMakeFiles/bf_editor_space_text.dir/text_format_py.c.o
+[  8%] Building C object source/blender/editors/space_file/CMakeFiles/bf_editor_space_file.dir/filesel.c.o
+[  8%] Building C object source/blender/editors/space_file/CMakeFiles/bf_editor_space_file.dir/filelist.c.o
+Building C object source/blender/editors/util/CMakeFiles/bf_editor_util.dir/ed_transverts.c.o
+Built target bf_editor_space_info
+Building C object source/blender/editors/space_text/CMakeFiles/bf_editor_space_text.dir/text_format_lua.c.o
+Built target extern_lzma
+[  8%] Building C object source/blender/editors/space_file/CMakeFiles/bf_editor_space_file.dir/file_ops.c.o
+Building C object source/blender/editors/space_text/CMakeFiles/bf_editor_space_text.dir/text_format.c.o
+Building C object source/blender/editors/space_text/CMakeFiles/bf_editor_space_text.dir/text_draw.c.o
+Building C object source/blender/editors/space_file/CMakeFiles/bf_editor_space_file.dir/file_draw.c.o
+Building C object source/blender/editors/space_text/CMakeFiles/bf_editor_space_text.dir/text_autocomplete.c.o
+Building C object source/blender/editors/util/CMakeFiles/bf_editor_util.dir/ed_util.c.o
+Building C object source/blender/editors/space_text/CMakeFiles/bf_editor_space_text.dir/space_text.c.o
+Building C object source/blender/editors/space_text/CMakeFiles/bf_editor_space_text.dir/text_format_osl.c.o
+Building C object source/blender/editors/space_file/CMakeFiles/bf_editor_space_file.dir/file_panels.c.o
+Scanning dependencies of target bf_editor_mask
+[  8%] [  8%] [  8%] [  8%] [  8%] Building CXX object intern/opencolorio/CMakeFiles/bf_intern_opencolorio.dir/ocio_capi.cc.o
+Building CXX object intern/opencolorio/CMakeFiles/bf_intern_opencolorio.dir/fallback_impl.cc.o
+Building CXX object intern/opencolorio/CMakeFiles/bf_intern_opencolorio.dir/ocio_impl_glsl.cc.o
+Building CXX object intern/opencolorio/CMakeFiles/bf_intern_opencolorio.dir/ocio_impl.cc.o
+Building C object intern/opencolorio/CMakeFiles/bf_intern_opencolorio.dir/gpu_shader_display_transform.glsl.c.o
+[  8%] [  8%] Built target bf_imbuf_dds
+[  8%] [  8%] [  8%] Building C object source/blender/editors/mask/CMakeFiles/bf_editor_mask.dir/mask_add.c.o
+Building C object source/blender/editors/mask/CMakeFiles/bf_editor_mask.dir/mask_draw.c.o
+Building C object source/blender/editors/mask/CMakeFiles/bf_editor_mask.dir/mask_edit.c.o
+[  8%] Building C object source/blender/editors/mask/CMakeFiles/bf_editor_mask.dir/mask_editaction.c.o
+Building C object source/blender/editors/mask/CMakeFiles/bf_editor_mask.dir/mask_ops.c.o
+[  8%] [  8%] Building C object source/blender/editors/mask/CMakeFiles/bf_editor_mask.dir/mask_relationships.c.o
+Building C object source/blender/editors/mask/CMakeFiles/bf_editor_mask.dir/mask_select.c.o
+[  8%] Building C object source/blender/editors/mask/CMakeFiles/bf_editor_mask.dir/mask_shapekey.c.o
+Scanning dependencies of target bf_python_mathutils
+Linking C static library ../../../../lib/libbf_editor_render.a
+Linking C static library ../../../../lib/libbf_editor_space_image.a
+Linking C static library ../../../../lib/libbf_editor_space_graph.a
+[  8%] [  8%] [  8%] [  8%] Building C object source/blender/python/mathutils/CMakeFiles/bf_python_mathutils.dir/mathutils.c.o
+[  8%] Building C object source/blender/python/mathutils/CMakeFiles/bf_python_mathutils.dir/mathutils_Color.c.o
+Building C object source/blender/python/mathutils/CMakeFiles/bf_python_mathutils.dir/mathutils_Matrix.c.o
+[  8%] Building C object source/blender/python/mathutils/CMakeFiles/bf_python_mathutils.dir/mathutils_Euler.c.o
+Building C object source/blender/python/mathutils/CMakeFiles/bf_python_mathutils.dir/mathutils_Quaternion.c.o
+Building C object source/blender/python/mathutils/CMakeFiles/bf_python_mathutils.dir/mathutils_Vector.c.o
+[  9%] [  9%] Building C object source/blender/python/mathutils/CMakeFiles/bf_python_mathutils.dir/mathutils_kdtree.c.o
+Building C object source/blender/python/mathutils/CMakeFiles/bf_python_mathutils.dir/mathutils_noise.c.o
+[  9%] Building C object source/blender/python/mathutils/CMakeFiles/bf_python_mathutils.dir/mathutils_geometry.c.o
+[  9%] Built target bf_editor_space_action
+Linking C static library ../../../../lib/libbf_editor_space_outliner.a
+Linking C static library ../../../lib/libbf_blenfont.a
+Linking C static library ../../../../lib/libbf_editor_util.a
+[  9%] Built target bf_dna
+Linking CXX static library ../../../../lib/libge_oglrasterizer.a
+Scanning dependencies of target bf_gpu
+[  9%] Built target bf_editor_space_logic
+Linking CXX static library ../../../lib/libge_rasterizer.a
+Linking C static library ../../../../lib/libbf_editor_mask.a
+[  9%] [  9%] [  9%] Building C object source/blender/gpu/CMakeFiles/bf_gpu.dir/intern/gpu_buffers.c.o
+[  9%] Building C object source/blender/gpu/CMakeFiles/bf_gpu.dir/intern/gpu_codegen.c.o
+[  9%] Building C object source/blender/gpu/CMakeFiles/bf_gpu.dir/intern/gpu_draw.c.o
+Building C object source/blender/gpu/CMakeFiles/bf_gpu.dir/intern/gpu_extensions.c.o
+Building C object source/blender/gpu/CMakeFiles/bf_gpu.dir/intern/gpu_init_exit.c.o
+Linking C static library ../../../../lib/libbf_editor_space_file.a
+[  9%] [  9%] Building C object source/blender/gpu/CMakeFiles/bf_gpu.dir/intern/gpu_material.c.o
+[  9%] Building C object source/blender/gpu/CMakeFiles/bf_gpu.dir/intern/gpu_simple_shader.c.o
+Building C object source/blender/gpu/CMakeFiles/bf_gpu.dir/intern/gpu_select.c.o
+[  9%] [  9%] Building C object source/blender/gpu/CMakeFiles/bf_gpu.dir/shaders/gpu_shader_material.glsl.c.o
+[  9%] Built target bf_avi
+[  9%] Building C object source/blender/gpu/CMakeFiles/bf_gpu.dir/shaders/gpu_shader_sep_gaussian_blur_vert.glsl.c.o
+Building C object source/blender/gpu/CMakeFiles/bf_gpu.dir/shaders/gpu_shader_sep_gaussian_blur_frag.glsl.c.o
+[  9%] Building C object source/blender/gpu/CMakeFiles/bf_gpu.dir/shaders/gpu_shader_simple_frag.glsl.c.o
+[  9%] [  9%] Building C object source/blender/gpu/CMakeFiles/bf_gpu.dir/shaders/gpu_shader_simple_vert.glsl.c.o
+Building C object source/blender/gpu/CMakeFiles/bf_gpu.dir/shaders/gpu_shader_vertex.glsl.c.o
+[  9%] Building C object source/blender/gpu/CMakeFiles/bf_gpu.dir/shaders/gpu_shader_vsm_store_frag.glsl.c.o
+[  9%] Building C object source/blender/gpu/CMakeFiles/bf_gpu.dir/shaders/gpu_shader_vsm_store_vert.glsl.c.o
+Linking CXX static library ../../lib/libbf_intern_opencolorio.a
+Linking C static library ../../../../lib/libbf_editor_space_text.a
+Linking C static library ../../../../lib/libbf_python_mathutils.a
+[  9%] Built target bf_intern_iksolver
+Scanning dependencies of target bf_editor_physics
+Scanning dependencies of target bf_editor_uvedit
+Scanning dependencies of target bf_editor_space_sequencer
+[  9%] [  9%] [  9%] [  9%] [  9%] Building C object source/blender/editors/physics/CMakeFiles/bf_editor_physics.dir/dynamicpaint_ops.c.o
+[  9%] [  9%] Building C object source/blender/editors/physics/CMakeFiles/bf_editor_physics.dir/particle_boids.c.o
+Building C object source/blender/editors/uvedit/CMakeFiles/bf_editor_uvedit.dir/uvedit_buttons.c.o
+Building C object source/blender/editors/physics/CMakeFiles/bf_editor_physics.dir/particle_edit.c.o
+Building C object source/blender/editors/uvedit/CMakeFiles/bf_editor_uvedit.dir/uvedit_draw.c.o
+Building C object source/blender/editors/physics/CMakeFiles/bf_editor_physics.dir/particle_object.c.o
+Building C object source/blender/editors/uvedit/CMakeFiles/bf_editor_uvedit.dir/uvedit_ops.c.o
+[  9%] [  9%] Building C object source/blender/editors/physics/CMakeFiles/bf_editor_physics.dir/physics_fluid.c.o
+Building C object source/blender/editors/uvedit/CMakeFiles/bf_editor_uvedit.dir/uvedit_parametrizer.c.o
+[  9%] [  9%] [  9%] Building C object source/blender/editors/physics/CMakeFiles/bf_editor_physics.dir/physics_ops.c.o
+Scanning dependencies of target ge_logic_expressions
+Scanning dependencies of target bf_python_bmesh
+[  9%] Building C object source/blender/editors/uvedit/CMakeFiles/bf_editor_uvedit.dir/uvedit_smart_stitch.c.o
+Building C object source/blender/editors/uvedit/CMakeFiles/bf_editor_uvedit.dir/uvedit_unwrap_ops.c.o
+[  9%] Building C object source/blender/editors/physics/CMakeFiles/bf_editor_physics.dir/physics_pointcache.c.o
+Building C object source/blender/editors/physics/CMakeFiles/bf_editor_physics.dir/rigidbody_constraint.c.o
+[  9%] [  9%] Building C object source/blender/editors/physics/CMakeFiles/bf_editor_physics.dir/rigidbody_object.c.o
+Building C object source/blender/editors/physics/CMakeFiles/bf_editor_physics.dir/rigidbody_world.c.o
+[  9%] [  9%] [  9%] [  9%] Building C object source/blender/editors/space_sequencer/CMakeFiles/bf_editor_space_sequencer.dir/sequencer_add.c.o
+[  9%] Building C object source/blender/editors/space_sequencer/CMakeFiles/bf_editor_space_sequencer.dir/sequencer_buttons.c.o
+[  9%] Building C object source/blender/editors/space_sequencer/CMakeFiles/bf_editor_space_sequencer.dir/sequencer_draw.c.o
+Building C object source/blender/editors/space_sequencer/CMakeFiles/bf_editor_space_sequencer.dir/sequencer_edit.c.o
+Building C object source/blender/editors/space_sequencer/CMakeFiles/bf_editor_space_sequencer.dir/sequencer_modifier.c.o
+Building C object source/blender/editors/space_sequencer/CMakeFiles/bf_editor_space_sequencer.dir/sequencer_ops.c.o
+[  9%] [  9%] [  9%] [  9%] Building C object source/blender/editors/space_sequencer/CMakeFiles/bf_editor_space_sequencer.dir/sequencer_scopes.c.o
+Building C object source/blender/editors/space_sequencer/CMakeFiles/bf_editor_space_sequencer.dir/sequencer_select.c.o
+Building C object source/blender/editors/space_sequencer/CMakeFiles/bf_editor_space_sequencer.dir/sequencer_view.c.o
+Building C object source/blender/editors/space_sequencer/CMakeFiles/bf_editor_space_sequencer.dir/space_sequencer.c.o
+[  9%] [  9%] [  9%] [  9%] Building C object source/blender/python/bmesh/CMakeFiles/bf_python_bmesh.dir/bmesh_py_api.c.o
+Building C object source/blender/python/bmesh/CMakeFiles/bf_python_bmesh.dir/bmesh_py_geometry.c.o
+[  9%] Building C object source/blender/python/bmesh/CMakeFiles/bf_python_bmesh.dir/bmesh_py_ops_call.c.o
+[  9%] Building C object source/blender/python/bmesh/CMakeFiles/bf_python_bmesh.dir/bmesh_py_ops.c.o
+Building C object source/blender/python/bmesh/CMakeFiles/bf_python_bmesh.dir/bmesh_py_types.c.o
+Building C object source/blender/python/bmesh/CMakeFiles/bf_python_bmesh.dir/bmesh_py_types_customdata.c.o
+[  9%] Building CXX object source/gameengine/Expressions/CMakeFiles/ge_logic_expressions.dir/BoolValue.cpp.o
+[  9%] [  9%] Building CXX object source/gameengine/Expressions/CMakeFiles/ge_logic_expressions.dir/ConstExpr.cpp.o
+Building CXX object source/gameengine/Expressions/CMakeFiles/ge_logic_expressions.dir/EXP_C-Api.cpp.o
+[  9%] [  9%] Building CXX object source/gameengine/Expressions/CMakeFiles/ge_logic_expressions.dir/EmptyValue.cpp.o
+Building CXX object source/gameengine/Expressions/CMakeFiles/ge_logic_expressions.dir/ErrorValue.cpp.o
+[  9%] Building CXX object source/gameengine/Expressions/CMakeFiles/ge_logic_expressions.dir/Expression.cpp.o
+[  9%] [  9%] [  9%] Building CXX object source/gameengine/Expressions/CMakeFiles/ge_logic_expressions.dir/FloatValue.cpp.o
+Building CXX object source/gameengine/Expressions/CMakeFiles/ge_logic_expressions.dir/IdentifierExpr.cpp.o
+Building CXX object source/gameengine/Expressions/CMakeFiles/ge_logic_expressions.dir/IfExpr.cpp.o
+[  9%] Building CXX object source/gameengine/Expressions/CMakeFiles/ge_logic_expressions.dir/InputParser.cpp.o
+[  9%] Building CXX object source/gameengine/Expressions/CMakeFiles/ge_logic_expressions.dir/IntValue.cpp.o
+[  9%] [  9%] [  9%] Building CXX object source/gameengine/Expressions/CMakeFiles/ge_logic_expressions.dir/ListValue.cpp.o
+[  9%] Building C object source/blender/python/bmesh/CMakeFiles/bf_python_bmesh.dir/bmesh_py_types_meshdata.c.o
+[  9%] Building C object source/blender/python/bmesh/CMakeFiles/bf_python_bmesh.dir/bmesh_py_types_select.c.o
+[  9%] Building C object source/blender/python/bmesh/CMakeFiles/bf_python_bmesh.dir/bmesh_py_utils.c.o
+Linking C static library ../../../lib/libbf_gpu.a
+[  9%] Built target bf_editor_gpencil
+Building CXX object source/gameengine/Expressions/CMakeFiles/ge_logic_expressions.dir/Operator1Expr.cpp.o
+Building CXX object source/gameengine/Expressions/CMakeFiles/ge_logic_expressions.dir/KX_HashedPtr.cpp.o
+[  9%] [  9%] Building CXX object source/gameengine/Expressions/CMakeFiles/ge_logic_expressions.dir/PyObjectPlus.cpp.o
+Building CXX object source/gameengine/Expressions/CMakeFiles/ge_logic_expressions.dir/Operator2Expr.cpp.o
+[  9%] [  9%] Building CXX object source/gameengine/Expressions/CMakeFiles/ge_logic_expressions.dir/StringValue.cpp.o
+[  9%] Built target bf_quicktime
+Building CXX object source/gameengine/Expressions/CMakeFiles/ge_logic_expressions.dir/Value.cpp.o
+[  9%] Building CXX object source/gameengine/Expressions/CMakeFiles/ge_logic_expressions.dir/VectorValue.cpp.o
+Scanning dependencies of target bf_editor_space_clip
+Scanning dependencies of target bf_intern_smoke
+Linking C static library ../../../../lib/libbf_editor_space_sequencer.a
+[  9%] [  9%] [  9%] Building C object source/blender/editors/space_clip/CMakeFiles/bf_editor_space_clip.dir/clip_buttons.c.o
+Building C object source/blender/editors/space_clip/CMakeFiles/bf_editor_space_clip.dir/clip_dopesheet_draw.c.o
+[ 10%] Building C object source/blender/editors/space_clip/CMakeFiles/bf_editor_space_clip.dir/clip_dopesheet_ops.c.o
+[ 10%] Building C object source/blender/editors/space_clip/CMakeFiles/bf_editor_space_clip.dir/clip_editor.c.o
+Building C object source/blender/editors/space_clip/CMakeFiles/bf_editor_space_clip.dir/clip_graph_draw.c.o
+[ 10%] [ 10%] Built target bf_editor_space_nla
+[ 10%] Building C object source/blender/editors/space_clip/CMakeFiles/bf_editor_space_clip.dir/clip_graph_ops.c.o
+[ 10%] Building C object source/blender/editors/space_clip/CMakeFiles/bf_editor_space_clip.dir/clip_ops.c.o
+[ 10%] [ 11%] Building CXX object intern/smoke/CMakeFiles/bf_intern_smoke.dir/intern/EIGENVALUE_HELPER.cpp.o
+[ 11%] [ 11%] Building CXX object intern/smoke/CMakeFiles/bf_intern_smoke.dir/intern/FLUID_3D_SOLVERS.cpp.o
+[ 11%] Building CXX object intern/smoke/CMakeFiles/bf_intern_smoke.dir/intern/FLUID_3D_STATIC.cpp.o
+Building CXX object intern/smoke/CMakeFiles/bf_intern_smoke.dir/intern/LU_HELPER.cpp.o
+[ 11%] Building CXX object intern/smoke/CMakeFiles/bf_intern_smoke.dir/intern/spectrum.cpp.o
+Building CXX object intern/smoke/CMakeFiles/bf_intern_smoke.dir/intern/SPHERE.cpp.o
+[ 11%] [ 11%] Building CXX object intern/smoke/CMakeFiles/bf_intern_smoke.dir/intern/WTURBULENCE.cpp.o
+[ 11%] [ 11%] Building CXX object intern/smoke/CMakeFiles/bf_intern_smoke.dir/intern/smoke_API.cpp.o
+Built target bf_editor_util
+[ 11%] [ 11%] Building CXX object intern/smoke/CMakeFiles/bf_intern_smoke.dir/intern/FLUID_3D.cpp.o
+Building C object source/blender/editors/space_clip/CMakeFiles/bf_editor_space_clip.dir/clip_utils.c.o
+Building C object source/blender/editors/space_clip/CMakeFiles/bf_editor_space_clip.dir/clip_toolbar.c.o
+Building C object source/blender/editors/space_clip/CMakeFiles/bf_editor_space_clip.dir/clip_draw.c.o
+[ 11%] Building C object source/blender/editors/space_clip/CMakeFiles/bf_editor_space_clip.dir/space_clip.c.o
+[ 11%] [ 11%] Building C object source/blender/editors/space_clip/CMakeFiles/bf_editor_space_clip.dir/tracking_select.c.o
+Scanning dependencies of target bf_ikplugin
+Building C object source/blender/editors/space_clip/CMakeFiles/bf_editor_space_clip.dir/tracking_ops.c.o
+Scanning dependencies of target bf_editor_space_node
+[ 11%] [ 11%] Building C object source/blender/ikplugin/CMakeFiles/bf_ikplugin.dir/intern/ikplugin_api.c.o
+[ 11%] Building C object source/blender/ikplugin/CMakeFiles/bf_ikplugin.dir/intern/iksolver_plugin.c.o
+Building CXX object source/blender/ikplugin/CMakeFiles/bf_ikplugin.dir/intern/itasc_plugin.cpp.o
+[ 11%] [ 11%] [ 11%] Building C object source/blender/editors/space_node/CMakeFiles/bf_editor_space_node.dir/drawnode.c.o
+Building C object source/blender/editors/space_node/CMakeFiles/bf_editor_space_node.dir/node_add.c.o
+[ 11%] Building C object source/blender/editors/space_node/CMakeFiles/bf_editor_space_node.dir/node_buttons.c.o
+Building C object source/blender/editors/space_node/CMakeFiles/bf_editor_space_node.dir/node_draw.c.o
+[ 11%] Building C object source/blender/editors/space_node/CMakeFiles/bf_editor_space_node.dir/node_edit.c.o
+[ 11%] Building C object source/blender/editors/space_node/CMakeFiles/bf_editor_space_node.dir/node_group.c.o
+[ 12%] [ 12%] Building C object source/blender/editors/space_node/CMakeFiles/bf_editor_space_node.dir/node_relationships.c.o
+[ 12%] [ 12%] Building C object source/blender/editors/space_node/CMakeFiles/bf_editor_space_node.dir/node_select.c.o
+Building C object source/blender/editors/space_node/CMakeFiles/bf_editor_space_node.dir/node_templates.c.o
+Building C object source/blender/editors/space_node/CMakeFiles/bf_editor_space_node.dir/node_toolbar.c.o
+[ 12%] Building C object source/blender/editors/space_node/CMakeFiles/bf_editor_space_node.dir/node_view.c.o
+[ 12%] Scanning dependencies of target extern_recastnavigation
+Building C object source/blender/editors/space_node/CMakeFiles/bf_editor_space_node.dir/space_node.c.o
+[ 12%] Building C object source/blender/editors/space_node/CMakeFiles/bf_editor_space_node.dir/node_ops.c.o
+[ 12%] [ 12%] [ 12%] [ 12%] Building CXX object extern/recastnavigation/CMakeFiles/extern_recastnavigation.dir/recast-capi.cpp.o
+[ 12%] Building CXX object extern/recastnavigation/CMakeFiles/extern_recastnavigation.dir/Detour/Source/DetourCommon.cpp.o
+[ 12%] Building CXX object extern/recastnavigation/CMakeFiles/extern_recastnavigation.dir/Detour/Source/DetourStatNavMesh.cpp.o
+Building CXX object extern/recastnavigation/CMakeFiles/extern_recastnavigation.dir/Detour/Source/DetourNode.cpp.o
+Building CXX object extern/recastnavigation/CMakeFiles/extern_recastnavigation.dir/Detour/Source/DetourStatNavMeshBuilder.cpp.o
+Building CXX object extern/recastnavigation/CMakeFiles/extern_recastnavigation.dir/Detour/Source/DetourTileNavMesh.cpp.o
+[ 13%] [ 13%] [ 13%] Building CXX object extern/recastnavigation/CMakeFiles/extern_recastnavigation.dir/Recast/Source/Recast.cpp.o
+[ 13%] Building CXX object extern/recastnavigation/CMakeFiles/extern_recastnavigation.dir/Recast/Source/RecastAlloc.cpp.o
+[ 13%] Building CXX object extern/recastnavigation/CMakeFiles/extern_recastnavigation.dir/Recast/Source/RecastArea.cpp.o
+Building CXX object extern/recastnavigation/CMakeFiles/extern_recastnavigation.dir/Recast/Source/RecastContour.cpp.o
+Building CXX object extern/recastnavigation/CMakeFiles/extern_recastnavigation.dir/Recast/Source/RecastFilter.cpp.o
+[ 13%] Built target bf_editor_curve
+[ 13%] [ 13%] [ 13%] Built target bf_python_ext
+Building CXX object extern/recastnavigation/CMakeFiles/extern_recastnavigation.dir/Recast/Source/RecastLayers.cpp.o
+[ 13%] Built target bf_editor_space_graph
+Building CXX object extern/recastnavigation/CMakeFiles/extern_recastnavigation.dir/Detour/Source/DetourTileNavMeshBuilder.cpp.o
+[ 13%] [ 13%] Built target bf_editor_screen
+[ 13%] Building CXX object extern/recastnavigation/CMakeFiles/extern_recastnavigation.dir/Recast/Source/RecastMesh.cpp.o
+[ 13%] Building CXX object extern/recastnavigation/CMakeFiles/extern_recastnavigation.dir/Recast/Source/RecastMeshDetail.cpp.o
+Building CXX object extern/recastnavigation/CMakeFiles/extern_recastnavigation.dir/Recast/Source/RecastRasterization.cpp.o
+[ 13%] Building CXX object extern/recastnavigation/CMakeFiles/extern_recastnavigation.dir/Recast/Source/RecastRegion.cpp.o
+[ 13%] Built target bf_editor_render
+Scanning dependencies of target bf_intern_dualcon
+[ 13%] Built target bf_blenfont
+Linking C static library ../../../../lib/libbf_python_bmesh.a
+[ 13%] [ 13%] Building CXX object intern/dualcon/CMakeFiles/bf_intern_dualcon.dir/intern/manifold_table.cpp.o
+[ 13%] Scanning dependencies of target bf_blenloader
+Building CXX object intern/dualcon/CMakeFiles/bf_intern_dualcon.dir/intern/marching_cubes_table.cpp.o
+[ 13%] [ 13%] Building CXX object intern/dualcon/CMakeFiles/bf_intern_dualcon.dir/intern/octree.cpp.o
+Building CXX object intern/dualcon/CMakeFiles/bf_intern_dualcon.dir/intern/Projections.cpp.o
+Building CXX object intern/dualcon/CMakeFiles/bf_intern_dualcon.dir/intern/dualcon_c_api.cpp.o
+[ 13%] [ 13%] [ 13%] Building C object source/blender/blenloader/CMakeFiles/bf_blenloader.dir/intern/readblenentry.c.o
+[ 13%] Building C object source/blender/blenloader/CMakeFiles/bf_blenloader.dir/intern/readfile.c.o
+[ 13%] Building C object source/blender/blenloader/CMakeFiles/bf_blenloader.dir/intern/runtime.c.o
+Building C object source/blender/blenloader/CMakeFiles/bf_blenloader.dir/intern/undofile.c.o
+Building C object source/blender/blenloader/CMakeFiles/bf_blenloader.dir/intern/versioning_250.c.o
+[ 13%] [ 13%] Building C object source/blender/blenloader/CMakeFiles/bf_blenloader.dir/intern/versioning_260.c.o
+Building C object source/blender/blenloader/CMakeFiles/bf_blenloader.dir/intern/versioning_270.c.o
+[ 13%] [ 13%] Building C object source/blender/blenloader/CMakeFiles/bf_blenloader.dir/intern/versioning_defaults.c.o
+Building C object source/blender/blenloader/CMakeFiles/bf_blenloader.dir/intern/versioning_legacy.c.o
+[ 13%] Building C object source/blender/blenloader/CMakeFiles/bf_blenloader.dir/intern/writefile.c.o
+[ 13%] Built target bf_intern_opencolorio
+Scanning dependencies of target bf_editor_transform
+Scanning dependencies of target bf_windowmanager
+Linking CXX static library ../../../lib/libge_logic_expressions.a
+[ 13%] Built target bf_editor_space_image
+[ 13%] [ 13%] Built target bf_editor_space_outliner
+Built target ge_oglrasterizer
+[ 13%] [ 13%] [ 13%] [ 13%] [ 13%] Building C object source/blender/windowmanager/CMakeFiles/bf_windowmanager.dir/intern/wm.c.o
+Building C object source/blender/editors/transform/CMakeFiles/bf_editor_transform.dir/transform.c.o
+Building C object source/blender/editors/transform/CMakeFiles/bf_editor_transform.dir/transform_constraints.c.o
+[ 13%] Building C object source/blender/windowmanager/CMakeFiles/bf_windowmanager.dir/intern/wm_playanim.c.o
+Building C object source/blender/windowmanager/CMakeFiles/bf_windowmanager.dir/intern/wm_cursors.c.o
+[ 14%] Building C object source/blender/editors/transform/CMakeFiles/bf_editor_transform.dir/transform_conversions.c.o
+[ 14%] Building C object source/blender/editors/transform/CMakeFiles/bf_editor_transform.dir/transform_generics.c.o
+Scanning dependencies of target bf_editor_animation
+Building C object source/blender/windowmanager/CMakeFiles/bf_windowmanager.dir/intern/wm_draw.c.o
+[ 14%] [ 14%] [ 14%] Building C object source/blender/windowmanager/CMakeFiles/bf_windowmanager.dir/intern/wm_event_system.c.o
+Building C object source/blender/editors/transform/CMakeFiles/bf_editor_transform.dir/transform_manipulator.c.o
+[ 14%] Building C object source/blender/editors/transform/CMakeFiles/bf_editor_transform.dir/transform_input.c.o
+[ 14%] Building C object source/blender/windowmanager/CMakeFiles/bf_windowmanager.dir/intern/wm_files.c.o
+[ 14%] [ 14%] Building C object source/blender/editors/transform/CMakeFiles/bf_editor_transform.dir/transform_ops.c.o
+Building C object source/blender/windowmanager/CMakeFiles/bf_windowmanager.dir/intern/wm_init_exit.c.o
+Building C object source/blender/windowmanager/CMakeFiles/bf_windowmanager.dir/intern/wm_gesture.c.o
+[ 14%] [ 14%] Building C object source/blender/editors/transform/CMakeFiles/bf_editor_transform.dir/transform_orientations.c.o
+Building C object source/blender/editors/transform/CMakeFiles/bf_editor_transform.dir/transform_snap.c.o
+[ 14%] [ 14%] Building C object source/blender/windowmanager/CMakeFiles/bf_windowmanager.dir/intern/wm_jobs.c.o
+[ 14%] Building C object source/blender/windowmanager/CMakeFiles/bf_windowmanager.dir/intern/wm_keymap.c.o
+Building C object source/blender/windowmanager/CMakeFiles/bf_windowmanager.dir/intern/wm_operators.c.o
+[ 14%] [ 14%] Building C object source/blender/windowmanager/CMakeFiles/bf_windowmanager.dir/intern/wm_subwindow.c.o
+Building C object source/blender/windowmanager/CMakeFiles/bf_windowmanager.dir/intern/wm_window.c.o
+[ 14%] Building C object source/blender/windowmanager/CMakeFiles/bf_windowmanager.dir/intern/wm_dragdrop.c.o
+Scanning dependencies of target bf_editor_sculpt_paint
+[ 14%] [ 14%] Built target bf_editor_mask
+Built target bf_editor_space_file
+[ 15%] [ 15%] [ 15%] Building C object source/blender/editors/animation/CMakeFiles/bf_editor_animation.dir/anim_channels_edit.c.o
+Building C object source/blender/editors/animation/CMakeFiles/bf_editor_animation.dir/anim_draw.c.o
+[ 15%] Building C object source/blender/editors/animation/CMakeFiles/bf_editor_animation.dir/anim_deps.c.o
+Building C object source/blender/editors/animation/CMakeFiles/bf_editor_animation.dir/anim_filter.c.o
+[ 15%] [ 15%] Building C object source/blender/editors/animation/CMakeFiles/bf_editor_animation.dir/anim_ipo_utils.c.o
+Building C object source/blender/editors/animation/CMakeFiles/bf_editor_animation.dir/anim_channels_defines.c.o
+[ 15%] [ 15%] [ 15%] [ 15%] Building C object source/blender/editors/sculpt_paint/CMakeFiles/bf_editor_sculpt_paint.dir/paint_cursor.c.o
+Building C object source/blender/editors/sculpt_paint/CMakeFiles/bf_editor_sculpt_paint.dir/paint_curve.c.o
+Building C object source/blender/editors/sculpt_paint/CMakeFiles/bf_editor_sculpt_paint.dir/paint_hide.c.o
+[ 16%] [ 16%] [ 16%] [ 16%] Building C object source/blender/editors/animation/CMakeFiles/bf_editor_animation.dir/anim_markers.c.o
+Building C object source/blender/editors/sculpt_paint/CMakeFiles/bf_editor_sculpt_paint.dir/paint_mask.c.o
+Building C object source/blender/editors/sculpt_paint/CMakeFiles/bf_editor_sculpt_paint.dir/paint_image_proj.c.o
+[ 16%] Building C object source/blender/editors/sculpt_paint/CMakeFiles/bf_editor_sculpt_paint.dir/paint_image_2d.c.o
+[ 16%] Building C object source/blender/editors/sculpt_paint/CMakeFiles/bf_editor_sculpt_paint.dir/paint_image.c.o
+Built target bf_editor_space_text
+[ 16%] [ 16%] Building C object source/blender/editors/animation/CMakeFiles/bf_editor_animation.dir/anim_ops.c.o
+Building C object source/blender/editors/sculpt_paint/CMakeFiles/bf_editor_sculpt_paint.dir/paint_ops.c.o
+[ 16%] Building C object source/blender/editors/animation/CMakeFiles/bf_editor_animation.dir/drivers.c.o
+[ 16%] Building C object source/blender/editors/animation/CMakeFiles/bf_editor_animation.dir/fmodifier_ui.c.o
+[ 16%] [ 16%] Building C object source/blender/editors/sculpt_paint/CMakeFiles/bf_editor_sculpt_paint.dir/paint_stroke.c.o
+[ 16%] [ 16%] Building C object source/blender/editors/sculpt_paint/CMakeFiles/bf_editor_sculpt_paint.dir/paint_undo.c.o
+Building C object source/blender/editors/animation/CMakeFiles/bf_editor_animation.dir/keyframes_draw.c.o
+[ 16%] Building C object source/blender/editors/sculpt_paint/CMakeFiles/bf_editor_sculpt_paint.dir/paint_utils.c.o
+[ 16%] Building C object source/blender/editors/animation/CMakeFiles/bf_editor_animation.dir/keyframes_edit.c.o
+Building C object source/blender/editors/animation/CMakeFiles/bf_editor_animation.dir/keyframes_general.c.o
+[ 16%] [ 16%] Building C object source/blender/editors/sculpt_paint/CMakeFiles/bf_editor_sculpt_paint.dir/paint_vertex.c.o
+Linking CXX static library ../../lib/libextern_recastnavigation.a
+Building C object source/blender/editors/animation/CMakeFiles/bf_editor_animation.dir/keyframing.c.o
+Linking C static library ../../../../lib/libbf_editor_space_node.a
+[ 16%] [ 16%] Building C object source/blender/editors/animation/CMakeFiles/bf_editor_animation.dir/keyingsets.c.o
+Building C object source/blender/editors/sculpt_paint/CMakeFiles/bf_editor_sculpt_paint.dir/sculpt.c.o
+Building C object source/blender/editors/sculpt_paint/CMakeFiles/bf_editor_sculpt_paint.dir/paint_vertex_proj.c.o
+[ 16%] [ 16%] Building C object source/blender/editors/sculpt_paint/CMakeFiles/bf_editor_sculpt_paint.dir/sculpt_undo.c.o
+Building C object source/blender/editors/sculpt_paint/CMakeFiles/bf_editor_sculpt_paint.dir/sculpt_uv.c.o
+Linking C static library ../../../../lib/libbf_editor_space_clip.a
+Scanning dependencies of target extern_glog
+[ 16%] Built target ge_rasterizer
+Linking C static library ../../../../lib/libbf_editor_physics.a
+Scanning dependencies of target ge_videotex
+Scanning dependencies of target bf_intern_opennl
+[ 16%] [ 16%] [ 16%] [ 16%] Building CXX object extern/libmv/CMakeFiles/extern_glog.dir/third_party/gflags/gflags.cc.o
+Building CXX object extern/libmv/CMakeFiles/extern_glog.dir/third_party/gflags/gflags_completions.cc.o
+Building CXX object extern/libmv/CMakeFiles/extern_glog.dir/third_party/gflags/gflags_reporting.cc.o
+[ 16%] Building CXX object extern/libmv/CMakeFiles/extern_glog.dir/third_party/glog/src/demangle.cc.o
+Building CXX object extern/libmv/CMakeFiles/extern_glog.dir/third_party/glog/src/logging.cc.o
+[ 16%] [ 16%] [ 16%] Building CXX object extern/libmv/CMakeFiles/extern_glog.dir/third_party/glog/src/raw_logging.cc.o
+Building CXX object extern/libmv/CMakeFiles/extern_glog.dir/third_party/glog/src/signalhandler.cc.o
+Building CXX object extern/libmv/CMakeFiles/extern_glog.dir/third_party/glog/src/symbolize.cc.o
+[ 16%] Building CXX object extern/libmv/CMakeFiles/extern_glog.dir/third_party/glog/src/utilities.cc.o
+[ 16%] Building CXX object extern/libmv/CMakeFiles/extern_glog.dir/third_party/glog/src/vlog_is_on.cc.o
+[ 16%] [ 16%] [ 16%] Building CXX object source/gameengine/VideoTexture/CMakeFiles/ge_videotex.dir/Exception.cpp.o
+Building CXX object source/gameengine/VideoTexture/CMakeFiles/ge_videotex.dir/FilterBase.cpp.o
+[ 16%] Building CXX object source/gameengine/VideoTexture/CMakeFiles/ge_videotex.dir/FilterBlueScreen.cpp.o
+[ 16%] [ 16%] [ 16%] Building C object intern/opennl/CMakeFiles/bf_intern_opennl.dir/intern/opennl.c.o
+[ 16%] Building C object intern/opennl/CMakeFiles/bf_intern_opennl.dir/superlu/get_perm_c.c.o
+Building C object intern/opennl/CMakeFiles/bf_intern_opennl.dir/superlu/heap_relax_snode.c.o
+Building C object intern/opennl/CMakeFiles/bf_intern_opennl.dir/superlu/lsame.c.o
+[ 16%] [ 16%] Building C object intern/opennl/CMakeFiles/bf_intern_opennl.dir/superlu/memory.c.o
+Building C object intern/opennl/CMakeFiles/bf_intern_opennl.dir/superlu/mmd.c.o
+[ 16%] Building C object intern/opennl/CMakeFiles/bf_intern_opennl.dir/superlu/relax_snode.c.o
+[ 17%] [ 17%] [ 17%] Building C object intern/opennl/CMakeFiles/bf_intern_opennl.dir/superlu/scolumn_dfs.c.o
+Building C object intern/opennl/CMakeFiles/bf_intern_opennl.dir/superlu/scopy_to_ucol.c.o
+Building C object intern/opennl/CMakeFiles/bf_intern_opennl.dir/superlu/sgssv.c.o
+[ 17%] [ 17%] Building C object intern/opennl/CMakeFiles/bf_intern_opennl.dir/superlu/sgstrf.c.o
+[ 17%] Building C object intern/opennl/CMakeFiles/bf_intern_opennl.dir/superlu/sgstrs.c.o
+Building C object intern/opennl/CMakeFiles/bf_intern_opennl.dir/superlu/scolumn_bmod.c.o
+[ 17%] [ 17%] Building C object intern/opennl/CMakeFiles/bf_intern_opennl.dir/superlu/smemory.c.o
+Building C object intern/opennl/CMakeFiles/bf_intern_opennl.dir/superlu/smyblas2.c.o
+Building CXX object source/gameengine/VideoTexture/CMakeFiles/ge_videotex.dir/FilterColor.cpp.o
+[ 17%] [ 17%] Building CXX object source/gameengine/VideoTexture/CMakeFiles/ge_videotex.dir/FilterNormal.cpp.o
+Building CXX object source/gameengine/VideoTexture/CMakeFiles/ge_videotex.dir/FilterSource.cpp.o
+[ 17%] [ 17%] Building CXX object source/gameengine/VideoTexture/CMakeFiles/ge_videotex.dir/ImageBase.cpp.o
+Scanning dependencies of target bf_intern_locale
+[ 17%] Building C object intern/opennl/CMakeFiles/bf_intern_opennl.dir/superlu/sp_coletree.c.o
+[ 17%] [ 17%] [ 17%] Building C object intern/opennl/CMakeFiles/bf_intern_opennl.dir/superlu/sp_ienv.c.o
+Building C object intern/opennl/CMakeFiles/bf_intern_opennl.dir/superlu/sp_preorder.c.o
+Building C object intern/opennl/CMakeFiles/bf_intern_opennl.dir/superlu/spanel_bmod.c.o
+[ 17%] [ 17%] Built target bf_gpu
+Building CXX object source/gameengine/VideoTexture/CMakeFiles/ge_videotex.dir/ImageBuff.cpp.o
+[ 17%] Building CXX object source/gameengine/VideoTexture/CMakeFiles/ge_videotex.dir/ImageMix.cpp.o
+[ 18%] [ 18%] Building CXX object source/gameengine/VideoTexture/CMakeFiles/ge_videotex.dir/ImageViewport.cpp.o
+Building CXX object source/gameengine/VideoTexture/CMakeFiles/ge_videotex.dir/PyTypeList.cpp.o
+[ 18%] [ 18%] [ 18%] Building CXX object intern/locale/CMakeFiles/bf_intern_locale.dir/boost_locale_wrapper.cpp.o
+[ 18%] Building CXX object intern/locale/CMakeFiles/bf_intern_locale.dir/osx_user_locale.mm.o
+[ 18%] Building CXX object source/gameengine/VideoTexture/CMakeFiles/ge_videotex.dir/Texture.cpp.o
+Building CXX object source/gameengine/VideoTexture/CMakeFiles/ge_videotex.dir/ImageRender.cpp.o
+Building CXX object source/gameengine/VideoTexture/CMakeFiles/ge_videotex.dir/VideoBase.cpp.o
+[ 18%] [ 18%] Building CXX object source/gameengine/VideoTexture/CMakeFiles/ge_videotex.dir/VideoFFmpeg.cpp.o
+[ 18%] Built target bf_python_mathutils
+Building CXX object source/gameengine/VideoTexture/CMakeFiles/ge_videotex.dir/blendVideoTex.cpp.o
+Building C object intern/opennl/CMakeFiles/bf_intern_opennl.dir/superlu/spanel_dfs.c.o
+[ 18%] [ 18%] [ 18%] Building C object intern/opennl/CMakeFiles/bf_intern_opennl.dir/superlu/spivotL.c.o
+Building C object intern/opennl/CMakeFiles/bf_intern_opennl.dir/superlu/spruneL.c.o
+Building C object intern/opennl/CMakeFiles/bf_intern_opennl.dir/superlu/ssnode_bmod.c.o
+[ 18%] Building C object intern/opennl/CMakeFiles/bf_intern_opennl.dir/superlu/ssnode_dfs.c.o
+[ 18%] Building C object intern/opennl/CMakeFiles/bf_intern_opennl.dir/superlu/ssp_blas2.c.o
+[ 18%] [ 18%] [ 18%] Building C object intern/opennl/CMakeFiles/bf_intern_opennl.dir/superlu/ssp_blas3.c.o
+Building C object intern/opennl/CMakeFiles/bf_intern_opennl.dir/superlu/strsv.c.o
+Building C object intern/opennl/CMakeFiles/bf_intern_opennl.dir/superlu/superlu_timer.c.o
+[ 18%] Building C object intern/opennl/CMakeFiles/bf_intern_opennl.dir/superlu/sutil.c.o
+[ 18%] [ 18%] Built target bf_python_bmesh
+[ 18%] Building C object intern/opennl/CMakeFiles/bf_intern_opennl.dir/superlu/util.c.o
+Building C object intern/opennl/CMakeFiles/bf_intern_opennl.dir/superlu/xerbla.c.o
+[ 18%] Built target bf_editor_space_sequencer
+Scanning dependencies of target ge_blen_routines
+Scanning dependencies of target bf_intern_rigidbody
+[ 18%] [ 18%] Building CXX object source/gameengine/BlenderRoutines/CMakeFiles/ge_blen_routines.dir/BL_KetsjiEmbedStart.cpp.o
+Building CXX object source/gameengine/BlenderRoutines/CMakeFiles/ge_blen_routines.dir/BL_System.cpp.o
+[ 18%] Linking CXX static library ../../lib/libbf_intern_smoke.a
+Building CXX object source/gameengine/BlenderRoutines/CMakeFiles/ge_blen_routines.dir/KX_BlenderCanvas.cpp.o
+[ 18%] Building CXX object source/gameengine/BlenderRoutines/CMakeFiles/ge_blen_routines.dir/KX_BlenderInputDevice.cpp.o
+[ 18%] [ 18%] Building CXX object source/gameengine/BlenderRoutines/CMakeFiles/ge_blen_routines.dir/KX_BlenderKeyboardDevice.cpp.o
+Building CXX object source/gameengine/BlenderRoutines/CMakeFiles/ge_blen_routines.dir/KX_BlenderMouseDevice.cpp.o
+[ 18%] Building CXX object source/gameengine/BlenderRoutines/CMakeFiles/ge_blen_routines.dir/KX_BlenderSystem.cpp.o
+[ 18%] Building CXX object intern/rigidbody/CMakeFiles/bf_intern_rigidbody.dir/rb_bullet_api.cpp.o
+Linking C static library ../../../../lib/libbf_editor_uvedit.a
+Scanning dependencies of target bf_editor_interface
+[ 18%] [ 18%] [ 18%] Building C object source/blender/editors/interface/CMakeFiles/bf_editor_interface.dir/interface.c.o
+[ 18%] Building C object source/blender/editors/interface/CMakeFiles/bf_editor_interface.dir/interface_anim.c.o
+Building C object source/blender/editors/interface/CMakeFiles/bf_editor_interface.dir/interface_draw.c.o
+Building C object source/blender/editors/interface/CMakeFiles/bf_editor_interface.dir/interface_eyedropper.c.o
+[ 18%] Building C object source/blender/editors/interface/CMakeFiles/bf_editor_interface.dir/interface_handlers.c.o
+[ 18%] [ 18%] Building C object source/blender/editors/interface/CMakeFiles/bf_editor_interface.dir/interface_icons.c.o
+Building C object source/blender/editors/interface/CMakeFiles/bf_editor_interface.dir/interface_layout.c.o
+[ 18%] Building C object source/blender/editors/interface/CMakeFiles/bf_editor_interface.dir/interface_ops.c.o
+[ 18%] Building C object source/blender/editors/interface/CMakeFiles/bf_editor_interface.dir/interface_panel.c.o
+[ 18%] [ 18%] Building C object source/blender/editors/interface/CMakeFiles/bf_editor_interface.dir/interface_style.c.o
+Building C object source/blender/editors/interface/CMakeFiles/bf_editor_interface.dir/interface_regions.c.o
+[ 19%] [ 19%] [ 19%] Building C object source/blender/editors/interface/CMakeFiles/bf_editor_interface.dir/interface_utils.c.o
+Building C object source/blender/editors/interface/CMakeFiles/bf_editor_interface.dir/resources.c.o
+[ 19%] Building C object source/blender/editors/interface/CMakeFiles/bf_editor_interface.dir/interface_widgets.c.o
+[ 19%] Building C object source/blender/editors/interface/CMakeFiles/bf_editor_interface.dir/view2d.c.o
+Building C object source/blender/editors/interface/CMakeFiles/bf_editor_interface.dir/view2d_ops.c.o
+Scanning dependencies of target ge_phys_bullet
+[ 19%] Scanning dependencies of target bf_editor_object
+Scanning dependencies of target bf_editor_space_view3d
+Building C object source/blender/editors/interface/CMakeFiles/bf_editor_interface.dir/interface_templates.c.o
+Scanning dependencies of target bf_python
+[ 19%] [ 19%] [ 19%] Scanning dependencies of target bf_editor_armature
+Building C object source/blender/editors/object/CMakeFiles/bf_editor_object.dir/object_add.c.o
+Building C object source/blender/editors/object/CMakeFiles/bf_editor_object.dir/object_bake.c.o
+Building C object source/blender/editors/object/CMakeFiles/bf_editor_object.dir/object_bake_api.c.o
+[ 19%] Building C object source/blender/editors/object/CMakeFiles/bf_editor_object.dir/object_constraint.c.o
+[ 19%] Building C object source/blender/editors/object/CMakeFiles/bf_editor_object.dir/object_edit.c.o
+[ 19%] [ 19%] [ 19%] Building C object source/blender/editors/object/CMakeFiles/bf_editor_object.dir/object_group.c.o
+Building C object source/blender/editors/object/CMakeFiles/bf_editor_object.dir/object_hook.c.o
+Building C object source/blender/editors/object/CMakeFiles/bf_editor_object.dir/object_lattice.c.o
+[ 19%] Building C object source/blender/editors/object/CMakeFiles/bf_editor_object.dir/object_lod.c.o
+[ 19%] [ 19%] [ 19%] Building C object source/blender/editors/space_view3d/CMakeFiles/bf_editor_space_view3d.dir/drawanimviz.c.o
+Building C object source/blender/editors/space_view3d/CMakeFiles/bf_editor_space_view3d.dir/drawarmature.c.o
+Building C object source/blender/editors/space_view3d/CMakeFiles/bf_editor_space_view3d.dir/drawmesh.c.o
+[ 19%] [ 19%] Building C object source/blender/editors/space_view3d/CMakeFiles/bf_editor_space_view3d.dir/drawobject.c.o
+Building C object source/blender/editors/space_view3d/CMakeFiles/bf_editor_space_view3d.dir/drawvolume.c.o
+[ 19%] [ 19%] Building C object source/blender/editors/space_view3d/CMakeFiles/bf_editor_space_view3d.dir/space_view3d.c.o
+[ 19%] Building C object source/blender/editors/space_view3d/CMakeFiles/bf_editor_space_view3d.dir/view3d_buttons.c.o
+[ 19%] Building C object source/blender/editors/space_view3d/CMakeFiles/bf_editor_space_view3d.dir/view3d_camera_control.c.o
+Building C object source/blender/editors/space_view3d/CMakeFiles/bf_editor_space_view3d.dir/view3d_draw.c.o
+[ 19%] Building C object source/blender/editors/space_view3d/CMakeFiles/bf_editor_space_view3d.dir/view3d_edit.c.o
+[ 19%] [ 19%] Building C object source/blender/editors/space_view3d/CMakeFiles/bf_editor_space_view3d.dir/view3d_fly.c.o
+Building C object source/blender/editors/space_view3d/CMakeFiles/bf_editor_space_view3d.dir/view3d_walk.c.o
+[ 19%] [ 19%] Building C object source/blender/editors/space_view3d/CMakeFiles/bf_editor_space_view3d.dir/view3d_header.c.o
+[ 19%] Building C object source/blender/editors/space_view3d/CMakeFiles/bf_editor_space_view3d.dir/view3d_iterators.c.o
+[ 19%] [ 19%] [ 19%] Building C object source/blender/editors/armature/CMakeFiles/bf_editor_armature.dir/armature_add.c.o
+[ 19%] Building C object source/blender/editors/armature/CMakeFiles/bf_editor_armature.dir/armature_naming.c.o
+[ 19%] Building C object source/blender/editors/armature/CMakeFiles/bf_editor_armature.dir/armature_edit.c.o
+Building C object source/blender/editors/armature/CMakeFiles/bf_editor_armature.dir/armature_ops.c.o
+Building C object source/blender/editors/armature/CMakeFiles/bf_editor_armature.dir/armature_relations.c.o
+Scanning dependencies of target bf_intern_elbeem
+[ 19%] Building C object source/blender/editors/armature/CMakeFiles/bf_editor_armature.dir/armature_select.c.o
+[ 19%] [ 19%] [ 19%] Building C object source/blender/editors/armature/CMakeFiles/bf_editor_armature.dir/armature_skinning.c.o
+Building C object source/blender/editors/armature/CMakeFiles/bf_editor_armature.dir/armature_utils.c.o
+Building C object source/blender/editors/armature/CMakeFiles/bf_editor_armature.dir/editarmature_generate.c.o
+[ 19%] Building C object source/blender/editors/armature/CMakeFiles/bf_editor_armature.dir/editarmature_retarget.c.o
+[ 19%] Building C object source/blender/editors/armature/CMakeFiles/bf_editor_armature.dir/editarmature_sketch.c.o
+[ 19%] [ 19%] [ 20%] Building C object source/blender/editors/armature/CMakeFiles/bf_editor_armature.dir/meshlaplacian.c.o
+Building C object source/blender/editors/armature/CMakeFiles/bf_editor_armature.dir/pose_edit.c.o
+[ 20%] Building C object source/blender/editors/armature/CMakeFiles/bf_editor_armature.dir/pose_lib.c.o
+[ 21%] [ 21%] [ 21%] Building CXX object source/gameengine/Physics/Bullet/CMakeFiles/ge_phys_bullet.dir/CcdPhysicsEnvironment.cpp.o
+Building CXX object source/gameengine/Physics/Bullet/CMakeFiles/ge_phys_bullet.dir/CcdPhysicsController.cpp.o
+Building CXX object source/gameengine/Physics/Bullet/CMakeFiles/ge_phys_bullet.dir/CcdGraphicController.cpp.o
+[ 21%] Built target bf_editor_physics
+[ 21%] [ 21%] [ 21%] Building CXX object intern/elbeem/CMakeFiles/bf_intern_elbeem.dir/intern/attributes.cpp.o
+[ 21%] Building CXX object intern/elbeem/CMakeFiles/bf_intern_elbeem.dir/intern/controlparticles.cpp.o
+Building CXX object intern/elbeem/CMakeFiles/bf_intern_elbeem.dir/intern/elbeem.cpp.o
+[ 21%] Building CXX object intern/elbeem/CMakeFiles/bf_intern_elbeem.dir/intern/elbeem_control.cpp.o
+Building CXX object intern/elbeem/CMakeFiles/bf_intern_elbeem.dir/intern/isosurface.cpp.o
+[ 21%] Building CXX object intern/elbeem/CMakeFiles/bf_intern_elbeem.dir/intern/mvmcoords.cpp.o
+[ 21%] [ 21%] Building CXX object intern/elbeem/CMakeFiles/bf_intern_elbeem.dir/intern/ntl_blenderdumper.cpp.o
+Building CXX object intern/elbeem/CMakeFiles/bf_intern_elbeem.dir/intern/ntl_bsptree.cpp.o
+[ 21%] Building CXX object intern/elbeem/CMakeFiles/bf_intern_elbeem.dir/intern/ntl_geometrymodel.cpp.o
+[ 22%] [ 22%] [ 22%] Building CXX object intern/elbeem/CMakeFiles/bf_intern_elbeem.dir/intern/ntl_lighting.cpp.o
+Building CXX object intern/elbeem/CMakeFiles/bf_intern_elbeem.dir/intern/ntl_ray.cpp.o
+[ 22%] [ 22%] Building CXX object intern/elbeem/CMakeFiles/bf_intern_elbeem.dir/intern/ntl_world.cpp.o
+Building CXX object intern/elbeem/CMakeFiles/bf_intern_elbeem.dir/intern/ntl_geometryobject.cpp.o
+Linking C static library ../../lib/libbf_intern_opennl.a
+[ 22%] [ 22%] [ 22%] [ 22%] Building C object source/blender/editors/object/CMakeFiles/bf_editor_object.dir/object_modifier.c.o
+Building C object source/blender/editors/object/CMakeFiles/bf_editor_object.dir/object_ops.c.o
+Building C object source/blender/python/intern/CMakeFiles/bf_python.dir/bpy.c.o
+[ 22%] Building C object source/blender/python/intern/CMakeFiles/bf_python.dir/gpu.c.o
+[ 22%] Building C object source/blender/editors/object/CMakeFiles/bf_editor_object.dir/object_random.c.o
+Building C object source/blender/python/intern/CMakeFiles/bf_python.dir/bpy_app.c.o
+[ 22%] [ 22%] Building C object source/blender/editors/object/CMakeFiles/bf_editor_object.dir/object_relations.c.o
+Building C object source/blender/python/intern/CMakeFiles/bf_python.dir/bpy_app_ffmpeg.c.o
+[ 22%] [ 22%] [ 22%] Building C object source/blender/editors/object/CMakeFiles/bf_editor_object.dir/object_select.c.o
+Building C object source/blender/python/intern/CMakeFiles/bf_python.dir/bpy_app_build_options.c.o
+[ 22%] Building C object source/blender/editors/object/CMakeFiles/bf_editor_object.dir/object_shapekey.c.o
+Building C object source/blender/python/intern/CMakeFiles/bf_python.dir/bpy_app_handlers.c.o
+[ 22%] [ 22%] Building C object source/blender/editors/object/CMakeFiles/bf_editor_object.dir/object_transform.c.o
+Building C object source/blender/python/intern/CMakeFiles/bf_python.dir/bpy_app_ocio.c.o
+[ 22%] Scanning dependencies of target bf_imbuf
+Building CXX object intern/elbeem/CMakeFiles/bf_intern_elbeem.dir/intern/parametrizer.cpp.o
+[ 22%] [ 23%] Building C object source/blender/editors/armature/CMakeFiles/bf_editor_armature.dir/pose_group.c.o
+[ 23%] Building C object source/blender/editors/space_view3d/CMakeFiles/bf_editor_space_view3d.dir/view3d_ops.c.o
+Built target extern_recastnavigation
+[ 23%] [ 23%] [ 23%] Building C object source/blender/editors/armature/CMakeFiles/bf_editor_armature.dir/pose_select.c.o
+[ 23%] [ 23%] Building C object source/blender/editors/armature/CMakeFiles/bf_editor_armature.dir/pose_slide.c.o
+Building C object source/blender/editors/armature/CMakeFiles/bf_editor_armature.dir/pose_utils.c.o
+[ 23%] Building C object source/blender/editors/armature/CMakeFiles/bf_editor_armature.dir/pose_transform.c.o
+Building C object source/blender/editors/space_view3d/CMakeFiles/bf_editor_space_view3d.dir/view3d_project.c.o
+Building C object source/blender/editors/armature/CMakeFiles/bf_editor_armature.dir/reeb.c.o
+Building C object source/blender/editors/space_view3d/CMakeFiles/bf_editor_space_view3d.dir/view3d_ruler.c.o
+[ 23%] Building C object source/blender/editors/space_view3d/CMakeFiles/bf_editor_space_view3d.dir/view3d_select.c.o
+[ 23%] [ 23%] [ 23%] Building C object source/blender/editors/space_view3d/CMakeFiles/bf_editor_space_view3d.dir/view3d_snap.c.o
+[ 23%] Building C object source/blender/editors/space_view3d/CMakeFiles/bf_editor_space_view3d.dir/view3d_view.c.o
+Building C object source/blender/editors/space_view3d/CMakeFiles/bf_editor_space_view3d.dir/view3d_toolbar.c.o
+Building CXX object intern/elbeem/CMakeFiles/bf_intern_elbeem.dir/intern/particletracer.cpp.o
+[ 23%] Scanning dependencies of target extern_openjpeg
+[ 23%] Building CXX object intern/elbeem/CMakeFiles/bf_intern_elbeem.dir/intern/simulation_object.cpp.o
+Building C object source/blender/python/intern/CMakeFiles/bf_python.dir/bpy_app_oiio.c.o
+Building C object source/blender/editors/object/CMakeFiles/bf_editor_object.dir/object_warp.c.o
+[ 24%] [ 24%] [ 24%] [ 24%] Built target bf_intern_smoke
+Building C object source/blender/python/intern/CMakeFiles/bf_python.dir/bpy_app_translations.c.o
+[ 24%] Building C object source/blender/editors/object/CMakeFiles/bf_editor_object.dir/object_vgroup.c.o
+[ 24%] Scanning dependencies of target bf_editor_mesh
+Building C object source/blender/python/intern/CMakeFiles/bf_python.dir/bpy_driver.c.o
+Building CXX object intern/elbeem/CMakeFiles/bf_intern_elbeem.dir/intern/solver_adap.cpp.o
+Building CXX object intern/elbeem/CMakeFiles/bf_intern_elbeem.dir/intern/solver_control.cpp.o
+[ 24%] Building CXX object intern/elbeem/CMakeFiles/bf_intern_elbeem.dir/intern/solver_init.cpp.o
+[ 24%] [ 24%] Scanning dependencies of target bf_intern_ghost
+[ 24%] Built target bf_editor_space_node
+Building C object source/blender/imbuf/CMakeFiles/bf_imbuf.dir/intern/allocimbuf.c.o
+Building C object source/blender/imbuf/CMakeFiles/bf_imbuf.dir/intern/anim_movie.c.o
+[ 24%] [ 25%] Building C object source/blender/imbuf/CMakeFiles/bf_imbuf.dir/intern/bmp.c.o
+[ 25%] Built target bf_editor_space_clip
+[ 25%] [ 25%] [ 25%] [ 25%] Building CXX object intern/ghost/CMakeFiles/bf_intern_ghost.dir/intern/GHOST_Buttons.cpp.o
+Building CXX object intern/ghost/CMakeFiles/bf_intern_ghost.dir/intern/GHOST_C-api.cpp.o
+Building CXX object intern/ghost/CMakeFiles/bf_intern_ghost.dir/intern/GHOST_CallbackEventConsumer.cpp.o
+[ 25%] [ 25%] Building CXX object intern/ghost/CMakeFiles/bf_intern_ghost.dir/intern/GHOST_Context.cpp.o
+Building CXX object intern/ghost/CMakeFiles/bf_intern_ghost.dir/intern/GHOST_ContextNone.cpp.o
+[ 25%] Building CXX object intern/ghost/CMakeFiles/bf_intern_ghost.dir/intern/GHOST_DisplayManager.cpp.o
+Building C object extern/libopenjpeg/CMakeFiles/extern_openjpeg.dir/bio.c.o
+Building C object extern/libopenjpeg/CMakeFiles/extern_openjpeg.dir/cio.c.o
+Building C object source/blender/imbuf/CMakeFiles/bf_imbuf.dir/intern/cache.c.o
+Scanning dependencies of target bf_intern_itasc
+[ 25%] [ 25%] Building C object source/blender/editors/mesh/CMakeFiles/bf_editor_mesh.dir/editface.c.o
+[ 25%] [ 25%] Building C object source/blender/editors/mesh/CMakeFiles/bf_editor_mesh.dir/editmesh_add.c.o
+Building C object source/blender/editors/mesh/CMakeFiles/bf_editor_mesh.dir/editmesh_bevel.c.o
+Building C object source/blender/editors/mesh/CMakeFiles/bf_editor_mesh.dir/editmesh_bisect.c.o
+[ 25%] Built target ge_logic_expressions
+[ 25%] Built target bf_intern_opennl
+[ 25%] Built target bf_editor_uvedit
+Scanning dependencies of target ge_logic
+[ 25%] [ 25%] [ 25%] Building CXX object intern/itasc/CMakeFiles/bf_intern_itasc.dir/Cache.cpp.o
+Building CXX object intern/itasc/CMakeFiles/bf_intern_itasc.dir/Armature.cpp.o
+Building CXX object intern/itasc/CMakeFiles/bf_intern_itasc.dir/ConstraintSet.cpp.o
+[ 25%] Building CXX object intern/itasc/CMakeFiles/bf_intern_itasc.dir/ControlledObject.cpp.o
+[ 25%] [ 25%] Building CXX object intern/itasc/CMakeFiles/bf_intern_itasc.dir/CopyPose.cpp.o
+[ 25%] Building CXX object intern/itasc/CMakeFiles/bf_intern_itasc.dir/Distance.cpp.o
+Building CXX object intern/itasc/CMakeFiles/bf_intern_itasc.dir/FixedObject.cpp.o
+[ 25%] [ 25%] Building CXX object intern/itasc/CMakeFiles/bf_intern_itasc.dir/Scene.cpp.o
+Building CXX object intern/itasc/CMakeFiles/bf_intern_itasc.dir/MovingFrame.cpp.o
+[ 25%] Building CXX object intern/itasc/CMakeFiles/bf_intern_itasc.dir/UncontrolledObject.cpp.o
+Scanning dependencies of target bf_imbuf_openexr
+[ 26%] [ 26%] Building CXX object intern/itasc/CMakeFiles/bf_intern_itasc.dir/WDLSSolver.cpp.o
+[ 26%] Building CXX object intern/itasc/CMakeFiles/bf_intern_itasc.dir/WSDLSSolver.cpp.o
+Building CXX object intern/itasc/CMakeFiles/bf_intern_itasc.dir/WorldObject.cpp.o
+[ 26%] [ 26%] Building CXX object intern/itasc/CMakeFiles/bf_intern_itasc.dir/eigen_types.cpp.o
+Building CXX object source/blender/imbuf/intern/openexr/CMakeFiles/bf_imbuf_openexr.dir/openexr_api.cpp.o
+[ 26%] [ 26%] Building CXX object intern/itasc/CMakeFiles/bf_intern_itasc.dir/kdl/chainfksolverpos_recursive.cpp.o
+Building CXX object intern/itasc/CMakeFiles/bf_intern_itasc.dir/kdl/chain.cpp.o
+[ 26%] [ 26%] [ 26%] [ 26%] [ 26%] Building CXX object source/gameengine/GameLogic/CMakeFiles/ge_logic.dir/SCA_2DFilterActuator.cpp.o
+Building CXX object source/gameengine/GameLogic/CMakeFiles/ge_logic.dir/SCA_ANDController.cpp.o
+Building CXX object source/gameengine/GameLogic/CMakeFiles/ge_logic.dir/SCA_ActuatorEventManager.cpp.o
+[ 26%] Building CXX object intern/itasc/CMakeFiles/bf_intern_itasc.dir/kdl/chainjnttojacsolver.cpp.o
+Building CXX object intern/itasc/CMakeFiles/bf_intern_itasc.dir/kdl/frameacc.cpp.o
+[ 26%] [ 26%] [ 26%] Building CXX object intern/itasc/CMakeFiles/bf_intern_itasc.dir/kdl/frames.cpp.o
+[ 26%] Building CXX object intern/itasc/CMakeFiles/bf_intern_itasc.dir/kdl/frames_io.cpp.o
+Building CXX object intern/itasc/CMakeFiles/bf_intern_itasc.dir/kdl/framevel.cpp.o
+Building CXX object intern/itasc/CMakeFiles/bf_intern_itasc.dir/kdl/inertia.cpp.o
+[ 26%] [ 26%] Building CXX object intern/itasc/CMakeFiles/bf_intern_itasc.dir/kdl/jacobian.cpp.o
+Building CXX object intern/itasc/CMakeFiles/bf_intern_itasc.dir/kdl/jntarray.cpp.o
+[ 26%] Building CXX object intern/itasc/CMakeFiles/bf_intern_itasc.dir/kdl/jntarrayacc.cpp.o
+[ 26%] [ 26%] Building CXX object intern/itasc/CMakeFiles/bf_intern_itasc.dir/kdl/jntarrayvel.cpp.o
+[ 26%] Building CXX object intern/itasc/CMakeFiles/bf_intern_itasc.dir/kdl/joint.cpp.o
+[ 26%] Building CXX object intern/itasc/CMakeFiles/bf_intern_itasc.dir/kdl/kinfam_io.cpp.o
+Building CXX object intern/itasc/CMakeFiles/bf_intern_itasc.dir/kdl/segment.cpp.o
+Building CXX object source/gameengine/GameLogic/CMakeFiles/ge_logic.dir/SCA_ActuatorSensor.cpp.o
+[ 26%] [ 26%] [ 26%] Building CXX object source/gameengine/GameLogic/CMakeFiles/ge_logic.dir/SCA_AlwaysEventManager.cpp.o
+Building CXX object source/gameengine/GameLogic/CMakeFiles/ge_logic.dir/SCA_AlwaysSensor.cpp.o
+Building CXX object source/gameengine/GameLogic/CMakeFiles/ge_logic.dir/SCA_BasicEventManager.cpp.o
+[ 26%] [ 26%] Building CXX object source/gameengine/GameLogic/CMakeFiles/ge_logic.dir/SCA_EventManager.cpp.o
+Building CXX object source/gameengine/GameLogic/CMakeFiles/ge_logic.dir/SCA_DelaySensor.cpp.o
+[ 26%] Building CXX object source/gameengine/GameLogic/CMakeFiles/ge_logic.dir/SCA_ExpressionController.cpp.o
+[ 26%] [ 26%] Building CXX object source/gameengine/GameLogic/CMakeFiles/ge_logic.dir/SCA_IActuator.cpp.o
+Building CXX object source/gameengine/GameLogic/CMakeFiles/ge_logic.dir/SCA_IController.cpp.o
+[ 26%] Building CXX object source/gameengine/GameLogic/CMakeFiles/ge_logic.dir/SCA_IInputDevice.cpp.o
+[ 26%] Building CXX object source/gameengine/GameLogic/CMakeFiles/ge_logic.dir/SCA_ILogicBrick.cpp.o
+[ 27%] [ 27%] [ 27%] Building CXX object source/gameengine/GameLogic/CMakeFiles/ge_logic.dir/SCA_IScene.cpp.o
+Building CXX object source/gameengine/GameLogic/CMakeFiles/ge_logic.dir/SCA_ISensor.cpp.o
+Building CXX object source/gameengine/GameLogic/CMakeFiles/ge_logic.dir/SCA_IObject.cpp.o
+[ 27%] [ 27%] Building CXX object intern/itasc/CMakeFiles/bf_intern_itasc.dir/kdl/tree.cpp.o
+Building CXX object intern/itasc/CMakeFiles/bf_intern_itasc.dir/kdl/treefksolverpos_recursive.cpp.o
+[ 27%] [ 27%] [ 27%] Building CXX object intern/itasc/CMakeFiles/bf_intern_itasc.dir/kdl/treejnttojacsolver.cpp.o
+Building CXX object intern/itasc/CMakeFiles/bf_intern_itasc.dir/kdl/utilities/utility.cpp.o
+Building CXX object intern/itasc/CMakeFiles/bf_intern_itasc.dir/kdl/utilities/error_stack.cpp.o
+[ 27%] Building CXX object intern/itasc/CMakeFiles/bf_intern_itasc.dir/kdl/utilities/utility_io.cpp.o
+Scanning dependencies of target cycles_kernel
+[ 28%] [ 28%] [ 28%] [ 28%] Building CXX object intern/cycles/kernel/CMakeFiles/cycles_kernel.dir/kernel.cpp.o
+Building CXX object intern/cycles/kernel/CMakeFiles/cycles_kernel.dir/kernel_sse2.cpp.o
+Building CXX object intern/cycles/kernel/CMakeFiles/cycles_kernel.dir/kernel_sse3.cpp.o
+[ 28%] [ 28%] Building CXX object intern/cycles/kernel/CMakeFiles/cycles_kernel.dir/kernel_sse41.cpp.o
+Building CXX object intern/cycles/kernel/CMakeFiles/cycles_kernel.dir/kernel_avx.cpp.o
+Building CXX object intern/cycles/kernel/CMakeFiles/cycles_kernel.dir/kernel_avx2.cpp.o
+Scanning dependencies of target extern_carve
+Scanning dependencies of target bf_blenlib
+[ 28%] [ 28%] [ 28%] [ 28%] Building CXX object extern/carve/CMakeFiles/extern_carve.dir/carve-capi.cc.o
+[ 28%] Building CXX object extern/carve/CMakeFiles/extern_carve.dir/carve-util.cc.o
+[ 29%] Building CXX object extern/carve/CMakeFiles/extern_carve.dir/lib/aabb.cpp.o
+Building C object source/blender/blenlib/CMakeFiles/bf_blenlib.dir/intern/BLI_array.c.o
+Building CXX object extern/carve/CMakeFiles/extern_carve.dir/lib/carve.cpp.o
+Building C object source/blender/blenlib/CMakeFiles/bf_blenlib.dir/intern/BLI_args.c.o
+[ 29%] Building CXX object extern/carve/CMakeFiles/extern_carve.dir/lib/convex_hull.cpp.o
+[ 29%] [ 29%] Building CXX object extern/carve/CMakeFiles/extern_carve.dir/lib/csg_collector.cpp.o
+[ 29%] Building CXX object extern/carve/CMakeFiles/extern_carve.dir/lib/csg.cpp.o
+[ 29%] Building C object source/blender/blenlib/CMakeFiles/bf_blenlib.dir/intern/BLI_dial.c.o
+[ 29%] [ 29%] [ 29%] Building CXX object extern/carve/CMakeFiles/extern_carve.dir/lib/edge.cpp.o
+Building CXX object extern/carve/CMakeFiles/extern_carve.dir/lib/face.cpp.o
+Building C object source/blender/blenlib/CMakeFiles/bf_blenlib.dir/intern/BLI_dynstr.c.o
+[ 29%] Building C object source/blender/blenlib/CMakeFiles/bf_blenlib.dir/intern/BLI_ghash.c.o
+[ 29%] Building CXX object extern/carve/CMakeFiles/extern_carve.dir/lib/geom2d.cpp.o
+Building CXX object extern/carve/CMakeFiles/extern_carve.dir/lib/geom3d.cpp.o
+[ 29%] [ 29%] Building CXX object extern/carve/CMakeFiles/extern_carve.dir/lib/intersect_classify_edge.cpp.o
+[ 29%] Building C object source/blender/blenlib/CMakeFiles/bf_blenlib.dir/intern/BLI_kdopbvh.c.o
+[ 29%] [ 29%] [ 29%] [ 30%] Building CXX object extern/carve/CMakeFiles/extern_carve.dir/lib/intersect.cpp.o
+Building C object source/blender/blenlib/CMakeFiles/bf_blenlib.dir/intern/BLI_kdtree.c.o
+Building CXX object extern/carve/CMakeFiles/extern_carve.dir/lib/intersect_classify_group.cpp.o
+[ 30%] [ 30%] [ 30%] Building CXX object extern/carve/CMakeFiles/extern_carve.dir/lib/intersect_debug.cpp.o
+Building C object source/blender/blenlib/CMakeFiles/bf_blenlib.dir/intern/BLI_memarena.c.o
+Building CXX object extern/carve/CMakeFiles/extern_carve.dir/lib/intersect_face_division.cpp.o
+Building C object source/blender/blenlib/CMakeFiles/bf_blenlib.dir/intern/BLI_linklist.c.o
+[ 30%] Building C object source/blender/blenlib/CMakeFiles/bf_blenlib.dir/intern/BLI_mempool.c.o
+[ 30%] [ 30%] Building CXX object extern/carve/CMakeFiles/extern_carve.dir/lib/intersect_group.cpp.o
+Building CXX object extern/carve/CMakeFiles/extern_carve.dir/lib/intersect_half_classify_group.cpp.o
+[ 30%] [ 30%] Building C object source/blender/blenlib/CMakeFiles/bf_blenlib.dir/intern/DLRB_tree.c.o
+Building C object source/blender/blenlib/CMakeFiles/bf_blenlib.dir/intern/boxpack2d.c.o
+[ 30%] [ 30%] Building C object source/blender/blenlib/CMakeFiles/bf_blenlib.dir/intern/buffer.c.o
+Building C object source/blender/blenlib/CMakeFiles/bf_blenlib.dir/intern/callbacks.c.o
+Building C object source/blender/blenlib/CMakeFiles/bf_blenlib.dir/intern/BLI_heap.c.o
+Scanning dependencies of target bf_render
+Scanning dependencies of target bf_modifiers
+[ 30%] [ 30%] [ 30%] Building CXX object source/blender/render/CMakeFiles/bf_render.dir/intern/raytrace/rayobject_empty.cpp.o
+Building CXX object source/blender/render/CMakeFiles/bf_render.dir/intern/raytrace/rayobject_octree.cpp.o
+[ 30%] [ 30%] [ 30%] Building C object source/blender/modifiers/CMakeFiles/bf_modifiers.dir/intern/MOD_armature.c.o
+Building CXX object source/blender/render/CMakeFiles/bf_render.dir/intern/raytrace/rayobject.cpp.o
+Building CXX object source/blender/render/CMakeFiles/bf_render.dir/intern/raytrace/rayobject_raycounter.cpp.o
+[ 30%] [ 30%] Building CXX object source/blender/render/CMakeFiles/bf_render.dir/intern/raytrace/rayobject_svbvh.cpp.o
+[ 30%] Building CXX object source/blender/render/CMakeFiles/bf_render.dir/intern/raytrace/rayobject_instance.cpp.o
+[ 30%] Building CXX object source/blender/render/CMakeFiles/bf_render.dir/intern/raytrace/rayobject_qbvh.cpp.o
+Building CXX object source/blender/render/CMakeFiles/bf_render.dir/intern/raytrace/rayobject_rtbuild.cpp.o
+[ 30%] Building CXX object source/blender/render/CMakeFiles/bf_render.dir/intern/raytrace/rayobject_vbvh.cpp.o
+[ 30%] [ 30%] Building C object source/blender/render/CMakeFiles/bf_render.dir/intern/source/bake.c.o
+Building C object source/blender/render/CMakeFiles/bf_render.dir/intern/source/bake_api.c.o
+[ 30%] Building C object source/blender/render/CMakeFiles/bf_render.dir/intern/source/convertblender.c.o
+[ 30%] Linking C static library ../../../../lib/libbf_editor_animation.a
+Building C object source/blender/modifiers/CMakeFiles/bf_modifiers.dir/intern/MOD_array.c.o
+[ 30%] [ 30%] Building C object source/blender/modifiers/CMakeFiles/bf_modifiers.dir/intern/MOD_bevel.c.o
+Linking C static library ../../../lib/libbf_windowmanager.a
+[ 30%] Building C object source/blender/render/CMakeFiles/bf_render.dir/intern/source/envmap.c.o
+[ 30%] [ 30%] Building C object source/blender/modifiers/CMakeFiles/bf_modifiers.dir/intern/MOD_build.c.o
+Building C object source/blender/modifiers/CMakeFiles/bf_modifiers.dir/intern/MOD_cast.c.o
+[ 30%] Building C object source/blender/render/CMakeFiles/bf_render.dir/intern/source/external_engine.c.o
+[ 30%] Building C object source/blender/modifiers/CMakeFiles/bf_modifiers.dir/intern/MOD_cloth.c.o
+[ 30%] Building C object source/blender/render/CMakeFiles/bf_render.dir/intern/source/imagetexture.c.o
+Building C object source/blender/modifiers/CMakeFiles/bf_modifiers.dir/intern/MOD_collision.c.o
+[ 30%] Building C object source/blender/render/CMakeFiles/bf_render.dir/intern/source/initrender.c.o
+[ 30%] [ 30%] [ 30%] Building C object source/blender/modifiers/CMakeFiles/bf_modifiers.dir/intern/MOD_boolean.c.o
+Building C object source/blender/render/CMakeFiles/bf_render.dir/intern/source/multires_bake.c.o
+[ 30%] Building C object source/blender/render/CMakeFiles/bf_render.dir/intern/source/occlusion.c.o
+[ 30%] [ 30%] Building C object source/blender/render/CMakeFiles/bf_render.dir/intern/source/pipeline.c.o
+Building C object source/blender/render/CMakeFiles/bf_render.dir/intern/source/pixelblending.c.o
+[ 30%] [ 30%] Building C object source/blender/render/CMakeFiles/bf_render.dir/intern/source/pixelshading.c.o
+Building C object source/blender/render/CMakeFiles/bf_render.dir/intern/source/pointdensity.c.o
+[ 30%] Building C object source/blender/modifiers/CMakeFiles/bf_modifiers.dir/intern/MOD_decimate.c.o
+Building C object source/blender/modifiers/CMakeFiles/bf_modifiers.dir/intern/MOD_curve.c.o
+[ 30%] Building C object source/blender/modifiers/CMakeFiles/bf_modifiers.dir/intern/MOD_displace.c.o
+[ 30%] Building C object source/blender/modifiers/CMakeFiles/bf_modifiers.dir/intern/MOD_dynamicpaint.c.o
+[ 30%] [ 30%] Building C object source/blender/modifiers/CMakeFiles/bf_modifiers.dir/intern/MOD_edgesplit.c.o
+Building C object source/blender/modifiers/CMakeFiles/bf_modifiers.dir/intern/MOD_explode.c.o
+Scanning dependencies of target bf_bmesh
+Building C object source/blender/render/CMakeFiles/bf_render.dir/intern/source/rayshade.c.o
+[ 31%] [ 31%] [ 31%] Building C object source/blender/render/CMakeFiles/bf_render.dir/intern/source/rendercore.c.o
+Building C object source/blender/render/CMakeFiles/bf_render.dir/intern/source/render_result.c.o
+Building C object source/blender/render/CMakeFiles/bf_render.dir/intern/source/render_texture.c.o
+[ 31%] [ 31%] Building C object source/blender/render/CMakeFiles/bf_render.dir/intern/source/renderdatabase.c.o
+[ 31%] Building C object source/blender/render/CMakeFiles/bf_render.dir/intern/source/shadbuf.c.o
+Building C object source/blender/render/CMakeFiles/bf_render.dir/intern/source/shadeinput.c.o
+[ 31%] Building C object source/blender/render/CMakeFiles/bf_render.dir/intern/source/shadeoutput.c.o
+[ 31%] Built target bf_editor_animation
+[ 31%] [ 31%] Building C object source/blender/bmesh/CMakeFiles/bf_bmesh.dir/operators/bmo_beautify.c.o
+[ 31%] [ 31%] Building C object source/blender/bmesh/CMakeFiles/bf_bmesh.dir/operators/bmo_bevel.c.o
+Building C object source/blender/bmesh/CMakeFiles/bf_bmesh.dir/operators/bmo_bisect_plane.c.o
+Building C object source/blender/bmesh/CMakeFiles/bf_bmesh.dir/operators/bmo_bridge.c.o
+[ 31%] Building C object source/blender/bmesh/CMakeFiles/bf_bmesh.dir/operators/bmo_connect.c.o
+[ 31%] [ 31%] Building C object source/blender/bmesh/CMakeFiles/bf_bmesh.dir/operators/bmo_connect_nonplanar.c.o
+Building C object source/blender/bmesh/CMakeFiles/bf_bmesh.dir/operators/bmo_connect_pair.c.o
+Scanning dependencies of target cycles_subd
+Scanning dependencies of target ge_converter
+[ 31%] Built target bf_windowmanager
+Scanning dependencies of target extern_libmv
+Scanning dependencies of target bf_intern_audaspace
+Scanning dependencies of target extern_bullet
+Scanning dependencies of target cycles_util
+[ 31%] [ 31%] [ 31%] Building CXX object source/gameengine/Converter/CMakeFiles/ge_converter.dir/BL_ActionActuator.cpp.o
+[ 31%] Building CXX object source/gameengine/Converter/CMakeFiles/ge_converter.dir/BL_ArmatureActuator.cpp.o
+Building CXX object source/gameengine/Converter/CMakeFiles/ge_converter.dir/BL_ArmatureChannel.cpp.o
+Building CXX object source/gameengine/Converter/CMakeFiles/ge_converter.dir/BL_ArmatureConstraint.cpp.o
+[ 31%] Building CXX object source/gameengine/Converter/CMakeFiles/ge_converter.dir/BL_ArmatureObject.cpp.o
+[ 31%] [ 31%] Building CXX object intern/cycles/subd/CMakeFiles/cycles_subd.dir/subd_dice.cpp.o
+Building CXX object intern/cycles/subd/CMakeFiles/cycles_subd.dir/subd_mesh.cpp.o
+[ 31%] [ 31%] Building CXX object intern/cycles/subd/CMakeFiles/cycles_subd.dir/subd_patch.cpp.o
+Building CXX object intern/cycles/subd/CMakeFiles/cycles_subd.dir/subd_split.cpp.o
+[ 31%] [ 31%] Building CXX object source/gameengine/Converter/CMakeFiles/ge_converter.dir/BL_BlenderDataConversion.cpp.o
+Building CXX object source/gameengine/Converter/CMakeFiles/ge_converter.dir/BL_DeformableGameObject.cpp.o
+[ 32%] Building CXX object source/gameengine/Converter/CMakeFiles/ge_converter.dir/BL_MeshDeformer.cpp.o
+[ 32%] [ 32%] Building CXX object source/gameengine/Converter/CMakeFiles/ge_converter.dir/BL_ModifierDeformer.cpp.o
+Building CXX object source/gameengine/Converter/CMakeFiles/ge_converter.dir/BL_ShapeActionActuator.cpp.o
+[ 32%] Building CXX object source/gameengine/Converter/CMakeFiles/ge_converter.dir/BL_ShapeDeformer.cpp.o
+[ 32%] [ 32%] Building CXX object source/gameengine/Converter/CMakeFiles/ge_converter.dir/BL_SkinDeformer.cpp.o
+Building CXX object source/gameengine/Converter/CMakeFiles/ge_converter.dir/BlenderWorldInfo.cpp.o
+[ 32%] [ 32%] [ 32%] [ 32%] [ 32%] [ 32%] Building CXX object extern/bullet2/CMakeFiles/extern_bullet.dir/src/BulletCollision/BroadphaseCollision/btAxisSweep3.cpp.o
+Building CXX object extern/bullet2/CMakeFiles/extern_bullet.dir/src/BulletCollision/BroadphaseCollision/btCollisionAlgorithm.cpp.o
+Building CXX object extern/bullet2/CMakeFiles/extern_bullet.dir/src/BulletCollision/BroadphaseCollision/btBroadphaseProxy.cpp.o
+Building CXX object extern/bullet2/CMakeFiles/extern_bullet.dir/src/BulletCollision/BroadphaseCollision/btDbvt.cpp.o
+[ 32%] [ 32%] [ 33%] Building CXX object extern/bullet2/CMakeFiles/extern_bullet.dir/src/BulletCollision/BroadphaseCollision/btDbvtBroadphase.cpp.o
+[ 33%] Building CXX object extern/bullet2/CMakeFiles/extern_bullet.dir/src/BulletCollision/BroadphaseCollision/btDispatcher.cpp.o
+Building CXX object extern/bullet2/CMakeFiles/extern_bullet.dir/src/BulletCollision/BroadphaseCollision/btMultiSapBroadphase.cpp.o
+Building CXX object extern/bullet2/CMakeFiles/extern_bullet.dir/src/BulletCollision/BroadphaseCollision/btOverlappingPairCache.cpp.o
+[ 33%] [ 33%] Building CXX object extern/bullet2/CMakeFiles/extern_bullet.dir/src/BulletCollision/BroadphaseCollision/btQuantizedBvh.cpp.o
+Building CXX object extern/bullet2/CMakeFiles/extern_bullet.dir/src/BulletCollision/BroadphaseCollision/btSimpleBroadphase.cpp.o
+[ 33%] [ 33%] Building CXX object extern/bullet2/CMakeFiles/extern_bullet.dir/src/BulletCollision/CollisionDispatch/btActivatingCollisionAlgorithm.cpp.o
+[ 33%] Building CXX object extern/bullet2/CMakeFiles/extern_bullet.dir/src/BulletCollision/CollisionDispatch/btBoxBoxCollisionAlgorithm.cpp.o
+Building CXX object extern/bullet2/CMakeFiles/extern_bullet.dir/src/BulletCollision/CollisionDispatch/btBox2dBox2dCollisionAlgorithm.cpp.o
+Building CXX object source/gameengine/Converter/CMakeFiles/ge_converter.dir/KX_BlenderSceneConverter.cpp.o
+Building CXX object source/gameengine/Converter/CMakeFiles/ge_converter.dir/KX_BlenderScalarInterpolator.cpp.o
+[ 33%] Building CXX object source/gameengine/Converter/CMakeFiles/ge_converter.dir/KX_ConvertActuators.cpp.o
+[ 33%] [ 33%] Building CXX object source/gameengine/Converter/CMakeFiles/ge_converter.dir/KX_ConvertControllers.cpp.o
+Building CXX object source/gameengine/Converter/CMakeFiles/ge_converter.dir/KX_ConvertProperties.cpp.o
+[ 33%] Building CXX object source/gameengine/Converter/CMakeFiles/ge_converter.dir/KX_ConvertSensors.cpp.o
+[ 33%] Building CXX object source/gameengine/Converter/CMakeFiles/ge_converter.dir/KX_LibLoadStatus.cpp.o
+[ 33%] Building CXX object source/gameengine/Converter/CMakeFiles/ge_converter.dir/KX_SoftBodyDeformer.cpp.o
+[ 33%] Building CXX object extern/bullet2/CMakeFiles/extern_bullet.dir/src/BulletCollision/CollisionDispatch/btBoxBoxDetector.cpp.o
+Scanning dependencies of target bf_collada
+Scanning dependencies of target cycles_bvh
+[ 33%] [ 34%] Building CXX object extern/libmv/CMakeFiles/extern_libmv.dir/intern/autotrack.cc.o
+[ 34%] Building CXX object extern/libmv/CMakeFiles/extern_libmv.dir/intern/camera_intrinsics.cc.o
+[ 34%] Building CXX object extern/libmv/CMakeFiles/extern_libmv.dir/intern/detector.cc.o
+Building CXX object extern/libmv/CMakeFiles/extern_libmv.dir/intern/frame_accessor.cc.o
+[ 34%] Building CXX object extern/libmv/CMakeFiles/extern_libmv.dir/intern/homography.cc.o
+[ 34%] Building CXX object extern/libmv/CMakeFiles/extern_libmv.dir/intern/image.cc.o
+[ 34%] [ 34%] Building CXX object extern/libmv/CMakeFiles/extern_libmv.dir/intern/logging.cc.o
+[ 34%] Building CXX object extern/libmv/CMakeFiles/extern_libmv.dir/intern/reconstruction.cc.o
+Building CXX object extern/libmv/CMakeFiles/extern_libmv.dir/intern/track_region.cc.o
+[ 34%] Building CXX object extern/libmv/CMakeFiles/extern_libmv.dir/intern/tracks.cc.o
+[ 34%] [ 34%] Building CXX object extern/libmv/CMakeFiles/extern_libmv.dir/intern/tracksN.cc.o
+[ 34%] Building CXX object extern/libmv/CMakeFiles/extern_libmv.dir/libmv/autotrack/autotrack.cc.o
+Building CXX object extern/libmv/CMakeFiles/extern_libmv.dir/libmv/autotrack/predict_tracks.cc.o
+[ 34%] [ 34%] Building CXX object intern/cycles/util/CMakeFiles/cycles_util.dir/util_cache.cpp.o
+Building CXX object intern/cycles/util/CMakeFiles/cycles_util.dir/util_dynlib.cpp.o
+[ 34%] Building CXX object intern/cycles/util/CMakeFiles/cycles_util.dir/util_logging.cpp.o
+[ 34%] Building CXX object intern/cycles/util/CMakeFiles/cycles_util.dir/util_md5.cpp.o
+[ 34%] [ 34%] Building CXX object intern/cycles/util/CMakeFiles/cycles_util.dir/util_path.cpp.o
+Building CXX object intern/cycles/util/CMakeFiles/cycles_util.dir/util_string.cpp.o
+[ 34%] [ 34%] [ 34%] [ 34%] [ 34%] Building CXX object intern/cycles/bvh/CMakeFiles/cycles_bvh.dir/bvh.cpp.o
+Building CXX object intern/cycles/bvh/CMakeFiles/cycles_bvh.dir/bvh_binning.cpp.o
+Building CXX object intern/cycles/bvh/CMakeFiles/cycles_bvh.dir/bvh_build.cpp.o
+[ 34%] Building CXX object intern/cycles/bvh/CMakeFiles/cycles_bvh.dir/bvh_node.cpp.o
+[ 34%] Building CXX object intern/cycles/bvh/CMakeFiles/cycles_bvh.dir/bvh_sort.cpp.o
+[ 34%] Building CXX object intern/cycles/bvh/CMakeFiles/cycles_bvh.dir/bvh_split.cpp.o
+[ 34%] Building CXX object intern/audaspace/CMakeFiles/bf_intern_audaspace.dir/FX/AUD_BandpassCalculator.cpp.o
+Building CXX object intern/audaspace/CMakeFiles/bf_intern_audaspace.dir/FX/AUD_BaseIIRFilterReader.cpp.o
+Building CXX object intern/audaspace/CMakeFiles/bf_intern_audaspace.dir/FX/AUD_AccumulatorFactory.cpp.o
+[ 34%] [ 34%] Building CXX object intern/audaspace/CMakeFiles/bf_intern_audaspace.dir/FX/AUD_ButterworthCalculator.cpp.o
+Building CXX object intern/audaspace/CMakeFiles/bf_intern_audaspace.dir/FX/AUD_ButterworthFactory.cpp.o
+[ 34%] Building CXX object intern/audaspace/CMakeFiles/bf_intern_audaspace.dir/FX/AUD_CallbackIIRFilterReader.cpp.o
+[ 34%] Building CXX object intern/audaspace/CMakeFiles/bf_intern_audaspace.dir/FX/AUD_DelayFactory.cpp.o
+[ 34%] [ 34%] [ 34%] Building CXX object intern/audaspace/CMakeFiles/bf_intern_audaspace.dir/FX/AUD_DoubleFactory.cpp.o
+Building CXX object intern/audaspace/CMakeFiles/bf_intern_audaspace.dir/FX/AUD_DelayReader.cpp.o
+Building CXX object intern/audaspace/CMakeFiles/bf_intern_audaspace.dir/FX/AUD_DoubleReader.cpp.o
+[ 34%] [ 34%] Building CXX object intern/audaspace/CMakeFiles/bf_intern_audaspace.dir/FX/AUD_DynamicIIRFilterFactory.cpp.o
+[ 34%] [ 34%] Building CXX object intern/audaspace/CMakeFiles/bf_intern_audaspace.dir/FX/AUD_DynamicIIRFilterReader.cpp.o
+Building CXX object intern/audaspace/CMakeFiles/bf_intern_audaspace.dir/FX/AUD_EffectFactory.cpp.o
+Building CXX object intern/audaspace/CMakeFiles/bf_intern_audaspace.dir/FX/AUD_EffectReader.cpp.o
+[ 35%] Building CXX object intern/audaspace/CMakeFiles/bf_intern_audaspace.dir/FX/AUD_EnvelopeFactory.cpp.o
+[ 35%] Building CXX object intern/audaspace/CMakeFiles/bf_intern_audaspace.dir/FX/AUD_FaderFactory.cpp.o
+[ 35%] [ 35%] Building CXX object intern/audaspace/CMakeFiles/bf_intern_audaspace.dir/FX/AUD_FaderReader.cpp.o
+Building CXX object intern/audaspace/CMakeFiles/bf_intern_audaspace.dir/FX/AUD_HighpassCalculator.cpp.o
+[ 35%] Building CXX object intern/audaspace/CMakeFiles/bf_intern_audaspace.dir/FX/AUD_HighpassFactory.cpp.o
+Linking CXX static library ../../../lib/libge_videotex.a
+Linking CXX static library ../../../lib/libge_blen_routines.a
+[ 35%] Built target ge_videotex
+Linking CXX static library ../../lib/libbf_intern_locale.a
+[ 35%] Built target bf_intern_locale
+Scanning dependencies of target makesrna
+Scanning dependencies of target bf_nodes
+[ 35%] Built target ge_blen_routines
+Scanning dependencies of target ge_logic_ketsji
+[ 35%] Built target extractpyzip
+Scanning dependencies of target extern_ceres
+[ 35%] [ 35%] Building C object source/blender/makesrna/intern/CMakeFiles/makesrna.dir/makesrna.c.o
+[ 35%] Building C object source/blender/makesrna/intern/CMakeFiles/makesrna.dir/rna_define.c.o
+Building C object source/blender/makesrna/intern/CMakeFiles/makesrna.dir/rna_ID.c.o
+[ 35%] [ 35%] Building C object source/blender/makesrna/intern/CMakeFiles/makesrna.dir/rna_action.c.o
+Building C object source/blender/makesrna/intern/CMakeFiles/makesrna.dir/rna_actuator.c.o
+[ 35%] [ 35%] Building C object source/blender/makesrna/intern/CMakeFiles/makesrna.dir/rna_animation.c.o
+Building C object source/blender/makesrna/intern/CMakeFiles/makesrna.dir/rna_animviz.c.o
+[ 35%] [ 35%] Building C object source/blender/makesrna/intern/CMakeFiles/makesrna.dir/rna_armature.c.o
+Building C object source/blender/makesrna/intern/CMakeFiles/makesrna.dir/rna_boid.c.o
+[ 35%] Building C object source/blender/makesrna/intern/CMakeFiles/makesrna.dir/rna_brush.c.o
+[ 35%] Building C object source/blender/makesrna/intern/CMakeFiles/makesrna.dir/rna_camera.c.o
+[ 36%] Building C object source/blender/makesrna/intern/CMakeFiles/makesrna.dir/rna_cloth.c.o
+[ 36%] [ 36%] Building C object source/blender/makesrna/intern/CMakeFiles/makesrna.dir/rna_color.c.o
+Building C object source/blender/makesrna/intern/CMakeFiles/makesrna.dir/rna_constraint.c.o
+[ 36%] [ 36%] Building C object source/blender/makesrna/intern/CMakeFiles/makesrna.dir/rna_context.c.o
+Building C object source/blender/makesrna/intern/CMakeFiles/makesrna.dir/rna_controller.c.o
+[ 36%] Building C object source/blender/makesrna/intern/CMakeFiles/makesrna.dir/rna_curve.c.o
+[ 36%] [ 36%] Building C object source/blender/makesrna/intern/CMakeFiles/makesrna.dir/rna_dynamicpaint.c.o
+Building C object source/blender/makesrna/intern/CMakeFiles/makesrna.dir/rna_fcurve.c.o
+[ 36%] Building C object source/blender/makesrna/intern/CMakeFiles/makesrna.dir/rna_fluidsim.c.o
+[ 36%] [ 36%] Building C object source/blender/makesrna/intern/CMakeFiles/makesrna.dir/rna_group.c.o
+Building C object source/blender/makesrna/intern/CMakeFiles/makesrna.dir/rna_gpencil.c.o
+[ 36%] [ 36%] Building C object source/blender/makesrna/intern/CMakeFiles/makesrna.dir/rna_image.c.o
+[ 36%] Building C object source/blender/makesrna/intern/CMakeFiles/makesrna.dir/rna_lamp.c.o
+Building C object source/blender/makesrna/intern/CMakeFiles/makesrna.dir/rna_key.c.o
+[ 36%] Building C object source/blender/makesrna/intern/CMakeFiles/makesrna.dir/rna_lattice.c.o
+[ 36%] [ 36%] Building C object source/blender/makesrna/intern/CMakeFiles/makesrna.dir/rna_linestyle.c.o
+Building C object source/blender/makesrna/intern/CMakeFiles/makesrna.dir/rna_main.c.o
+[ 36%] [ 36%] Building C object source/blender/makesrna/intern/CMakeFiles/makesrna.dir/rna_mask.c.o
+Building C object source/blender/makesrna/intern/CMakeFiles/makesrna.dir/rna_material.c.o
+[ 36%] [ 36%] [ 36%] Building C object source/blender/makesrna/intern/CMakeFiles/makesrna.dir/rna_meta.c.o
+Building C object source/blender/makesrna/intern/CMakeFiles/makesrna.dir/rna_mesh.c.o
+Building C object source/blender/makesrna/intern/CMakeFiles/makesrna.dir/rna_modifier.c.o
+[ 36%] Building C object source/blender/makesrna/intern/CMakeFiles/makesrna.dir/rna_movieclip.c.o
+[ 36%] [ 36%] Building C object source/blender/makesrna/intern/CMakeFiles/makesrna.dir/rna_nla.c.o
+Building C object source/blender/makesrna/intern/CMakeFiles/makesrna.dir/rna_nodetree.c.o
+[ 36%] Building C object source/blender/makesrna/intern/CMakeFiles/makesrna.dir/rna_object.c.o
+[ 36%] Building C object source/blender/makesrna/intern/CMakeFiles/makesrna.dir/rna_object_force.c.o
+[ 36%] [ 36%] [ 36%] Building CXX object source/gameengine/Ketsji/CMakeFiles/ge_logic_ketsji.dir/BL_Action.cpp.o
+Scanning dependencies of target bf_blenkernel
+Building CXX object source/gameengine/Ketsji/CMakeFiles/ge_logic_ketsji.dir/BL_ActionManager.cpp.o
+[ 36%] Building CXX object source/gameengine/Ketsji/CMakeFiles/ge_logic_ketsji.dir/BL_BlenderShader.cpp.o
+[ 36%] Building CXX object source/gameengine/Ketsji/CMakeFiles/ge_logic_ketsji.dir/BL_Material.cpp.o
+Building CXX object source/gameengine/Ketsji/CMakeFiles/ge_logic_ketsji.dir/BL_Shader.cpp.o
+[ 36%] [ 36%] Building C object source/blender/nodes/CMakeFiles/bf_nodes.dir/composite/nodes/node_composite_alphaOver.c.o
+[ 36%] Building C object source/blender/nodes/CMakeFiles/bf_nodes.dir/composite/nodes/node_composite_bilateralblur.c.o
+Building C object source/blender/nodes/CMakeFiles/bf_nodes.dir/composite/nodes/node_composite_blur.c.o
+[ 36%] Building C object source/blender/nodes/CMakeFiles/bf_nodes.dir/composite/nodes/node_composite_brightness.c.o
+[ 36%] [ 36%] Building C object source/blender/nodes/CMakeFiles/bf_nodes.dir/composite/nodes/node_composite_channelMatte.c.o
+Building C object source/blender/nodes/CMakeFiles/bf_nodes.dir/composite/nodes/node_composite_chromaMatte.c.o
+[ 36%] Building C object source/blender/nodes/CMakeFiles/bf_nodes.dir/composite/nodes/node_composite_colorMatte.c.o
+Scanning dependencies of target bf_freestyle
+[ 36%] [ 37%] Building CXX object source/gameengine/Ketsji/CMakeFiles/ge_logic_ketsji.dir/BL_Texture.cpp.o
+Building CXX object source/gameengine/Ketsji/CMakeFiles/ge_logic_ketsji.dir/KX_ArmatureSensor.cpp.o
+[ 37%] [ 37%] Building CXX object source/gameengine/Ketsji/CMakeFiles/ge_logic_ketsji.dir/KX_BlenderMaterial.cpp.o
+[ 37%] Building CXX object source/gameengine/Ketsji/CMakeFiles/ge_logic_ketsji.dir/KX_Camera.cpp.o
+Building CXX object source/gameengine/Ketsji/CMakeFiles/ge_logic_ketsji.dir/KX_CameraActuator.cpp.o
+[ 37%] [ 37%] Building CXX object source/gameengine/Ketsji/CMakeFiles/ge_logic_ketsji.dir/KX_CameraIpoSGController.cpp.o
+Building CXX object source/gameengine/Ketsji/CMakeFiles/ge_logic_ketsji.dir/KX_CharacterWrapper.cpp.o
+[ 37%] Building CXX object source/gameengine/Ketsji/CMakeFiles/ge_logic_ketsji.dir/KX_ConstraintActuator.cpp.o
+[ 37%] [ 37%] Building CXX object source/gameengine/Ketsji/CMakeFiles/ge_logic_ketsji.dir/KX_ConstraintWrapper.cpp.o
+[ 37%] Building CXX object source/gameengine/Ketsji/CMakeFiles/ge_logic_ketsji.dir/KX_Dome.cpp.o
+[ 37%] Building CXX object source/gameengine/Ketsji/CMakeFiles/ge_logic_ketsji.dir/KX_EmptyObject.cpp.o
+Building CXX object source/gameengine/Ketsji/CMakeFiles/ge_logic_ketsji.dir/KX_FontObject.cpp.o
+[ 37%] [ 37%] Building CXX object source/gameengine/Ketsji/CMakeFiles/ge_logic_ketsji.dir/KX_GameObject.cpp.o
+Building CXX object source/gameengine/Ketsji/CMakeFiles/ge_logic_ketsji.dir/KX_GameActuator.cpp.o
+[ 37%] Building CXX object source/gameengine/Ketsji/CMakeFiles/ge_logic_ketsji.dir/KX_IpoConvert.cpp.o
+[ 37%] [ 37%] Building CXX object source/gameengine/Ketsji/CMakeFiles/ge_logic_ketsji.dir/KX_IPO_SGController.cpp.o
+Building CXX object source/gameengine/Ketsji/CMakeFiles/ge_logic_ketsji.dir/KX_IpoActuator.cpp.o
+[ 37%] [ 37%] [ 37%] [ 37%] Building CXX object source/gameengine/Ketsji/CMakeFiles/ge_logic_ketsji.dir/KX_Light.cpp.o
+[ 37%] Building CXX object source/gameengine/Ketsji/CMakeFiles/ge_logic_ketsji.dir/KX_KetsjiEngine.cpp.o
+[ 37%] Building CXX object source/gameengine/Ketsji/CMakeFiles/ge_logic_ketsji.dir/KX_LightIpoSGController.cpp.o
+Building CXX object source/gameengine/Ketsji/CMakeFiles/ge_logic_ketsji.dir/KX_MaterialIpoController.cpp.o
+[ 37%] [ 37%] [ 37%] Building CXX object source/gameengine/Ketsji/CMakeFiles/ge_logic_ketsji.dir/KX_MeshProxy.cpp.o
+Building CXX object source/gameengine/Ketsji/CMakeFiles/ge_logic_ketsji.dir/KX_MouseActuator.cpp.o
+Building CXX object source/gameengine/Ketsji/CMakeFiles/ge_logic_ketsji.dir/KX_MotionState.cpp.o
+[ 37%] [ 37%] Building CXX object source/gameengine/Ketsji/CMakeFiles/ge_logic_ketsji.dir/KX_MouseFocusSensor.cpp.o
+Building CXX object source/gameengine/Ketsji/CMakeFiles/ge_logic_ketsji.dir/KX_NavMeshObject.cpp.o
+[ 37%] Building CXX object source/gameengine/Ketsji/CMakeFiles/ge_logic_ketsji.dir/KX_NearSensor.cpp.o
+[ 37%] Building CXX object source/gameengine/Ketsji/CMakeFiles/ge_logic_ketsji.dir/KX_ObColorIpoSGController.cpp.o
+[ 37%] [ 38%] [ 38%] Building CXX object source/gameengine/Ketsji/CMakeFiles/ge_logic_ketsji.dir/KX_ObjectActuator.cpp.o
+Building CXX object source/gameengine/Ketsji/CMakeFiles/ge_logic_ketsji.dir/KX_OrientationInterpolator.cpp.o
+Building CXX object source/gameengine/Ketsji/CMakeFiles/ge_logic_ketsji.dir/KX_ObstacleSimulation.cpp.o
+[ 38%] Building CXX object source/gameengine/Ketsji/CMakeFiles/ge_logic_ketsji.dir/KX_ParentActuator.cpp.o
+Scanning dependencies of target bf_compositor
+Linking CXX static library ../../../lib/libbf_ikplugin.a
+[ 38%] [ 38%] Built target bf_ikplugin
+Building C object source/blender/blenkernel/CMakeFiles/bf_blenkernel.dir/intern/DerivedMesh.c.o
+Building C object source/blender/blenkernel/CMakeFiles/bf_blenkernel.dir/intern/action.c.o
+Building C object source/blender/blenkernel/CMakeFiles/bf_blenkernel.dir/intern/CCGSubSurf.c.o
+[ 38%] Building C object source/blender/blenkernel/CMakeFiles/bf_blenkernel.dir/intern/addon.c.o
+[ 38%] Building C object source/blender/blenkernel/CMakeFiles/bf_blenkernel.dir/intern/anim.c.o
+[ 38%] [ 38%] Building C object source/blender/blenkernel/CMakeFiles/bf_blenkernel.dir/intern/anim_sys.c.o
+Building C object source/blender/blenkernel/CMakeFiles/bf_blenkernel.dir/intern/armature.c.o
+[ 38%] [ 38%] Building C object source/blender/blenkernel/CMakeFiles/bf_blenkernel.dir/intern/autoexec.c.o
+Building C object source/blender/blenkernel/CMakeFiles/bf_blenkernel.dir/intern/blender.c.o
+[ 38%] [ 38%] Building C object source/blender/blenkernel/CMakeFiles/bf_blenkernel.dir/intern/bmfont.c.o
+Building C object source/blender/blenkernel/CMakeFiles/bf_blenkernel.dir/intern/boids.c.o
+[ 38%] [ 38%] Building C object source/blender/blenkernel/CMakeFiles/bf_blenkernel.dir/intern/bpath.c.o
+Building C object source/blender/blenkernel/CMakeFiles/bf_blenkernel.dir/intern/brush.c.o
+[ 39%] Building C object source/blender/blenkernel/CMakeFiles/bf_blenkernel.dir/intern/bullet.c.o
+[ 39%] [ 39%] Building C object source/blender/blenkernel/CMakeFiles/bf_blenkernel.dir/intern/bvhutils.c.o
+Building C object source/blender/blenkernel/CMakeFiles/bf_blenkernel.dir/intern/camera.c.o
+[ 39%] [ 39%] [ 39%] Building C object source/blender/blenkernel/CMakeFiles/bf_blenkernel.dir/intern/cdderivedmesh.c.o
+Building C object source/blender/blenkernel/CMakeFiles/bf_blenkernel.dir/intern/cloth.c.o
+Building C object source/blender/blenkernel/CMakeFiles/bf_blenkernel.dir/intern/collision.c.o
+[ 39%] [ 39%] Building C object source/blender/blenkernel/CMakeFiles/bf_blenkernel.dir/intern/colortools.c.o
+Building C object source/blender/blenkernel/CMakeFiles/bf_blenkernel.dir/intern/constraint.c.o
+[ 39%] [ 39%] Building C object source/blender/blenkernel/CMakeFiles/bf_blenkernel.dir/intern/context.c.o
+Building C object source/blender/blenkernel/CMakeFiles/bf_blenkernel.dir/intern/crazyspace.c.o
+[ 39%] [ 39%] Building C object source/blender/blenkernel/CMakeFiles/bf_blenkernel.dir/intern/curve.c.o
+Building C object source/blender/blenkernel/CMakeFiles/bf_blenkernel.dir/intern/customdata.c.o
+[ 39%] [ 39%] Building C object source/blender/blenkernel/CMakeFiles/bf_blenkernel.dir/intern/customdata_file.c.o
+[ 39%] Building C object source/blender/blenkernel/CMakeFiles/bf_blenkernel.dir/intern/depsgraph.c.o
+Building C object source/blender/blenkernel/CMakeFiles/bf_blenkernel.dir/intern/deform.c.o
+[ 39%] [ 39%] Building C object source/blender/blenkernel/CMakeFiles/bf_blenkernel.dir/intern/displist.c.o
+Building C object source/blender/blenkernel/CMakeFiles/bf_blenkernel.dir/intern/dynamicpaint.c.o
+[ 39%] Building C object source/blender/blenkernel/CMakeFiles/bf_blenkernel.dir/intern/editderivedmesh.c.o
+[ 39%] Building C object source/blender/blenkernel/CMakeFiles/bf_blenkernel.dir/intern/editmesh.c.o
+[ 39%] [ 39%] Building C object source/blender/blenkernel/CMakeFiles/bf_blenkernel.dir/intern/editmesh_bvh.c.o
+Building C object source/blender/blenkernel/CMakeFiles/bf_blenkernel.dir/intern/effect.c.o
+[ 39%] [ 39%] Building C object source/blender/blenkernel/CMakeFiles/bf_blenkernel.dir/intern/fcurve.c.o
+Building C object source/blender/blenkernel/CMakeFiles/bf_blenkernel.dir/intern/fluidsim.c.o
+[ 39%] [ 39%] Building CXX object extern/libmv/third_party/ceres/CMakeFiles/extern_ceres.dir/internal/ceres/array_utils.cc.o
+Building CXX object extern/libmv/third_party/ceres/CMakeFiles/extern_ceres.dir/internal/ceres/blas.cc.o
+[ 40%] [ 40%] Building CXX object extern/libmv/third_party/ceres/CMakeFiles/extern_ceres.dir/internal/ceres/block_evaluate_preparer.cc.o
+Building CXX object extern/libmv/third_party/ceres/CMakeFiles/extern_ceres.dir/internal/ceres/block_jacobian_writer.cc.o
+[ 40%] Building CXX object extern/libmv/third_party/ceres/CMakeFiles/extern_ceres.dir/internal/ceres/block_jacobi_preconditioner.cc.o
+[ 40%] Building CXX object extern/libmv/third_party/ceres/CMakeFiles/extern_ceres.dir/internal/ceres/block_random_access_dense_matrix.cc.o
+[ 40%] [ 40%] [ 40%] Building CXX object extern/libmv/third_party/ceres/CMakeFiles/extern_ceres.dir/internal/ceres/block_random_access_diagonal_matrix.cc.o
+Building CXX object extern/libmv/third_party/ceres/CMakeFiles/extern_ceres.dir/internal/ceres/block_random_access_sparse_matrix.cc.o
+Building CXX object extern/libmv/third_party/ceres/CMakeFiles/extern_ceres.dir/internal/ceres/block_random_access_matrix.cc.o
+[ 40%] Building CXX object extern/libmv/third_party/ceres/CMakeFiles/extern_ceres.dir/internal/ceres/block_sparse_matrix.cc.o
+[ 40%] [ 40%] Building C object source/blender/blenkernel/CMakeFiles/bf_blenkernel.dir/intern/fmodifier.c.o
+Building C object source/blender/blenkernel/CMakeFiles/bf_blenkernel.dir/intern/font.c.o
+[ 40%] Building C object source/blender/blenkernel/CMakeFiles/bf_blenkernel.dir/intern/freestyle.c.o
+[ 40%] [ 41%] Building C object source/blender/blenkernel/CMakeFiles/bf_blenkernel.dir/intern/gpencil.c.o
+Building C object source/blender/blenkernel/CMakeFiles/bf_blenkernel.dir/intern/group.c.o
+Linking CXX static library ../../../../../lib/libbf_imbuf_openexr.a
+[ 41%] Built target bf_imbuf_openexr
+[ 42%] [ 42%] Building CXX object source/blender/compositor/CMakeFiles/bf_compositor.dir/intern/COM_compositor.cpp.o
+[ 42%] [ 42%] Building CXX object source/blender/compositor/CMakeFiles/bf_compositor.dir/intern/COM_ExecutionSystem.cpp.o
+Building CXX object source/blender/compositor/CMakeFiles/bf_compositor.dir/intern/COM_NodeConverter.cpp.o
+Building CXX object source/blender/compositor/CMakeFiles/bf_compositor.dir/intern/COM_NodeOperationBuilder.cpp.o
+[ 42%] Building CXX object source/blender/compositor/CMakeFiles/bf_compositor.dir/intern/COM_NodeGraph.cpp.o
+Scanning dependencies of target cycles_device
+[ 42%] [ 42%] Building CXX object source/blender/compositor/CMakeFiles/bf_compositor.dir/intern/COM_Converter.cpp.o
+[ 42%] Building CXX object source/blender/compositor/CMakeFiles/bf_compositor.dir/intern/COM_ExecutionGroup.cpp.o
+[ 42%] Building CXX object source/blender/compositor/CMakeFiles/bf_compositor.dir/intern/COM_Node.cpp.o
+Building CXX object source/blender/compositor/CMakeFiles/bf_compositor.dir/intern/COM_NodeOperation.cpp.o
+[ 42%] Building CXX object source/blender/compositor/CMakeFiles/bf_compositor.dir/intern/COM_SocketReader.cpp.o
+[ 42%] [ 42%] Building CXX object source/blender/compositor/CMakeFiles/bf_compositor.dir/intern/COM_MemoryProxy.cpp.o
+Building CXX object source/blender/compositor/CMakeFiles/bf_compositor.dir/intern/COM_MemoryBuffer.cpp.o
+[ 42%] Building CXX object source/blender/compositor/CMakeFiles/bf_compositor.dir/intern/COM_WorkScheduler.cpp.o
+[ 42%] Building CXX object source/blender/compositor/CMakeFiles/bf_compositor.dir/intern/COM_WorkPackage.cpp.o
+[ 42%] [ 42%] Building CXX object source/blender/compositor/CMakeFiles/bf_compositor.dir/intern/COM_ChunkOrderHotspot.cpp.o
+Scanning dependencies of target cycles_render
+[ 42%] [ 42%] Building CXX object source/blender/compositor/CMakeFiles/bf_compositor.dir/intern/COM_Device.cpp.o
+[ 42%] Building CXX object source/blender/compositor/CMakeFiles/bf_compositor.dir/intern/COM_CPUDevice.cpp.o
+[ 42%] Building CXX object source/blender/compositor/CMakeFiles/bf_compositor.dir/intern/COM_OpenCLDevice.cpp.o
+Building CXX object source/blender/compositor/CMakeFiles/bf_compositor.dir/intern/COM_CompositorContext.cpp.o
+Building CXX object source/blender/compositor/CMakeFiles/bf_compositor.dir/intern/COM_ChunkOrder.cpp.o
+[ 42%] Building CXX object source/blender/compositor/CMakeFiles/bf_compositor.dir/intern/COM_ChannelInfo.cpp.o
+[ 42%] [ 42%] Building CXX object source/blender/compositor/CMakeFiles/bf_compositor.dir/intern/COM_SingleThreadedOperation.cpp.o
+Building CXX object source/blender/compositor/CMakeFiles/bf_compositor.dir/intern/COM_Debug.cpp.o
+[ 42%] [ 42%] [ 42%] Building CXX object source/blender/compositor/CMakeFiles/bf_compositor.dir/operations/COM_QualityStepHelper.cpp.o
+Building CXX object source/blender/compositor/CMakeFiles/bf_compositor.dir/nodes/COM_RenderLayersNode.cpp.o
+Building CXX object source/blender/compositor/CMakeFiles/bf_compositor.dir/nodes/COM_SocketProxyNode.cpp.o
+[ 42%] [ 42%] Building CXX object source/blender/compositor/CMakeFiles/bf_compositor.dir/nodes/COM_ImageNode.cpp.o
+Building CXX object source/blender/compositor/CMakeFiles/bf_compositor.dir/nodes/COM_TextureNode.cpp.o
+[ 43%] [ 43%] Building CXX object source/blender/compositor/CMakeFiles/bf_compositor.dir/nodes/COM_BokehImageNode.cpp.o
+Building CXX object source/blender/compositor/CMakeFiles/bf_compositor.dir/nodes/COM_ColorNode.cpp.o
+[ 43%] [ 43%] Building CXX object source/blender/compositor/CMakeFiles/bf_compositor.dir/nodes/COM_ValueNode.cpp.o
+Building CXX object source/blender/compositor/CMakeFiles/bf_compositor.dir/nodes/COM_TimeNode.cpp.o
+[ 43%] [ 43%] Building CXX object source/blender/compositor/CMakeFiles/bf_compositor.dir/nodes/COM_SwitchNode.cpp.o
+Building CXX object source/blender/compositor/CMakeFiles/bf_compositor.dir/nodes/COM_MovieClipNode.cpp.o
+[ 43%] Building CXX object source/blender/compositor/CMakeFiles/bf_compositor.dir/nodes/COM_OutputFileNode.cpp.o
+[ 43%] [ 43%] Building CXX object source/blender/compositor/CMakeFiles/bf_compositor.dir/nodes/COM_MaskNode.cpp.o
+Building CXX object source/blender/compositor/CMakeFiles/bf_compositor.dir/nodes/COM_CompositorNode.cpp.o
+[ 43%] [ 44%] Building CXX object source/blender/freestyle/CMakeFiles/bf_freestyle.dir/intern/application/AppCanvas.cpp.o
+[ 44%] Building CXX object source/blender/freestyle/CMakeFiles/bf_freestyle.dir/intern/application/AppConfig.cpp.o
+Building CXX object source/blender/freestyle/CMakeFiles/bf_freestyle.dir/intern/application/AppView.cpp.o
+[ 44%] [ 44%] [ 44%] [ 44%] Building CXX object source/blender/compositor/CMakeFiles/bf_compositor.dir/nodes/COM_SplitViewerNode.cpp.o
+[ 44%] Building CXX object source/blender/compositor/CMakeFiles/bf_compositor.dir/nodes/COM_ViewerNode.cpp.o
+Building CXX object source/blender/compositor/CMakeFiles/bf_compositor.dir/nodes/COM_ViewLevelsNode.cpp.o
+[ 44%] [ 44%] Building CXX object source/blender/compositor/CMakeFiles/bf_compositor.dir/operations/COM_CalculateStandardDeviationOperation.cpp.o
+Building CXX object source/blender/compositor/CMakeFiles/bf_compositor.dir/operations/COM_CalculateMeanOperation.cpp.o
+[ 44%] [ 44%] [ 44%] Building CXX object source/blender/compositor/CMakeFiles/bf_compositor.dir/nodes/COM_TranslateNode.cpp.o
+Building CXX object source/blender/compositor/CMakeFiles/bf_compositor.dir/nodes/COM_RotateNode.cpp.o
+Building CXX object source/blender/compositor/CMakeFiles/bf_compositor.dir/nodes/COM_ScaleNode.cpp.o
+[ 44%] Building CXX object source/blender/compositor/CMakeFiles/bf_compositor.dir/nodes/COM_FlipNode.cpp.o
+[ 44%] Building CXX object source/blender/compositor/CMakeFiles/bf_compositor.dir/nodes/COM_MapUVNode.cpp.o
+[ 44%] [ 44%] Building CXX object source/blender/compositor/CMakeFiles/bf_compositor.dir/nodes/COM_DisplaceNode.cpp.o
+Building CXX object source/blender/compositor/CMakeFiles/bf_compositor.dir/nodes/COM_DifferenceMatteNode.cpp.o
+[ 44%] [ 44%] Building CXX object source/blender/compositor/CMakeFiles/bf_compositor.dir/nodes/COM_LuminanceMatteNode.cpp.o
+Building CXX object source/blender/compositor/CMakeFiles/bf_compositor.dir/nodes/COM_DistanceMatteNode.cpp.o
+Building CXX object source/blender/freestyle/CMakeFiles/bf_freestyle.dir/intern/application/Controller.cpp.o
+Building CXX object source/blender/freestyle/CMakeFiles/bf_freestyle.dir/intern/blender_interface/BlenderFileLoader.cpp.o
+[ 44%] Building CXX object source/blender/freestyle/CMakeFiles/bf_freestyle.dir/intern/blender_interface/BlenderStrokeRenderer.cpp.o
+Linking C static library ../../../../lib/libbf_editor_object.a
+[ 44%] Built target bf_editor_object
+[ 44%] [ 44%] [ 44%] Building CXX object intern/cycles/device/CMakeFiles/cycles_device.dir/device_cuda.cpp.o
+Building CXX object intern/cycles/device/CMakeFiles/cycles_device.dir/device_cpu.cpp.o
+Building CXX object intern/cycles/device/CMakeFiles/cycles_device.dir/device.cpp.o
+[ 44%] Building CXX object intern/cycles/device/CMakeFiles/cycles_device.dir/device_multi.cpp.o
+[ 44%] [ 44%] Building CXX object intern/cycles/device/CMakeFiles/cycles_device.dir/device_opencl.cpp.o
+Building CXX object intern/cycles/device/CMakeFiles/cycles_device.dir/device_task.cpp.o
+Linking CXX static library ../../lib/libbf_intern_rigidbody.a
+[ 44%] Built target bf_intern_rigidbody
+Linking CXX static library ../../lib/libextern_glog.a
+[ 44%] Built target extern_glog
+[ 44%] Building CXX object intern/cycles/render/CMakeFiles/cycles_render.dir/attribute.cpp.o
+[ 44%] [ 44%] Building CXX object intern/cycles/render/CMakeFiles/cycles_render.dir/background.cpp.o
+Building CXX object intern/cycles/render/CMakeFiles/cycles_render.dir/bake.cpp.o
+[ 44%] Building CXX object intern/cycles/render/CMakeFiles/cycles_render.dir/blackbody.cpp.o
+[ 44%] [ 44%] Building CXX object intern/cycles/render/CMakeFiles/cycles_render.dir/buffers.cpp.o
+[ 44%] Building CXX object intern/cycles/render/CMakeFiles/cycles_render.dir/camera.cpp.o
+[ 44%] Building CXX object intern/cycles/render/CMakeFiles/cycles_render.dir/film.cpp.o
+Building CXX object intern/cycles/render/CMakeFiles/cycles_render.dir/graph.cpp.o
+[ 44%] Building CXX object intern/cycles/render/CMakeFiles/cycles_render.dir/image.cpp.o
+[ 44%] [ 44%] Building CXX object intern/cycles/render/CMakeFiles/cycles_render.dir/integrator.cpp.o
+Building CXX object intern/cycles/render/CMakeFiles/cycles_render.dir/light.cpp.o
+[ 44%] Building CXX object intern/cycles/render/CMakeFiles/cycles_render.dir/mesh.cpp.o
+[ 44%] Building CXX object intern/cycles/render/CMakeFiles/cycles_render.dir/mesh_displace.cpp.o
+[ 44%] [ 44%] Building CXX object intern/cycles/render/CMakeFiles/cycles_render.dir/nodes.cpp.o
+[ 44%] Building CXX object intern/cycles/render/CMakeFiles/cycles_render.dir/osl.cpp.o
+Building CXX object intern/cycles/render/CMakeFiles/cycles_render.dir/object.cpp.o
+[ 44%] [ 44%] Building CXX object intern/cycles/render/CMakeFiles/cycles_render.dir/particles.cpp.o
+Building CXX object intern/cycles/render/CMakeFiles/cycles_render.dir/curves.cpp.o
+[ 44%] Building CXX object intern/cycles/render/CMakeFiles/cycles_render.dir/scene.cpp.o
+[ 44%] [ 44%] [ 45%] Building CXX object intern/cycles/render/CMakeFiles/cycles_render.dir/session.cpp.o
+Building CXX object intern/cycles/render/CMakeFiles/cycles_render.dir/shader.cpp.o
+Building CXX object intern/cycles/render/CMakeFiles/cycles_render.dir/sky_model.cpp.o
+[ 45%] Building CXX object intern/cycles/render/CMakeFiles/cycles_render.dir/sobol.cpp.o
+[ 45%] Building CXX object intern/cycles/render/CMakeFiles/cycles_render.dir/svm.cpp.o
+[ 45%] Building CXX object intern/cycles/render/CMakeFiles/cycles_render.dir/tables.cpp.o
+[ 45%] Building CXX object intern/cycles/render/CMakeFiles/cycles_render.dir/tile.cpp.o
+Linking C static library ../../../../lib/libbf_editor_transform.a
+[ 45%] Built target bf_editor_transform
+Linking CXX static library ../../../lib/libcycles_subd.a
+[ 45%] Built target cycles_subd
+Linking C static library ../../../../lib/libbf_editor_interface.a
+[ 45%] Built target bf_editor_interface
+Scanning dependencies of target bf_editor_datafiles
+[ 45%] [ 45%] [ 45%] Building C object source/blender/editors/datafiles/CMakeFiles/bf_editor_datafiles.dir/__/__/__/__/release/datafiles/bfont.pfb.c.o
+[ 46%] Building C object source/blender/editors/datafiles/CMakeFiles/bf_editor_datafiles.dir/__/__/__/__/release/datafiles/bfont.ttf.c.o
+Building C object source/blender/editors/datafiles/CMakeFiles/bf_editor_datafiles.dir/__/__/__/__/release/datafiles/bmonofont.ttf.c.o
+Building C object source/blender/editors/datafiles/CMakeFiles/bf_editor_datafiles.dir/__/__/__/__/release/datafiles/preview.blend.c.o
+[ 46%] [ 46%] Building C object source/blender/editors/datafiles/CMakeFiles/bf_editor_datafiles.dir/__/__/__/__/release/datafiles/splash.png.c.o
+Building C object source/blender/editors/datafiles/CMakeFiles/bf_editor_datafiles.dir/__/__/__/__/release/datafiles/preview_cycles.blend.c.o
+[ 46%] Building C object source/blender/editors/datafiles/CMakeFiles/bf_editor_datafiles.dir/__/__/__/__/release/datafiles/splash_2x.png.c.o
+[ 46%] Building C object source/blender/editors/datafiles/CMakeFiles/bf_editor_datafiles.dir/__/__/__/__/release/datafiles/blender_icons16.png.c.o
+[ 46%] [ 46%] Building C object source/blender/editors/datafiles/CMakeFiles/bf_editor_datafiles.dir/__/__/__/__/release/datafiles/blender_icons32.png.c.o
+Building C object source/blender/editors/datafiles/CMakeFiles/bf_editor_datafiles.dir/__/__/__/__/release/datafiles/prvicons.png.c.o
+[ 46%] Building C object source/blender/editors/datafiles/CMakeFiles/bf_editor_datafiles.dir/__/__/__/__/release/datafiles/brushicons/add.png.c.o
+[ 46%] Building C object source/blender/editors/datafiles/CMakeFiles/bf_editor_datafiles.dir/__/__/__/__/release/datafiles/brushicons/blob.png.c.o
+[ 46%] [ 46%] Building C object source/blender/editors/datafiles/CMakeFiles/bf_editor_datafiles.dir/__/__/__/__/release/datafiles/brushicons/blur.png.c.o
+[ 46%] Building C object source/blender/editors/datafiles/CMakeFiles/bf_editor_datafiles.dir/__/__/__/__/release/datafiles/brushicons/clay.png.c.o
+Linking C static library ../../../../lib/libbf_editor_space_view3d.a
+Building C object source/blender/editors/datafiles/CMakeFiles/bf_editor_datafiles.dir/__/__/__/__/release/datafiles/brushicons/claystrips.png.c.o
+[ 46%] Built target bf_editor_space_view3d
+[ 46%] [ 46%] [ 46%] Building C object source/blender/editors/datafiles/CMakeFiles/bf_editor_datafiles.dir/__/__/__/__/release/datafiles/brushicons/clone.png.c.o
+Building C object source/blender/editors/datafiles/CMakeFiles/bf_editor_datafiles.dir/__/__/__/__/release/datafiles/brushicons/crease.png.c.o
+[ 46%] Building C object source/blender/editors/datafiles/CMakeFiles/bf_editor_datafiles.dir/__/__/__/__/release/datafiles/brushicons/darken.png.c.o
+Building C object source/blender/editors/datafiles/CMakeFiles/bf_editor_datafiles.dir/__/__/__/__/release/datafiles/brushicons/draw.png.c.o
+[ 46%] Building C object source/blender/editors/datafiles/CMakeFiles/bf_editor_datafiles.dir/__/__/__/__/release/datafiles/brushicons/fill.png.c.o
+[ 46%] [ 46%] Building C object source/blender/editors/datafiles/CMakeFiles/bf_editor_datafiles.dir/__/__/__/__/release/datafiles/brushicons/flatten.png.c.o
+[ 46%] Building C object source/blender/editors/datafiles/CMakeFiles/bf_editor_datafiles.dir/__/__/__/__/release/datafiles/brushicons/grab.png.c.o
+[ 46%] Building C object source/blender/editors/datafiles/CMakeFiles/bf_editor_datafiles.dir/__/__/__/__/release/datafiles/brushicons/inflate.png.c.o
+Building C object source/blender/editors/datafiles/CMakeFiles/bf_editor_datafiles.dir/__/__/__/__/release/datafiles/brushicons/layer.png.c.o
+[ 46%] Building C object source/blender/editors/datafiles/CMakeFiles/bf_editor_datafiles.dir/__/__/__/__/release/datafiles/brushicons/lighten.png.c.o
+[ 46%] Building C object source/blender/editors/datafiles/CMakeFiles/bf_editor_datafiles.dir/__/__/__/__/release/datafiles/brushicons/mask.png.c.o
+[ 46%] [ 46%] Building C object source/blender/editors/datafiles/CMakeFiles/bf_editor_datafiles.dir/__/__/__/__/release/datafiles/brushicons/mix.png.c.o
+Building C object source/blender/editors/datafiles/CMakeFiles/bf_editor_datafiles.dir/__/__/__/__/release/datafiles/brushicons/multiply.png.c.o
+[ 46%] [ 46%] Building C object source/blender/editors/datafiles/CMakeFiles/bf_editor_datafiles.dir/__/__/__/__/release/datafiles/brushicons/nudge.png.c.o
+Building C object source/blender/editors/datafiles/CMakeFiles/bf_editor_datafiles.dir/__/__/__/__/release/datafiles/brushicons/pinch.png.c.o
+[ 47%] [ 47%] Building C object source/blender/editors/datafiles/CMakeFiles/bf_editor_datafiles.dir/__/__/__/__/release/datafiles/brushicons/scrape.png.c.o
+Building C object source/blender/editors/datafiles/CMakeFiles/bf_editor_datafiles.dir/__/__/__/__/release/datafiles/brushicons/smear.png.c.o
+[ 47%] Building C object source/blender/editors/datafiles/CMakeFiles/bf_editor_datafiles.dir/__/__/__/__/release/datafiles/brushicons/smooth.png.c.o
+[ 47%] [ 47%] Building C object source/blender/editors/datafiles/CMakeFiles/bf_editor_datafiles.dir/__/__/__/__/release/datafiles/brushicons/soften.png.c.o
+Building C object source/blender/editors/datafiles/CMakeFiles/bf_editor_datafiles.dir/__/__/__/__/release/datafiles/brushicons/snake_hook.png.c.o
+[ 47%] Building C object source/blender/editors/datafiles/CMakeFiles/bf_editor_datafiles.dir/__/__/__/__/release/datafiles/brushicons/subtract.png.c.o
+[ 47%] [ 47%] Building C object source/blender/editors/datafiles/CMakeFiles/bf_editor_datafiles.dir/__/__/__/__/release/datafiles/brushicons/texdraw.png.c.o
+Building C object source/blender/editors/datafiles/CMakeFiles/bf_editor_datafiles.dir/__/__/__/__/release/datafiles/brushicons/texfill.png.c.o
+[ 47%] [ 47%] Building C object source/blender/editors/datafiles/CMakeFiles/bf_editor_datafiles.dir/__/__/__/__/release/datafiles/brushicons/texmask.png.c.o
+Building C object source/blender/editors/datafiles/CMakeFiles/bf_editor_datafiles.dir/__/__/__/__/release/datafiles/brushicons/thumb.png.c.o
+[ 47%] [ 47%] Building C object source/blender/editors/datafiles/CMakeFiles/bf_editor_datafiles.dir/__/__/__/__/release/datafiles/brushicons/twist.png.c.o
+[ 47%] Building C object source/blender/editors/datafiles/CMakeFiles/bf_editor_datafiles.dir/__/__/__/__/release/datafiles/brushicons/vertexdraw.png.c.o
+Building C object source/blender/editors/datafiles/CMakeFiles/bf_editor_datafiles.dir/__/__/__/__/release/datafiles/matcaps/mc01.jpg.c.o
+[ 47%] [ 47%] Building C object source/blender/editors/datafiles/CMakeFiles/bf_editor_datafiles.dir/__/__/__/__/release/datafiles/matcaps/mc02.jpg.c.o
+Building C object source/blender/editors/datafiles/CMakeFiles/bf_editor_datafiles.dir/__/__/__/__/release/datafiles/matcaps/mc03.jpg.c.o
+[ 47%] Building C object source/blender/editors/datafiles/CMakeFiles/bf_editor_datafiles.dir/__/__/__/__/release/datafiles/matcaps/mc04.jpg.c.o
+[ 47%] [ 47%] Building C object source/blender/editors/datafiles/CMakeFiles/bf_editor_datafiles.dir/__/__/__/__/release/datafiles/matcaps/mc05.jpg.c.o
+Building C object source/blender/editors/datafiles/CMakeFiles/bf_editor_datafiles.dir/__/__/__/__/release/datafiles/matcaps/mc06.jpg.c.o
+[ 47%] [ 47%] Building C object source/blender/editors/datafiles/CMakeFiles/bf_editor_datafiles.dir/__/__/__/__/release/datafiles/matcaps/mc07.jpg.c.o
+Building C object source/blender/editors/datafiles/CMakeFiles/bf_editor_datafiles.dir/__/__/__/__/release/datafiles/matcaps/mc08.jpg.c.o
+[ 47%] [ 47%] Building C object source/blender/editors/datafiles/CMakeFiles/bf_editor_datafiles.dir/__/__/__/__/release/datafiles/matcaps/mc09.jpg.c.o
+[ 47%] Building C object source/blender/editors/datafiles/CMakeFiles/bf_editor_datafiles.dir/__/__/__/__/release/datafiles/matcaps/mc10.jpg.c.o
+Building C object source/blender/editors/datafiles/CMakeFiles/bf_editor_datafiles.dir/__/__/__/__/release/datafiles/matcaps/mc11.jpg.c.o
+[ 47%] [ 47%] Building C object source/blender/editors/datafiles/CMakeFiles/bf_editor_datafiles.dir/__/__/__/__/release/datafiles/matcaps/mc12.jpg.c.o
+Building C object source/blender/editors/datafiles/CMakeFiles/bf_editor_datafiles.dir/__/__/__/__/release/datafiles/matcaps/mc13.jpg.c.o
+[ 47%] [ 47%] Building C object source/blender/editors/datafiles/CMakeFiles/bf_editor_datafiles.dir/__/__/__/__/release/datafiles/matcaps/mc14.jpg.c.o
+[ 48%] Building C object source/blender/editors/datafiles/CMakeFiles/bf_editor_datafiles.dir/__/__/__/__/release/datafiles/matcaps/mc15.jpg.c.o
+Building C object source/blender/editors/datafiles/CMakeFiles/bf_editor_datafiles.dir/__/__/__/__/release/datafiles/matcaps/mc16.jpg.c.o
+[ 48%] [ 48%] Building C object source/blender/editors/datafiles/CMakeFiles/bf_editor_datafiles.dir/__/__/__/__/release/datafiles/matcaps/mc17.jpg.c.o
+Building C object source/blender/editors/datafiles/CMakeFiles/bf_editor_datafiles.dir/__/__/__/__/release/datafiles/matcaps/mc18.jpg.c.o
+[ 48%] Building C object source/blender/editors/datafiles/CMakeFiles/bf_editor_datafiles.dir/__/__/__/__/release/datafiles/matcaps/mc19.jpg.c.o
+[ 48%] Building C object source/blender/editors/datafiles/CMakeFiles/bf_editor_datafiles.dir/__/__/__/__/release/datafiles/matcaps/mc20.jpg.c.o
+[ 48%] [ 48%] [ 48%] Building C object source/blender/editors/datafiles/CMakeFiles/bf_editor_datafiles.dir/__/__/__/__/release/datafiles/matcaps/mc21.jpg.c.o
+Building C object source/blender/editors/datafiles/CMakeFiles/bf_editor_datafiles.dir/__/__/__/__/release/datafiles/matcaps/mc22.jpg.c.o
+Building C object source/blender/editors/datafiles/CMakeFiles/bf_editor_datafiles.dir/__/__/__/__/release/datafiles/matcaps/mc23.jpg.c.o
+[ 48%] [ 48%] Building C object source/blender/editors/datafiles/CMakeFiles/bf_editor_datafiles.dir/__/__/__/__/release/datafiles/matcaps/mc24.jpg.c.o
+Building C object source/blender/editors/datafiles/CMakeFiles/bf_editor_datafiles.dir/__/__/__/__/release/datafiles/startup.blend.c.o
+Linking CXX static library ../../../../lib/libge_phys_bullet.a
+[ 48%] Built target ge_phys_bullet
+Linking C static library ../../../../lib/libbf_editor_sculpt_paint.a
+[ 48%] Built target bf_editor_sculpt_paint
+Linking CXX static library ../../../lib/libge_converter.a
+[ 48%] Built target ge_converter
+Linking CXX static library ../../../lib/libcycles_bvh.a
+[ 48%] Built target cycles_bvh
+Linking CXX static library ../../lib/libbf_intern_itasc.a
+[ 48%] Built target bf_intern_itasc
+Linking C static library ../../../../lib/libbf_editor_datafiles.a
+[ 48%] Built target bf_editor_datafiles
+Linking CXX static library ../../../lib/libcycles_device.a
+[ 48%] Built target cycles_device
+Linking CXX static library ../../lib/libbf_intern_dualcon.a
+[ 48%] Built target bf_intern_dualcon
+Linking CXX static library ../../../lib/libcycles_render.a
+Linking C static library ../../../lib/libbf_blenloader.a
+[ 48%] Built target bf_blenloader
+[ 48%] Built target cycles_render
+Linking C static library ../../lib/libextern_glew.a
+[ 48%] Built target extern_glew
+Linking CXX static library ../../../lib/libcycles_kernel.a
+[ 48%] Built target cycles_kernel
+Update has finished , returning you back to home directory. Have a nice day :)

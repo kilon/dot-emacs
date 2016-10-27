@@ -1,0 +1,42 @@
+Object subclass: #Tethys
+	instanceVariableNames: 'watch label process window'
+	classVariableNames: ''
+	poolDictionaries: ''
+	category: 'Tethys2'!
+
+!Tethys methodsFor: 'as yet unclassified' stamp: 'kilonAlios 10/25/2015 20:06'!
+resume
+watch activate! !
+
+!Tethys methodsFor: 'as yet unclassified' stamp: 'kilonAlios 10/25/2015 20:06'!
+initialize
+	super initialize.
+	watch := Stopwatch new.
+	watch activate.
+	label := LabelMorph new.
+	
+	process := [ [ label contents: (self formatLabel: watch). 1 asSeconds wait ] repeat ] fork.
+	window := label openInWindow 
+! !
+
+!Tethys methodsFor: 'as yet unclassified' stamp: 'kilonAlios 10/25/2015 20:06'!
+pause
+watch suspend! !
+
+!Tethys methodsFor: 'as yet unclassified' stamp: 'kilonAlios 10/25/2015 20:06'!
+restart
+watch reset.
+process terminate.
+process := [ [ label contents:  (self formatLabel: watch) . 1 asSeconds wait] repeat ] fork.
+self resume! !
+
+!Tethys methodsFor: 'as yet unclassified' stamp: 'kilonAlios 10/25/2015 20:06'!
+end 
+process terminate! !
+
+!Tethys methodsFor: 'as yet unclassified' stamp: 'kilonAlios 10/25/2015 20:06'!
+formatLabel: aWatch
+^ 'Days : ', aWatch duration days asString , '     ',
+    'Hours  : ', aWatch duration  hours asString , '     ',
+    'Minutes  : ', aWatch duration  minutes asString , '     ',
+     'Seconds  : ', aWatch duration  seconds asString , '     '! !
