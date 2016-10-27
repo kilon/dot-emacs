@@ -1,0 +1,90 @@
+#!/usr/bin/env ruby
+
+require 'bundler/setup'
+require 'pathname'
+require 'prawn'
+
+class CabbageCheatSheet
+  EMACS_KEY_REGEX       = /\".+\"|\[.+\]/
+  EMACS_FUNCTION_REGEX  = /'(.+)$/
+  EMACS_KEYSTROKE_REGEX = /cabbage-global-set-key/
+
+  PROJECT_ROOT = Pathname.new(File.expand_path("../../", __FILE__))
+  MISC_PATH = PROJECT_ROOT + "misc/"
+  BINDING_FILE = PROJECT_ROOT + "bundles/ergonomic/bundle.el"
+
+  def initialize
+    @pdf = Prawn::Document.new(:margin => 5)
+  end
+
+  def build!
+    @pdf.image MISC_PATH + "logo.png", :width => 110
+    @pdf.table(table_header + keystrokes,
+                        :width => @pdf.bounds.width,
+                        :row_colors => ["FFFFFF", "EEEEEE"],
+                        :cell_style => {
+                          :size => 7,
+                          :font => "Courier",
+                          :padding => [0, 0, 5, 5],
+                          :borders => []
+               }) do
+      row(0).font_style = :bold
+    end
+  end
+
+  def save_as(filename)
+    build!
+    filename = MISC_PATH + filename
+    @pdf.render_file filename
+    puts "#{' ' * 4}\e[32mbuilt:\e[0m #{filename}"
+  end
+
+  def table_header
+    [['function name', 'keystroke'] * 2]
+  end
+  private :table_header
+
+  def keystrokes
+    make_two_strokes_per_row(parse_keystrokes)
+  end
+  private :keystrokes
+
+  def make_two_strokes_per_row(keystrokes)
+    half = keystrokes.size / 2
+    left = keystrokes[0..half]
+    right = keystrokes[half+1..-1]
+
+    left.zip(right).each(&:compact!).each(&:flatten!)
+  end
+  private :make_two_strokes_per_row
+
+  def parse_keystrokes
+    File.open(BINDING_FILE, 'r').each_line.map do |line|
+      if keystroke?(line)
+        key      = extract_keystroke(line)
+        function = extract_function_name(line)
+
+        [function, key]
+      end
+    end.compact
+  end
+  private :parse_keystrokes
+
+  def keystroke?(line)
+    line =~ EMACS_KEYSTROKE_REGEX
+  end
+  private :keystroke?
+
+  def extract_keystroke(line)
+    line[EMACS_KEY_REGEX].gsub(/[\[\]]/, '').gsub(/"+/, '')
+  end
+  private :extract_keystroke
+
+  def extract_function_name(line)
+    line[EMACS_FUNCTION_REGEX, 1].gsub(/\)+/, '')
+  end
+  private :extract_function_name
+end
+
+cheat_sheet = CabbageCheatSheet.new
+cheat_sheet.save_as("cheat-sheet.pdf")

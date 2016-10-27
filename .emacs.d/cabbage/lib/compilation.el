@@ -1,0 +1,1 @@
+(cabbage-vendor 'mode-compile)
